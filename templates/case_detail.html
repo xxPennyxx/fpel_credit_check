@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}{{ case.case_ref }} - {{ case.company.name }}{% endblock %}
+{% block content %}
+<div class="row-between">
+  <div>
+    <h1>{{ case.case_ref }}</h1>
+    <p class="muted">{{ case.company.name }} &middot;
+       <span class="badge badge-{{ case.status|lower|replace(' ', '-') }}">{{ case.status }}</span>
+    </p>
+  </div>
+  <div>
+    <a class="btn btn-primary" href="{{ url_for('credit_check', case_id=case.id) }}">
+      {% if case.credit_check %}Edit credit check{% else %}Start credit check{% endif %}
+    </a>
+    {% if case.credit_check and case.status != 'Dispatched' %}
+      <form method="post" action="{{ url_for('dispatch', case_id=case.id) }}" style="display:inline">
+        <button class="btn btn-success" type="submit">Dispatch to BD</button>
+      </form>
+    {% endif %}
+  </div>
+</div>
+
+<div class="two-col">
+  <section class="card">
+    <h2>Case (BD inputs)</h2>
+    <dl class="kv">
+      <dt>Company</dt><dd>{{ case.company.name }}</dd>
+      <dt>Industry</dt><dd>{{ case.company.industry or '-' }}</dd>
+      <dt>Solar (MWp)</dt><dd>{{ case.solar_mwp }}</dd>
+      <dt>Wind (MW)</dt><dd>{{ case.wind_mw }}</dd>
+      <dt>Total (MWp)</dt><dd><strong>{{ case.total_mwp }}</strong></dd>
+      <dt>Park</dt><dd>{{ case.park_name }}</dd>
+      <dt>State</dt><dd>{{ case.state_name }}</dd>
+      <dt>External rating</dt>
+      <dd>{{ case.company.external_rating_agency or '-' }} /
+          {{ case.company.external_rating or '-' }}</dd>
+      <dt>Consumption summary</dt><dd>{{ case.consumption_summary }}</dd>
+      <dt>Raised by</dt><dd>{{ case.raised_by }} on {{ case.raised_on.strftime('%d-%m-%Y') }}</dd>
+    </dl>
+  </section>
+
+  <section class="card">
+    <h2>Financials (INR Crores)</h2>
+    {% if case.company.financials %}
+    <table class="data-table tight">
+      <thead><tr><th>FY</th><th>Revenue</th><th>EBITDA</th><th>PAT</th>
+                 <th>Networth</th><th>Debt</th><th>Source</th></tr></thead>
+      <tbody>
+        {% for f in case.company.financials %}
+        <tr>
+          <td>{{ f.fiscal_year }}</td>
+          <td>{{ '%.1f'|format(f.revenue_cr) }}</td>
+          <td>{{ '%.1f'|format(f.ebitda_cr) }}</td>
+          <td>{{ '%.1f'|format(f.pat_cr) }}</td>
+          <td>{{ '%.1f'|format(f.networth_cr) }}</td>
+          <td>{{ '%.1f'|format(f.debt_cr) }}</td>
+          <td>{{ f.source }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}<p class="muted">No financial records.</p>{% endif %}
+  </section>
+</div>
+
+{% if case.credit_check %}
+<section class="card">
+  <h2>Credit Check summary</h2>
+  <p><strong>Internal rating:</strong>
+     <span class="rating-pill">{{ case.credit_check.internal_rating or '-' }}</span>
+     &middot; <strong>Score:</strong> {{ case.credit_check.composite_score or '-' }}
+     &middot; <strong>Decision:</strong> {{ case.credit_check.decision or '-' }}</p>
+  {% if case.credit_check.rc_head_required %}
+    <p class="warn">RC Head approval required (Total &gt; 5 MWp or A/BBB-family rating).</p>
+  {% endif %}
+</section>
+{% endif %}
+{% endblock %}

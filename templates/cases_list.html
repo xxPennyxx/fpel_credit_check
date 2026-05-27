@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}All Cases - FPEL Credit Check{% endblock %}
+{% block content %}
+<div class="row-between">
+  <h1>All Cases</h1>
+  <a class="btn btn-primary" href="{{ url_for('new_case') }}">+ Raise new case</a>
+</div>
+
+<form method="get" class="filter-bar">
+  <input type="text" name="q" value="{{ q }}" placeholder="Search by company name" />
+  <select name="status">
+    <option value="">All statuses</option>
+    {% for s in ["Submitted", "Under Review", "Maker Done", "Dispatched"] %}
+      <option value="{{ s }}" {% if status == s %}selected{% endif %}>{{ s }}</option>
+    {% endfor %}
+  </select>
+  <button class="btn" type="submit">Filter</button>
+</form>
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Ref</th><th>Company</th><th>Industry</th>
+      <th>Park</th><th>State</th>
+      <th>Total MWp</th><th>Status</th><th>Raised by</th><th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for c in cases %}
+    <tr>
+      <td>{{ c.case_ref }}</td>
+      <td>{{ c.company.name }}</td>
+      <td>{{ c.company.industry }}</td>
+      <td>{{ c.park_name }}</td>
+      <td>{{ c.state_name }}</td>
+      <td>{{ c.total_mwp }}</td>
+      <td><span class="badge badge-{{ c.status|lower|replace(' ', '-') }}">{{ c.status }}</span></td>
+      <td>{{ c.raised_by }}</td>
+      <td><a class="btn btn-sm" href="{{ url_for('case_detail', case_id=c.id) }}">Open</a></td>
+    </tr>
+    {% else %}
+    <tr><td colspan="9" class="muted">No matching cases.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

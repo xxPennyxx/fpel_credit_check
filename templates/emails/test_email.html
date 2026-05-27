@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FPEL Credit Check &middot; Test Email</title>
+</head>
+<body style="margin:0;padding:0;background:#f5f7fb;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#334155;-webkit-font-smoothing:antialiased;">
+  <!-- Hidden preheader text -->
+  <div style="display:none;max-height:0;overflow:hidden;mso-hide:all;">
+    Microsoft Graph API sendMail is working end-to-end. Triggered from the FPEL Credit Check admin portal.
+  </div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f5f7fb;padding:32px 12px;">
+    <tr>
+      <td align="center">
+
+        <!-- ============== Card ============== -->
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;background:#ffffff;border-radius:12px;overflow:hidden;
+                      box-shadow:0 4px 20px -6px rgba(15,23,42,0.12);border:1px solid #e2e8f0;">
+
+          <!-- ----- Header ----- -->
+          <tr>
+            <td style="background:linear-gradient(135deg,#f7941d 0%,#ff7a00 100%);padding:28px 32px;color:#fff;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <div style="font-size:13px;letter-spacing:2px;font-weight:700;opacity:0.85;text-transform:uppercase;">
+                      FPEL &middot; Renewable Capital
+                    </div>
+                    <div style="font-size:24px;font-weight:700;margin-top:6px;letter-spacing:-0.01em;">
+                      Credit Check Platform
+                    </div>
+                  </td>
+                  <td align="right" style="vertical-align:top;">
+                    <span style="display:inline-block;background:rgba(255,255,255,0.22);color:#fff;
+                                 font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
+                                 padding:5px 10px;border-radius:999px;">
+                      Test Email
+                    </span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ----- Body ----- -->
+          <tr>
+            <td style="padding:32px;">
+
+              <h1 style="margin:0 0 12px;color:#0f172a;font-size:22px;font-weight:700;letter-spacing:-0.01em;">
+                Microsoft Graph is working
+              </h1>
+              <p style="margin:0 0 20px;color:#475569;font-size:15px;line-height:1.55;">
+                This is a test email sent from the
+                <strong style="color:#0f172a;">FPEL Credit Check</strong> admin portal
+                via the Microsoft Graph API. If you can read this, the application has
+                successfully acquired an app-only Graph token and used the
+                <code style="background:#eef2f7;padding:1px 6px;border-radius:4px;font-family:'SFMono-Regular',Menlo,Consolas,monospace;font-size:13px;color:#0aa3a3;">sendMail</code>
+                endpoint end-to-end.
+              </p>
+
+              <!-- Info table -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                     style="background:#f5f7fb;border:1px solid #e2e8f0;border-radius:8px;margin:16px 0 24px;">
+                <tr>
+                  <td style="padding:14px 18px;border-bottom:1px solid #e2e8f0;width:140px;
+                             color:#64748b;font-size:12px;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;">
+                    Triggered by
+                  </td>
+                  <td style="padding:14px 18px;border-bottom:1px solid #e2e8f0;color:#0f172a;font-size:14px;">
+                    {{ actor_name }} &lt;{{ actor_email }}&gt;
+                    <span style="display:inline-block;background:#0aa3a3;color:#fff;font-size:10px;
+                                 font-weight:700;letter-spacing:0.06em;text-transform:uppercase;
+                                 padding:2px 8px;border-radius:999px;margin-left:6px;">{{ actor_role }}</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 18px;border-bottom:1px solid #e2e8f0;
+                             color:#64748b;font-size:12px;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;">
+                    Sent at
+                  </td>
+                  <td style="padding:14px 18px;border-bottom:1px solid #e2e8f0;color:#0f172a;font-size:14px;">
+                    {{ triggered_at }} UTC
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 18px;color:#64748b;font-size:12px;font-weight:600;
+                             letter-spacing:0.05em;text-transform:uppercase;">
+                    Sender mailbox
+                  </td>
+                  <td style="padding:14px 18px;color:#0f172a;font-size:14px;">
+                    {{ sender_upn }}
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Status pill -->
+              <div style="background:#dcfce7;border-left:4px solid #16a34a;border-radius:6px;
+                          padding:14px 16px;margin:12px 0 28px;">
+                <strong style="color:#166534;font-size:14px;">All systems go.</strong>
+                <span style="color:#166534;font-size:14px;">
+                  Token acquired, request accepted (HTTP 202), mailbox delivered.
+                </span>
+              </div>
+
+              <!-- CTA -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:8px 0 4px;">
+                <tr>
+                  <td style="background:#0f172a;border-radius:6px;">
+                    <a href="http://localhost:5000/admin/users"
+                       style="display:inline-block;padding:12px 22px;color:#ffffff;
+                              text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.01em;">
+                      Open Admin Portal &rarr;
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="margin:24px 0 0;color:#64748b;font-size:13px;line-height:1.55;">
+                You're receiving this because someone clicked
+                <em>Send test email</em> in the FPEL Credit Check admin panel.
+                No action is required.
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- ----- Footer ----- -->
+          <tr>
+            <td style="background:#f5f7fb;padding:20px 32px;border-top:1px solid #e2e8f0;
+                       color:#64748b;font-size:12px;line-height:1.5;text-align:center;">
+              Sent automatically by
+              <strong style="color:#0f172a;">FPEL Credit Check</strong>
+              &middot; Fourth Partner Energy<br>
+              This is an internal-use demo application. Please do not reply to this email.
+            </td>
+          </tr>
+
+        </table>
+        <!-- ============== /Card ============== -->
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

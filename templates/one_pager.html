@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}One Pagers - FPEL Credit Check{% endblock %}
+{% block content %}
+<h1>One Pager module</h1>
+<p class="muted">Periodic review for existing offtakers (SOP Section IV).</p>
+
+{% if offtakers %}
+<table class="data-table">
+  <thead><tr><th>Offtaker</th><th>Industry</th><th>Rating</th><th></th></tr></thead>
+  <tbody>
+    {% for c in offtakers %}
+    <tr>
+      <td>{{ c.name }}</td>
+      <td>{{ c.industry }}</td>
+      <td>{{ c.external_rating_agency }} / {{ c.external_rating }}</td>
+      <td><a class="btn btn-sm" href="{{ url_for('one_pager_view', company_id=c.id) }}">Generate</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="muted">No existing offtakers in the system yet.</p>
+{% endif %}
+{% endblock %}

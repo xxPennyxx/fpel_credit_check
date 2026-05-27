@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}FPEL Renewable Capital - Credit Check{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-content">
+    <span class="hero-eyebrow">
+      <i class="fas fa-bolt me-1"></i> Fourth Partner Energy &middot; Renewable Capital
+    </span>
+    <h1>Credit Check</h1>
+    <p class="tagline">
+      Internal workflow to evaluate offtaker creditworthiness, score companies
+      against the SOP rating matrix, and dispatch decisions back to Business
+      Development &mdash; all in one place.
+    </p>
+    <a class="cta" href="{{ url_for('auth.login') }}">
+      <i class="fab fa-microsoft me-2"></i>
+      Sign in with Microsoft
+    </a>
+    <p class="hero-foot">
+      Use your <strong>@fourthpartner.co</strong> account
+    </p>
+  </div>
+</section>
+
+<div class="feature-grid">
+  <div class="feature">
+    <div class="feature-icon"><i class="fas fa-folder-plus"></i></div>
+    <span class="tag">BD module</span>
+    <h3>Raise credit-check cases</h3>
+    <p>Submit a case with company, capacity (Solar / Wind), park, state and consumption analysis. Mandatory fields are validated up-front.</p>
+  </div>
+  <div class="feature">
+    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+    <span class="tag">RC module</span>
+    <h3>Score &amp; rate offtakers</h3>
+    <p>Run the SOP scoring matrix on revenue growth, EBITDA margin, debt/equity and interest coverage. Get an internal rating (4PEL AA+ to BBB-) instantly.</p>
+  </div>
+  <div class="feature">
+    <div class="feature-icon"><i class="fas fa-people-arrows"></i></div>
+    <span class="tag">Workflow</span>
+    <h3>Maker &mdash; Reviewer &mdash; Dispatch</h3>
+    <p>RC Head approval is auto-flagged for high-capacity or sub-investment-grade cases. Every action is captured in an audit trail.</p>
+  </div>
+  <div class="feature">
+    <div class="feature-icon"><i class="fas fa-file-contract"></i></div>
+    <span class="tag">One Pager</span>
+    <h3>Periodic offtaker reviews</h3>
+    <p>Lightweight refresh page for existing offtakers &mdash; financial snapshot, latest updates and rating history at a glance.</p>
+  </div>
+</div>
+{% endblock %}

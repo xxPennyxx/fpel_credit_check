@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}One Pager - {{ company.name }}{% endblock %}
+{% block content %}
+<h1>One Pager &middot; {{ company.name }}</h1>
+<p class="muted">Generated on {{ ''|safe }}{{ company.name }} - auto-pulled from Instafinancials + internal records.</p>
+
+<section class="card">
+  <h2>Snapshot</h2>
+  <dl class="kv">
+    <dt>Industry</dt><dd>{{ company.industry }}</dd>
+    <dt>External rating</dt>
+    <dd>{{ company.external_rating_agency }} / {{ company.external_rating }}
+        on {{ company.external_rating_date.strftime('%d-%m-%Y') if company.external_rating_date }}</dd>
+    <dt>CIN</dt><dd>{{ company.cin or '-' }}</dd>
+  </dl>
+</section>
+
+<section class="card">
+  <h2>Financials (INR Crores)</h2>
+  <table class="data-table tight">
+    <thead><tr><th>FY</th><th>Revenue</th><th>EBITDA</th><th>PAT</th>
+               <th>Networth</th><th>Debt</th></tr></thead>
+    <tbody>
+      {% for f in company.financials %}
+      <tr>
+        <td>{{ f.fiscal_year }}</td>
+        <td>{{ '%.1f'|format(f.revenue_cr) }}</td>
+        <td>{{ '%.1f'|format(f.ebitda_cr) }}</td>
+        <td>{{ '%.1f'|format(f.pat_cr) }}</td>
+        <td>{{ '%.1f'|format(f.networth_cr) }}</td>
+        <td>{{ '%.1f'|format(f.debt_cr) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="card">
+  <h2>SWOT (Maker to fill)</h2>
+  <div class="swot-grid">
+    <div><h3>Strengths</h3><textarea rows="3" placeholder="e.g. Stable promoters"></textarea></div>
+    <div><h3>Weaknesses</h3><textarea rows="3" placeholder="e.g. Cyclicality"></textarea></div>
+    <div><h3>Opportunities</h3><textarea rows="3" placeholder="e.g. Capacity expansion"></textarea></div>
+    <div><h3>Threats</h3><textarea rows="3" placeholder="e.g. FX volatility"></textarea></div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,108 @@
+{# ============================================================
+   Footer
+   - Top strip: Access info (who can sign in, how to get admin)
+   - Below: 3-column dark footer mirroring Site Survey
+   - Bottom: copyright
+   ============================================================ #}
+
+<!-- Access info strip (light) -->
+<aside class="access-strip">
+  <div class="access-strip-inner">
+    <div class="access-strip-icon" aria-hidden="true">
+      <i class="fas fa-lock"></i>
+    </div>
+    <div>
+      <strong>Access:</strong>
+      Sign-in is restricted to <code>@fourthpartner.co</code> accounts.
+      Once signed in, you'll be granted <em>viewer</em> access by default.
+      Need write permissions? Ask an administrator
+      (<a href="mailto:ai@fourthpartner.co">ai@fourthpartner.co</a>) to promote
+      you to <em>admin</em> from the Admin portal.
+    </div>
+  </div>
+</aside>
+
+<!-- Dark 3-column footer (matches Site Survey exactly) -->
+<footer id="contact" class="footer">
+  <div class="footer-inner">
+
+    <!-- Column 1: Branding & Social -->
+    <div class="footer-col">
+      <div class="footer-title">Credit Check</div>
+      <div class="footer-text">
+        An internal workflow tool for the Renewable Capital team to evaluate
+        offtaker creditworthiness, score companies against the SOP rating
+        matrix, and dispatch decisions to Business Development.
+      </div>
+      <div class="footer-social">
+        <a href="https://in.linkedin.com/company/fourth-partner-energy-private-limited"
+           target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.youtube.com/@FourthPartnerEnergy"
+           target="_blank" rel="noopener" class="social-link" title="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/FourthPartnerEnergy/"
+           target="_blank" rel="noopener" class="social-link" title="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://fourthpartner.co"
+           target="_blank" rel="noopener" class="social-link" title="Website">
+          <i class="fas fa-globe"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Column 2: Interactive Location Selector -->
+    <div class="footer-col">
+      <div class="footer-title">Our Offices</div>
+      <div class="location-selector">
+        <span class="location-pill active"   data-id="hmt">HMT</span>
+        <span class="location-pill"          data-id="begumpet">Begumpet</span>
+        <span class="location-pill"          data-id="gurugram">Gurugram</span>
+        <span class="location-pill"          data-id="noida">Noida</span>
+        <span class="location-pill"          data-id="chennai">Chennai</span>
+        <span class="location-pill"          data-id="mumbai">Mumbai</span>
+        <span class="location-pill"          data-id="pune">Pune</span>
+      </div>
+      <div id="footerAddressContainer" class="footer-text footer-address">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+             viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             class="location-icon">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        <a id="footerMapsLink"
+           href="https://www.google.com/maps/search/?api=1&query=Fourth+Partner+House+Plot+No+N46+HMT+Nagar+Nacharam+Hyderabad+500076"
+           target="_blank" rel="noopener" class="address-link">
+          <span id="addressText">Fourth Partner House, Plot No N46, H No. 4-9-10, HMT Nagar, Nacharam, Hyderabad (TG), 500076</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Column 3: Contact -->
+    <div class="footer-col">
+      <div class="footer-title">Contact Us</div>
+      <div class="footer-contact-item">
+        <span class="contact-label">Phone:</span>
+        <span class="footer-text">+91 40-27158865</span>
+      </div>
+      <div class="footer-contact-item" style="margin-top:0.75rem;">
+        <span class="contact-label">Digital Transformation:</span>
+        <a href="mailto:digitaltransformation@fourthpartner.co"
+           class="footer-email">digitaltransformation@fourthpartner.co</a>
+      </div>
+      <div class="footer-contact-item" style="margin-top:0.75rem;">
+        <span class="contact-label">App Admin:</span>
+        <a href="mailto:ai@fourthpartner.co"
+           class="footer-email">ai@fourthpartner.co</a>
+      </div>
+    </div>
+
+  </div>
+  <div class="copyright">
+    &copy; {{ datetime.now().year }} Fourth Partner Energy. All rights reserved.
+  </div>
+</footer>

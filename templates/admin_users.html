@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block title %}Admin - Users - FPEL Credit Check{% endblock %}
+{% block content %}
+<h1>Admin Portal</h1>
+<p class="muted">
+  Every person who has signed in via Microsoft SSO appears below.
+  Roles take effect on next login. The super admin
+  (<code>{{ super_admin_email }}</code>) cannot be demoted or deactivated,
+  and you cannot change your own role or deactivate your own account.
+</p>
+
+<div class="card">
+  <h2 style="margin-top:0;border:0;padding:0;">Send a test email</h2>
+  <p class="muted" style="margin-top:.25rem;">
+    Sends an HTML email via the <strong>Microsoft Graph API</strong> using application
+    permission <code>Mail.Send</code> from the configured mailbox
+    (<code>GRAPH_SENDER_UPN</code>).
+  </p>
+  <form action="{{ url_for('admin_test_email') }}" method="post"
+        class="inline-form" style="margin-top:.75rem;">
+    <input type="email" name="recipient"
+           placeholder="{{ current_user.email if current_user else 'name@fourthpartner.co' }}"
+           value="{{ current_user.email if current_user else '' }}"
+           style="min-width: 320px;" />
+    <button type="submit" class="btn btn-primary">Send test email</button>
+  </form>
+</div>
+
+<section class="admin-section">
+  <h2>Users ({{ users|length }})</h2>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Email</th>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Status</th>
+        <th>Logins</th>
+        <th>First login</th>
+        <th>Last login</th>
+        <th style="width: 280px;">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for u in users %}
+      {% set is_self = current_user and current_user.id == u.id %}
+      {% set is_super = u.email == super_admin_email %}
+      <tr>
+        <td>
+          {{ u.email }}
+          {% if is_self %}
+            <span class="badge" style="background:var(--bg-2);color:var(--muted);margin-left:.4rem;">you</span>
+          {% endif %}
+        </td>
+        <td>{{ u.display_name or '-' }}</td>
+        <td><span class="badge badge-role-{{ u.role }}">{{ u.role }}</span></td>
+        <td>
+          {% if u.is_active %}
+            <span class="badge badge-active">Active</span>
+          {% else %}
+            <span class="badge badge-inactive">Inactive</span>
+          {% endif %}
+        </td>
+        <td>{{ u.login_count or 0 }}</td>
+        <td>{{ u.first_login_at.strftime('%d-%m-%Y %H:%M') if u.first_login_at else '-' }}</td>
+        <td>{{ u.last_login_at.strftime('%d-%m-%Y %H:%M') if u.last_login_at else '-' }}</td>
+        <td>
+          {% if is_super %}
+            <span class="muted">Locked (super admin)</span>
+          {% elif is_self %}
+            <span class="muted" title="Ask another admin to change your role or status.">
+              Self - locked
+            </span>
+          {% else %}
+            <form action="{{ url_for('admin_set_role', user_id=u.id) }}"
+                  method="post" class="inline-form">
+              <select name="role">
+                <option value="viewer" {% if u.role == 'viewer' %}selected{% endif %}>viewer</option>
+                <option value="admin"  {% if u.role == 'admin'  %}selected{% endif %}>admin</option>
+                {% if current_user and current_user.role == 'super_admin' %}
+                  <option value="super_admin" {% if u.role == 'super_admin' %}selected{% endif %}>super_admin</option>
+                {% endif %}
+              </select>
+              <button type="submit" class="btn btn-sm">Save</button>
+            </form>
+            <form action="{{ url_for('admin_toggle_active', user_id=u.id) }}"
+                  method="post" class="inline-form">
+              <button type="submit" class="btn btn-sm btn-secondary">
+                {{ 'Deactivate' if u.is_active else 'Reactivate' }}
+              </button>
+            </form>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

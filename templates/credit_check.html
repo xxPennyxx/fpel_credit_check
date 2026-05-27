@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}Credit Check - {{ case.case_ref }}{% endblock %}
+{% block content %}
+<div class="row-between">
+  <h1>Credit Check &middot; {{ case.case_ref }}</h1>
+  <a class="btn" href="{{ url_for('case_detail', case_id=case.id) }}">Back to case</a>
+</div>
+<p class="muted">{{ case.company.name }} &middot; {{ case.park_name }}, {{ case.state_name }}</p>
+
+<form method="post" class="card form-grid">
+
+  <h2 class="full">A. Brief profile</h2>
+  <div class="field field-wide">
+    <textarea name="brief_profile" rows="3">{{ cc.brief_profile or '' }}</textarea>
+  </div>
+
+  <h2 class="full">B. Financial scoring (INR Crores; ratios in %)</h2>
+  <div class="field">
+    <label>Revenue growth %</label>
+    <input type="number" step="0.1" name="revenue_growth_pct" value="{{ cc.revenue_growth_pct or '' }}" />
+  </div>
+  <div class="field">
+    <label>EBITDA margin %</label>
+    <input type="number" step="0.1" name="ebitda_margin_pct" value="{{ cc.ebitda_margin_pct or '' }}" />
+  </div>
+  <div class="field">
+    <label>Debt / Equity</label>
+    <input type="number" step="0.01" name="debt_equity" value="{{ cc.debt_equity or '' }}" />
+  </div>
+  <div class="field">
+    <label>Interest coverage (x)</label>
+    <input type="number" step="0.1" name="interest_coverage" value="{{ cc.interest_coverage or '' }}" />
+  </div>
+
+  <div class="field">
+    <label>Composite score (auto)</label>
+    <input type="text" readonly class="readonly" value="{{ cc.composite_score or '-' }}" />
+  </div>
+  <div class="field">
+    <label>Internal rating (auto)</label>
+    <input type="text" readonly class="readonly" value="{{ cc.internal_rating or '-' }}" />
+  </div>
+
+  <h2 class="full">C. Analysis</h2>
+  <div class="field field-wide">
+    <label>Financial analysis (YoY commentary)</label>
+    <textarea name="financial_analysis" rows="3">{{ cc.financial_analysis or '' }}</textarea>
+  </div>
+  <div class="field">
+    <label>Strengths</label>
+    <textarea name="strengths" rows="3">{{ cc.strengths or '' }}</textarea>
+  </div>
+  <div class="field">
+    <label>Weaknesses</label>
+    <textarea name="weaknesses" rows="3">{{ cc.weaknesses or '' }}</textarea>
+  </div>
+  <div class="field field-wide">
+    <label>Latest updates (last 12-18 months)</label>
+    <textarea name="latest_updates" rows="2">{{ cc.latest_updates or '' }}</textarea>
+  </div>
+
+  <h2 class="full">D. View / Decision (Maker)</h2>
+  <div class="field">
+    <label>Decision *</label>
+    <select name="decision">
+      <option value="">--</option>
+      {% for d in ["Approved", "Not Approved", "On Hold", "Judgmentally Approved"] %}
+        <option value="{{ d }}" {% if cc.decision == d %}selected{% endif %}>{{ d }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="field field-wide">
+    <label>Conditions</label>
+    <textarea name="decision_conditions" rows="2">{{ cc.decision_conditions or '' }}</textarea>
+  </div>
+
+  <div class="form-actions full">
+    <button class="btn btn-primary" type="submit">Save credit check</button>
+  </div>
+</form>
+
+{% if cc.audit_logs %}
+<section class="card">
+  <h2>Audit trail</h2>
+  <table class="data-table tight">
+    <thead><tr><th>When</th><th>Actor</th><th>Action</th><th>Note</th></tr></thead>
+    <tbody>
+      {% for log in cc.audit_logs %}
+      <tr>
+        <td>{{ log.timestamp.strftime('%d-%m-%Y %H:%M') }}</td>
+        <td>{{ log.actor }}</td>
+        <td>{{ log.action }}</td>
+        <td>{{ log.note or '-' }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endif %}
+{% endblock %}

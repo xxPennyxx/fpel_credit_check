@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}New Case - FPEL Credit Check{% endblock %}
+{% block content %}
+<h1>Raise a new credit check</h1>
+<p class="muted">All fields marked * are mandatory (SOP Section I).</p>
+
+<form method="post" class="card form-grid" autocomplete="off">
+  <div class="field">
+    <label>Company name *</label>
+    <input type="text" id="company_name" name="company_name"
+           value="{{ form.company_name or '' }}" required
+           placeholder="Start typing... auto-lookup will run" />
+    <ul id="company-suggest" class="suggest-list"></ul>
+  </div>
+
+  <div class="field">
+    <label>Industry</label>
+    <input type="text" name="industry" value="{{ form.industry or '' }}" />
+  </div>
+
+  <div class="field">
+    <label>External rating agency</label>
+    <select name="rating_agency">
+      <option value="">--</option>
+      {% for a in ["CRISIL", "ICRA", "CARE", "India Ratings"] %}
+        <option value="{{ a }}" {% if form.rating_agency == a %}selected{% endif %}>{{ a }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="field">
+    <label>External rating</label>
+    <input type="text" name="rating" value="{{ form.rating or '' }}" placeholder="e.g. AA-" />
+  </div>
+
+  <div class="field">
+    <label>Solar capacity (MWp) *</label>
+    <input type="number" step="0.01" id="solar" name="solar_mwp"
+           value="{{ form.solar_mwp or '' }}" />
+  </div>
+
+  <div class="field">
+    <label>Wind capacity (MW) *</label>
+    <input type="number" step="0.01" id="wind" name="wind_mw"
+           value="{{ form.wind_mw or '' }}" />
+  </div>
+
+  <div class="field">
+    <label>Total (MWp) - auto</label>
+    <input type="text" id="total" readonly value="0" class="readonly" />
+  </div>
+
+  <div class="field">
+    <label>Park name *</label>
+    <input type="text" name="park_name" value="{{ form.park_name or '' }}"
+           placeholder="e.g. Rooftop, Ramanakoppa, Amreli" required />
+  </div>
+
+  <div class="field">
+    <label>State *</label>
+    <select name="state_name" required>
+      <option value="">-- Select --</option>
+      {% for s in ["Karnataka", "Tamil Nadu", "Gujarat", "Maharashtra",
+                   "Telangana", "Rajasthan", "Andhra Pradesh", "Madhya Pradesh"] %}
+        <option value="{{ s }}" {% if form.state_name == s %}selected{% endif %}>{{ s }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="field field-wide">
+    <label>Consumption analysis summary *</label>
+    <textarea name="consumption_summary" rows="3" required
+              placeholder="Avg consumption (MU/month), replacement %">{{ form.consumption_summary or '' }}</textarea>
+  </div>
+
+  <div class="field">
+    <label>Raised by</label>
+    <input type="text" name="raised_by" value="{{ form.raised_by or 'Aarav Sharma (BD)' }}" />
+  </div>
+
+  <div class="form-actions">
+    <a class="btn" href="{{ url_for('cases_list') }}">Cancel</a>
+    <button class="btn btn-primary" type="submit">Submit case</button>
+  </div>
+</form>
+{% endblock %}

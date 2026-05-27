@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Dashboard - FPEL Credit Check{% endblock %}
+{% block content %}
+<h1>Dashboard</h1>
+<p class="muted">Overview of credit check pipeline across stages.</p>
+
+<div class="kpi-grid">
+  <div class="kpi"><div class="kpi-label">Total Cases</div><div class="kpi-value">{{ total_cases }}</div></div>
+  <div class="kpi"><div class="kpi-label">Submitted</div><div class="kpi-value">{{ submitted }}</div></div>
+  <div class="kpi"><div class="kpi-label">Under Review</div><div class="kpi-value">{{ under_review }}</div></div>
+  <div class="kpi"><div class="kpi-label">Dispatched</div><div class="kpi-value">{{ dispatched }}</div></div>
+</div>
+
+<section>
+  <h2>Recent cases</h2>
+  {% if recent %}
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Ref</th><th>Company</th><th>Capacity (MWp)</th>
+        <th>State</th><th>Status</th><th>Raised on</th><th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for c in recent %}
+      <tr>
+        <td>{{ c.case_ref }}</td>
+        <td>{{ c.company.name }}</td>
+        <td>{{ c.total_mwp }}</td>
+        <td>{{ c.state_name }}</td>
+        <td><span class="badge badge-{{ c.status|lower|replace(' ', '-') }}">{{ c.status }}</span></td>
+        <td>{{ c.raised_on.strftime('%d-%m-%Y') }}</td>
+        <td><a class="btn btn-sm" href="{{ url_for('case_detail', case_id=c.id) }}">Open</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+    <p class="muted">No cases raised yet.</p>
+  {% endif %}
+</section>
+{% endblock %}
