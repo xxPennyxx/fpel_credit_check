@@ -17,9 +17,10 @@ from flask import (
     flash, jsonify, abort, session,
 )
 
-from models import db, Company, FinancialRecord, Case, CreditCheck, AuditLog, User
+from models import db, Company, FinancialRecord, Case, CreditCheck, AuditLog, User, D365Case, SyncMeta
 from auth import auth_bp, login_required, admin_required, _resolve_role_for_email
 from email_service import send_mail
+from d365_sync import sync_d365_cases, get_last_sync_meta
 
 
 # ---------- App factory ----------
@@ -141,21 +142,53 @@ def register_routes(app):
             return redirect(url_for("dashboard"))
         return render_template("home.html")
 
-    # Authenticated dashboard
+    # Authenticated dashboard — D365 credit cases live here
     @app.route("/dashboard")
     @login_required
     def dashboard():
-        total_cases = Case.query.count()
-        submitted = Case.query.filter_by(status="Submitted").count()
-        under_review = Case.query.filter_by(status="Under Review").count()
-        dispatched = Case.query.filter_by(status="Dispatched").count()
-        recent = Case.query.order_by(Case.raised_on.desc()).limit(5).all()
+        rows = (
+            D365Case.query
+            .order_by(D365Case.last_synced_at.desc(), D365Case.case_id.asc())
+            .all()
+        )
+
+        # KPIs are derived from the synced D365 set
+        total = len(rows)
+        open_count = sum(1 for r in rows if (r.status or "").lower() not in ("closed", "resolved", ""))
+        closed_count = sum(1 for r in rows if (r.status or "").lower() in ("closed", "resolved"))
+        with_rating = sum(1 for r in rows if (r.internal_credit_rating or "").strip())
+
+        statuses = sorted({(r.status or "").strip() for r in rows if (r.status or "").strip()})
+
         return render_template(
             "dashboard.html",
-            total_cases=total_cases, submitted=submitted,
-            under_review=under_review, dispatched=dispatched,
-            recent=recent,
+            rows=rows,
+            kpi_total=total,
+            kpi_open=open_count,
+            kpi_closed=closed_count,
+            kpi_with_rating=with_rating,
+            statuses=statuses,
+            d365_meta=get_last_sync_meta(),
         )
+
+    @app.route("/d365/sync", methods=["POST"])
+    @login_required
+    def d365_sync_now():
+        """Manually pull the latest FPELDetailBases rows from D365."""
+        actor = (session.get("user") or {})
+        triggered_by = f"{actor.get('name','?')} <{actor.get('email','?')}>"
+        try:
+            ok, msg, n = sync_d365_cases(triggered_by=triggered_by)
+            flash(msg, "success" if ok else "error")
+        except Exception as e:
+            flash(f"D365 sync failed: {e}", "error")
+        return redirect(request.args.get("next") or url_for("dashboard"))
+
+    @app.route("/d365/cases/<path:case_id>")
+    @login_required
+    def d365_case_detail(case_id):
+        case = D365Case.query.filter_by(case_id=case_id).first_or_404()
+        return render_template("d365_case_detail.html", case=case)
 
     # ---------- Cases (BD module) ----------
     @app.route("/cases")
@@ -428,19 +461,26 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     url = f"http://{host}:{port}"
 
-    # Friendly startup banner
-    print()
-    print("=" * 60)
-    print("  FPEL Credit Check is running")
-    print(f"  -> Home page:        {url}/")
-    print(f"  -> Sign-in:          {url}/auth/login")
-    print(f"  -> Dashboard:        {url}/dashboard")
-    print(f"  -> Admin portal:     {url}/admin/users")
-    print("  -> Press CTRL+C to stop")
-    print("=" * 60)
-    print()
+    # Friendly startup banner. With Werkzeug's reloader on, only the child
+    # worker process has WERKZEUG_RUN_MAIN set to "true" — print there so
+    # the banner appears exactly once (not in the supervising parent).
+    is_worker = os.environ.get("WERKZEUG_RUN_MAIN") == "true"
+    is_no_reload = os.environ.get("WERKZEUG_RUN_MAIN") is None  # reloader disabled
+    if is_worker or is_no_reload:
+        print()
+        print("=" * 60)
+        print("  FPEL Credit Check is running")
+        print(f"  -> Home page:        {url}/")
+        print(f"  -> Sign-in:          {url}/auth/login")
+        print(f"  -> Dashboard:        {url}/dashboard")
+        print(f"  -> D365 cases:       {url}/d365/cases")
+        print(f"  -> Admin portal:     {url}/admin/users")
+        print("  -> Press CTRL+C to stop")
+        print("=" * 60)
+        print()
 
-    # use_reloader=False keeps the banner from printing twice in debug mode
-    app.run(host=host, port=port, debug=True, use_reloader=False)
+    # Reloader picks up code changes automatically. WERKZEUG_RUN_MAIN is set
+    # on the reload-spawned child process, so the banner only prints once.
+    app.run(host=host, port=port, debug=True, use_reloader=True)
 # end of file
 

@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block title %}{{ case.case_id }} - D365 Case{% endblock %}
+{% block content %}
+
+<div class="row-between mb-2">
+  <div>
+    <h1>
+      <i class="fas fa-id-card me-1"></i>
+      {{ case.case_id }}
+    </h1>
+    <p class="muted">
+      {{ case.entity_name or '-' }}
+      {% if case.entity_code %} &middot; <code>{{ case.entity_code }}</code>{% endif %}
+    </p>
+  </div>
+  <div class="d-flex gap-2">
+    <a href="{{ url_for('dashboard') }}" class="btn">
+      <i class="fas fa-arrow-left me-1"></i> Back to dashboard
+    </a>
+    <form action="{{ url_for('d365_sync_now') }}?next={{ url_for('d365_case_detail', case_id=case.case_id) }}"
+          method="post" class="m-0">
+      <button type="submit" class="btn btn-primary">
+        <i class="fas fa-sync-alt me-1"></i> Re-sync
+      </button>
+    </form>
+  </div>
+</div>
+
+<p class="muted" style="font-size:.85rem;">
+  Last synced
+  <strong>{{ case.last_synced_at.strftime('%d-%m-%Y %H:%M:%S') }} UTC</strong>
+  from <code>FPELDetailBases</code>.
+</p>
+
+<div class="card">
+  <h2 style="margin-top:0;border:0;padding:0;">Header</h2>
+  <dl class="kv">
+    <dt>Status</dt>
+    <dd>
+      {% if case.status %}
+        <span class="badge badge-{{ (case.status|lower|replace(' ', '-')) }}">{{ case.status }}</span>
+      {% else %}-{% endif %}
+    </dd>
+    <dt>Responsible Person</dt>
+    <dd>
+      {{ case.responsible_person or '-' }}
+      {% if case.responsible_person_personnel_number %}
+        <span class="muted">(#{{ case.responsible_person_personnel_number }})</span>
+      {% endif %}
+    </dd>
+    <dt>Case Category</dt>
+    <dd>{{ case.case_category or '-' }}</dd>
+    <dt>Closed By</dt>
+    <dd>{{ case.closed_by or '-' }}</dd>
+    <dt>Closed On</dt>
+    <dd>{{ case.closed_datetime or '-' }}</dd>
+  </dl>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:0;padding:0;">Project</h2>
+  <dl class="kv">
+    <dt>Type of Project</dt>     <dd>{{ case.type_of_project or '-' }}</dd>
+    <dt>Project Category</dt>    <dd>{{ case.project_category or '-' }}</dd>
+    <dt>Segment</dt>             <dd>{{ case.segment or '-' }}</dd>
+    <dt>Sub-Segment</dt>         <dd>{{ case.sub_segment or '-' }}</dd>
+    <dt>Park Name</dt>           <dd>{{ case.park_name or '-' }}</dd>
+    <dt>State</dt>               <dd>{{ case.state or '-' }}</dd>
+    <dt>Location</dt>            <dd>{{ case.location or '-' }}</dd>
+    <dt>Solar Capacity (MWp)</dt><dd>{{ '%.2f'|format(case.solar_capacity) if case.solar_capacity is not none else '-' }}</dd>
+    <dt>Wind Capacity (MW)</dt>  <dd>{{ '%.2f'|format(case.wind_capacity) if case.wind_capacity is not none else '-' }}</dd>
+  </dl>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:0;padding:0;">Rating</h2>
+  <dl class="kv">
+    <dt>Internal Credit Rating</dt>
+    <dd>
+      {% if case.internal_credit_rating %}
+        <span class="rating-pill">{{ case.internal_credit_rating }}</span>
+      {% else %}-{% endif %}
+    </dd>
+    <dt>External Credit Rating</dt>   <dd>{{ case.external_credit_rating or '-' }}</dd>
+    <dt>External Rating Agency</dt>   <dd>{{ case.external_credit_rating_agency or '-' }}</dd>
+    <dt>Other Rating Agency</dt>      <dd>{{ case.other_rating_agency or '-' }}</dd>
+    <dt>Date of Ext. Credit Rating</dt><dd>{{ case.date_of_ext_credit_rating or '-' }}</dd>
+    <dt>Reason - No Rating</dt>        <dd>{{ case.reason_for_no_rating or '-' }}</dd>
+    <dt>Reason - Notch (Int vs Ext)</dt><dd>{{ case.reason_for_notch_int_ext or '-' }}</dd>
+    <dt>Reason - Judgement Upgrade</dt><dd>{{ case.reason_for_judgement_upgrade or '-' }}</dd>
+  </dl>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:0;padding:0;">Dates</h2>
+  <dl class="kv">
+    <dt>Date for DUA</dt>             <dd>{{ case.date_for_dua or '-' }}</dd>
+    <dt>Date of Final Deviation</dt>  <dd>{{ case.date_of_final_deviation or '-' }}</dd>
+    <dt>PPA Request Date (BD)</dt>    <dd>{{ case.ppa_request_date_bd or '-' }}</dd>
+    <dt>Credit Check Month</dt>       <dd>{{ case.credit_check_month or '-' }}</dd>
+  </dl>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:0;padding:0;">Communications</h2>
+  <dl class="kv">
+    <dt>Reply from BD to RC</dt><dd>{{ case.reply_bd_to_rc or '-' }}</dd>
+    <dt>Reply from RC to BD</dt><dd>{{ case.reply_rc_to_bd or '-' }}</dd>
+    <dt>Description</dt>        <dd style="white-space:pre-wrap;">{{ case.description or '-' }}</dd>
+    <dt>Memo</dt>               <dd style="white-space:pre-wrap;">{{ case.memo or '-' }}</dd>
+  </dl>
+</div>
+
+{% endblock %}

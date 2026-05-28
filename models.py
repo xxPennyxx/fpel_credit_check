@@ -168,3 +168,93 @@ class User(db.Model):
 
     def is_super_admin(self) -> bool:
         return self.role == "super_admin"
+
+
+# ----------------------------------------------------------------------------
+# D365 Credit Case mirror
+# ----------------------------------------------------------------------------
+class D365Case(db.Model):
+    """
+    A local cache of a record from the D365 FPELDetailBases entity.
+
+    On every Sync, we fetch all rows from D365, resolve OnwerWorker_PersonnelNumber
+    -> Employee.Name from the D365 Employees entity, and upsert into this table.
+    The dashboard then reads from here so the page is fast and works offline.
+    """
+    __tablename__ = "d365_cases"
+
+    # Internal PK (we don't trust D365 CaseId to be unique cross-company)
+    id = db.Column(db.Integer, primary_key=True)
+
+    # D365 primary identifier
+    case_id = db.Column(db.String(64), unique=True, index=True, nullable=False)
+
+    # Resolved person name (display) + raw personnel number (for traceability)
+    responsible_person = db.Column(db.String(200))            # display name
+    responsible_person_personnel_number = db.Column(db.String(50))
+
+    # Status / categorisation
+    status = db.Column(db.String(64))
+    case_category = db.Column(db.String(120))                 # CaseCategoryHierarchyDetail_CaseCategory
+    project_category = db.Column(db.String(120))              # FPELProjectCategory
+    type_of_project = db.Column(db.String(120))               # FPELTypeOfProject
+    segment = db.Column(db.String(120))                       # FPELSegment
+    sub_segment = db.Column(db.String(120))                   # FPELSubSegment
+
+    # Entity / location
+    entity_name = db.Column(db.String(200))                   # FPELEntityName
+    entity_code = db.Column(db.String(64))                    # FPELEntityCode
+    state = db.Column(db.String(64))                          # FPELState
+    location = db.Column(db.String(200))                      # FPELLocation
+    park_name = db.Column(db.String(200))                     # FPELParkName
+
+    # Capacity (numeric where possible)
+    solar_capacity = db.Column(db.Float)                      # FPELSolarCapacity
+    wind_capacity = db.Column(db.Float)                       # FPELWindCapacity
+
+    # Credit & ratings
+    internal_credit_rating = db.Column(db.String(32))         # FPELInternalCreditRating
+    external_credit_rating = db.Column(db.String(32))         # FPELExternalCreditRating
+    external_credit_rating_agency = db.Column(db.String(120)) # FPELExternalCreditRatingAgency
+    other_rating_agency = db.Column(db.String(120))           # FPELOtherRatingAgency
+    reason_for_no_rating = db.Column(db.Text)                 # FPELReasonForNoRating
+    reason_for_notch_int_ext = db.Column(db.Text)             # FPELRsnForNotchIntAndExt
+    reason_for_judgement_upgrade = db.Column(db.Text)         # FPELRsnForJudgementUpgrade
+
+    # Dates (stored as strings; D365 returns ISO timestamps - we keep raw for fidelity)
+    date_of_ext_credit_rating = db.Column(db.String(64))      # FPELDateOfExtCreditRating
+    date_for_dua = db.Column(db.String(64))                   # FPELDateForDUA
+    date_of_final_deviation = db.Column(db.String(64))        # FPELDateOfFinalDeviation
+    ppa_request_date_bd = db.Column(db.String(64))            # FPELPPARequestDateBD
+    credit_check_month = db.Column(db.String(64))             # FPELCreditCheckMonth
+    closed_datetime = db.Column(db.String(64))                # ClosedDateTime
+
+    # Workflow / comms
+    closed_by = db.Column(db.String(200))                     # ClosedBy
+    reply_bd_to_rc = db.Column(db.Text)                       # FPELReplyFromBDtoRC
+    reply_rc_to_bd = db.Column(db.Text)                       # FPELReplyRCtoBD
+    description = db.Column(db.Text)                          # Description
+    memo = db.Column(db.Text)                                 # Memo
+
+    # Sync metadata
+    last_synced_at = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
+
+    def __repr__(self):
+        return f"<D365Case {self.case_id} {self.entity_name}>"
+
+
+class SyncMeta(db.Model):
+    """
+    Single-row table that records the last successful D365 sync run -
+    timestamp, row count, and last error (if any). Used to surface
+    'Last synced X minutes ago' on the dashboard.
+    """
+    __tablename__ = "sync_meta"
+
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(64), unique=True, nullable=False)
+    last_run_at = db.Column(db.DateTime)
+    last_status = db.Column(db.String(20))            # "ok" / "error"
+    rows_synced = db.Column(db.Integer)
+    last_message = db.Column(db.Text)
+    triggered_by = db.Column(db.String(200))

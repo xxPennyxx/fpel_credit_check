@@ -1,0 +1,14 @@
+{# This template is deprecated. The D365 cases list now lives on the
+   dashboard at /dashboard. Kept on disk as a no-op so old links don't 404
+   on a partial deploy. #}
+{% extends "base.html" %}
+{% block title %}D365 Cases{% endblock %}
+{% block content %}
+  <div class="card">
+    <h1>This page has moved</h1>
+    <p>D365 Credit Cases now live on the dashboard.</p>
+    <a class="btn btn-primary" href="{{ url_for('dashboard') }}">
+      Go to Dashboard
+    </a>
+  </div>
+{% endblock %}

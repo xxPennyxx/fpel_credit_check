@@ -1,42 +1,318 @@
 {% extends "base.html" %}
 {% block title %}Dashboard - FPEL Credit Check{% endblock %}
-{% block content %}
-<h1>Dashboard</h1>
-<p class="muted">Overview of credit check pipeline across stages.</p>
 
-<div class="kpi-grid">
-  <div class="kpi"><div class="kpi-label">Total Cases</div><div class="kpi-value">{{ total_cases }}</div></div>
-  <div class="kpi"><div class="kpi-label">Submitted</div><div class="kpi-value">{{ submitted }}</div></div>
-  <div class="kpi"><div class="kpi-label">Under Review</div><div class="kpi-value">{{ under_review }}</div></div>
-  <div class="kpi"><div class="kpi-label">Dispatched</div><div class="kpi-value">{{ dispatched }}</div></div>
+{% block extra_css %}
+<style>
+  /* ---- Dashboard-specific overrides (D365 table) ---- */
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: .6rem; align-items: center;
+    margin: .5rem 0 1rem;
+  }
+  .toolbar input[type="search"],
+  .toolbar select {
+    height: 38px;
+  }
+  .toolbar input[type="search"] { min-width: 320px; }
+  .table-wrap {
+    overflow-x: auto;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-1);
+  }
+  table.d365-table {
+    border-collapse: separate; border-spacing: 0;
+    font-size: 12.5px; min-width: 100%;
+    white-space: nowrap;
+  }
+  table.d365-table thead th {
+    position: sticky; top: 0;
+    background: var(--light-blue);
+    color: var(--primary-blue);
+    padding: 10px 12px;
+    font-size: 11px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .04em;
+    border-bottom: 2px solid var(--line);
+    cursor: pointer; user-select: none;
+    text-align: left;
+  }
+  table.d365-table thead th:hover { background: #e0eefa; }
+  table.d365-table thead th .sort-arrow {
+    display: inline-block; margin-left: 4px; opacity: .3;
+    font-size: 10px;
+  }
+  table.d365-table thead th.sort-asc  .sort-arrow,
+  table.d365-table thead th.sort-desc .sort-arrow { opacity: 1; }
+  table.d365-table tbody td {
+    padding: 8px 12px; border-bottom: 1px solid var(--line);
+    color: var(--ink-2); vertical-align: top;
+    max-width: 360px;
+  }
+  table.d365-table tbody tr:hover { background: var(--light-blue); }
+  table.d365-table tbody tr.hidden { display: none; }
+  table.d365-table .truncate {
+    display: inline-block; max-width: 280px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    vertical-align: bottom;
+  }
+  table.d365-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.d365-table td code { font-size: 11.5px; }
+  .empty-state {
+    text-align: center; padding: 3rem 1rem;
+    color: var(--muted);
+  }
+  .empty-state i { font-size: 2.5rem; opacity: .4; margin-bottom: .75rem; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="row-between mb-2">
+  <div>
+    <h1><i class="fas fa-database me-1"></i> D365 Credit Cases</h1>
+    <p class="muted" style="margin:.2rem 0 0;">
+      Live mirror of <code>FPELDetailBases</code>. <code>ResponsiblePerson</code>
+      resolved via the <code>Employees</code> entity.
+      {% if d365_meta and d365_meta.last_run_at %}
+        Last synced <strong>{{ d365_meta.last_run_at.strftime('%d-%m-%Y %H:%M:%S') }} UTC</strong>
+        by {{ d365_meta.triggered_by or 'system' }}.
+      {% else %}
+        Not synced yet &mdash; click <strong>Sync from D365</strong> to fetch.
+      {% endif %}
+    </p>
+  </div>
+  <form action="{{ url_for('d365_sync_now') }}?next={{ url_for('dashboard') }}"
+        method="post" class="m-0">
+    <button type="submit" class="btn btn-primary">
+      <i class="fas fa-sync-alt me-1"></i> Sync from D365
+    </button>
+  </form>
 </div>
 
-<section>
-  <h2>Recent cases</h2>
-  {% if recent %}
-  <table class="data-table">
+<div class="kpi-grid">
+  <div class="kpi"><div class="kpi-label">Total Cases</div><div class="kpi-value">{{ kpi_total }}</div></div>
+  <div class="kpi"><div class="kpi-label">Open</div><div class="kpi-value">{{ kpi_open }}</div></div>
+  <div class="kpi"><div class="kpi-label">Closed</div><div class="kpi-value">{{ kpi_closed }}</div></div>
+  <div class="kpi"><div class="kpi-label">With Internal Rating</div><div class="kpi-value">{{ kpi_with_rating }}</div></div>
+</div>
+
+{% if d365_meta and d365_meta.last_status == 'error' %}
+  <div class="flash flash-error">
+    <i class="fas fa-exclamation-triangle me-1"></i>
+    {{ d365_meta.last_message or 'Unknown error.' }}
+  </div>
+{% endif %}
+
+<div class="toolbar">
+  <input id="dt-search" type="search" class="form-control"
+         placeholder="Type to filter (case id, entity, person, anything)..." autocomplete="off">
+  <select id="dt-status" class="form-select" style="width:auto;">
+    <option value="">All statuses</option>
+    {% for s in statuses %}
+      <option value="{{ s }}">{{ s }}</option>
+    {% endfor %}
+  </select>
+  <span class="muted" style="font-size:.85rem;">
+    Showing <span id="dt-shown">{{ rows|length }}</span>
+    of <strong>{{ rows|length }}</strong>
+  </span>
+</div>
+
+{% if rows %}
+<div class="table-wrap">
+  <table class="d365-table" id="d365-table">
     <thead>
       <tr>
-        <th>Ref</th><th>Company</th><th>Capacity (MWp)</th>
-        <th>State</th><th>Status</th><th>Raised on</th><th></th>
+        <th data-key="case_id"                       data-type="text">Case ID <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="responsible_person"            data-type="text">Responsible Person <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="solar_capacity"                data-type="num">Solar Capacity <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="status"                        data-type="text">Status <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="state"                         data-type="text">State <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="closed_by"                     data-type="text">Closed By <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="case_category"                 data-type="text">Case Category <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="reason_for_no_rating"          data-type="text">Reason for No Rating <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="memo"                          data-type="text">Memo <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="type_of_project"               data-type="text">Type of Project <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="sub_segment"                   data-type="text">Sub-Segment <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="segment"                       data-type="text">Segment <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="date_of_ext_credit_rating"     data-type="text">Date of Ext. Credit Rating <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="date_for_dua"                  data-type="text">Date for DUA <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="closed_datetime"               data-type="text">Closed DateTime <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="project_category"              data-type="text">Project Category <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="other_rating_agency"           data-type="text">Other Rating Agency <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="description"                   data-type="text">Description <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="date_of_final_deviation"       data-type="text">Date of Final Deviation <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="reply_bd_to_rc"                data-type="text">Reply BD→RC <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="external_credit_rating"        data-type="text">External Credit Rating <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="internal_credit_rating"        data-type="text">Internal Credit Rating <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="park_name"                     data-type="text">Park Name <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="reason_for_notch_int_ext"      data-type="text">Reason for Notch (Int/Ext) <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="location"                      data-type="text">Location <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="entity_name"                   data-type="text">Entity Name <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="credit_check_month"            data-type="text">Credit Check Month <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="wind_capacity"                 data-type="num">Wind Capacity <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="reply_rc_to_bd"                data-type="text">Reply RC→BD <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="external_credit_rating_agency" data-type="text">Ext. Rating Agency <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="reason_for_judgement_upgrade"  data-type="text">Reason for Judgement Upgrade <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="entity_code"                   data-type="text">Entity Code <i class="sort-arrow fas fa-sort"></i></th>
+        <th data-key="ppa_request_date_bd"           data-type="text">PPA Request Date (BD) <i class="sort-arrow fas fa-sort"></i></th>
       </tr>
     </thead>
     <tbody>
-      {% for c in recent %}
-      <tr>
-        <td>{{ c.case_ref }}</td>
-        <td>{{ c.company.name }}</td>
-        <td>{{ c.total_mwp }}</td>
-        <td>{{ c.state_name }}</td>
-        <td><span class="badge badge-{{ c.status|lower|replace(' ', '-') }}">{{ c.status }}</span></td>
-        <td>{{ c.raised_on.strftime('%d-%m-%Y') }}</td>
-        <td><a class="btn btn-sm" href="{{ url_for('case_detail', case_id=c.id) }}">Open</a></td>
+      {% for c in rows %}
+      {# Pre-compute display strings so JS sort can read text content directly #}
+      {% set solar = ('%.2f' % c.solar_capacity) if c.solar_capacity is not none else '' %}
+      {% set wind  = ('%.2f' % c.wind_capacity)  if c.wind_capacity  is not none else '' %}
+      <tr data-status="{{ c.status or '' }}">
+        <td>
+          <a href="{{ url_for('d365_case_detail', case_id=c.case_id) }}">
+            <code>{{ c.case_id }}</code>
+          </a>
+        </td>
+        <td>
+          {{ c.responsible_person or '-' }}
+          {% if c.responsible_person_personnel_number %}
+            <div class="muted" style="font-size:11px;">#{{ c.responsible_person_personnel_number }}</div>
+          {% endif %}
+        </td>
+        <td class="num" data-sort-value="{{ c.solar_capacity if c.solar_capacity is not none else '' }}">{{ solar or '-' }}</td>
+        <td>
+          {% if c.status %}
+            <span class="badge badge-{{ (c.status|lower|replace(' ', '-')) }}">{{ c.status }}</span>
+          {% else %}-{% endif %}
+        </td>
+        <td>{{ c.state or '-' }}</td>
+        <td>{{ c.closed_by or '-' }}</td>
+        <td>{{ c.case_category or '-' }}</td>
+        <td><span class="truncate" title="{{ c.reason_for_no_rating or '' }}">{{ c.reason_for_no_rating or '-' }}</span></td>
+        <td><span class="truncate" title="{{ c.memo or '' }}">{{ c.memo or '-' }}</span></td>
+        <td>{{ c.type_of_project or '-' }}</td>
+        <td>{{ c.sub_segment or '-' }}</td>
+        <td>{{ c.segment or '-' }}</td>
+        <td>{{ c.date_of_ext_credit_rating or '-' }}</td>
+        <td>{{ c.date_for_dua or '-' }}</td>
+        <td>{{ c.closed_datetime or '-' }}</td>
+        <td>{{ c.project_category or '-' }}</td>
+        <td>{{ c.other_rating_agency or '-' }}</td>
+        <td><span class="truncate" title="{{ c.description or '' }}">{{ c.description or '-' }}</span></td>
+        <td>{{ c.date_of_final_deviation or '-' }}</td>
+        <td><span class="truncate" title="{{ c.reply_bd_to_rc or '' }}">{{ c.reply_bd_to_rc or '-' }}</span></td>
+        <td>{{ c.external_credit_rating or '-' }}</td>
+        <td>
+          {% if c.internal_credit_rating %}
+            <span class="rating-pill">{{ c.internal_credit_rating }}</span>
+          {% else %}-{% endif %}
+        </td>
+        <td>{{ c.park_name or '-' }}</td>
+        <td><span class="truncate" title="{{ c.reason_for_notch_int_ext or '' }}">{{ c.reason_for_notch_int_ext or '-' }}</span></td>
+        <td>{{ c.location or '-' }}</td>
+        <td>{{ c.entity_name or '-' }}</td>
+        <td>{{ c.credit_check_month or '-' }}</td>
+        <td class="num" data-sort-value="{{ c.wind_capacity if c.wind_capacity is not none else '' }}">{{ wind or '-' }}</td>
+        <td><span class="truncate" title="{{ c.reply_rc_to_bd or '' }}">{{ c.reply_rc_to_bd or '-' }}</span></td>
+        <td>{{ c.external_credit_rating_agency or '-' }}</td>
+        <td><span class="truncate" title="{{ c.reason_for_judgement_upgrade or '' }}">{{ c.reason_for_judgement_upgrade or '-' }}</span></td>
+        <td>{{ c.entity_code or '-' }}</td>
+        <td>{{ c.ppa_request_date_bd or '-' }}</td>
       </tr>
       {% endfor %}
     </tbody>
   </table>
-  {% else %}
-    <p class="muted">No cases raised yet.</p>
-  {% endif %}
-</section>
+</div>
+{% else %}
+  <div class="card">
+    <div class="empty-state">
+      <i class="fas fa-cloud-download-alt"></i>
+      <h3 style="border:0;padding:0;">No D365 records cached yet</h3>
+      <p>
+        Click <strong>Sync from D365</strong> above to pull the latest rows from
+        <code>FPELDetailBases</code>.
+      </p>
+    </div>
+  </div>
+{% endif %}
+{% endblock %}
+
+{% block extra_js %}
+<script>
+(function () {
+  // ---------- Live filter + sort for the D365 cases table ----------
+  const table   = document.getElementById('d365-table');
+  if (!table) return;
+
+  const tbody   = table.tBodies[0];
+  const rows    = Array.from(tbody.rows);
+  const search  = document.getElementById('dt-search');
+  const status  = document.getElementById('dt-status');
+  const shownEl = document.getElementById('dt-shown');
+
+  function applyFilter() {
+    const q = (search.value || '').trim().toLowerCase();
+    const s = status.value;
+    let shown = 0;
+    rows.forEach(function (tr) {
+      const matchesQ = !q || tr.textContent.toLowerCase().indexOf(q) !== -1;
+      const matchesS = !s || tr.dataset.status === s;
+      const visible = matchesQ && matchesS;
+      tr.classList.toggle('hidden', !visible);
+      if (visible) shown++;
+    });
+    if (shownEl) shownEl.textContent = shown;
+  }
+
+  search.addEventListener('input',  applyFilter);
+  status.addEventListener('change', applyFilter);
+
+  // ---------- Sort ----------
+  const ths = table.tHead.rows[0].cells;
+  let sortColIndex = -1;
+  let sortDir = 'asc';
+
+  function getCellValue(tr, idx, type) {
+    const cell = tr.cells[idx];
+    if (!cell) return type === 'num' ? Number.NEGATIVE_INFINITY : '';
+    // Prefer an explicit data-sort-value when present (set on numeric cells)
+    const raw = cell.dataset.sortValue !== undefined
+      ? cell.dataset.sortValue
+      : cell.textContent.trim();
+    if (type === 'num') {
+      const n = parseFloat(raw);
+      return isNaN(n) ? Number.NEGATIVE_INFINITY : n;
+    }
+    return raw.toLowerCase();
+  }
+
+  function applySort(idx, type) {
+    const dir = (sortColIndex === idx && sortDir === 'asc') ? 'desc' : 'asc';
+    sortColIndex = idx;
+    sortDir = dir;
+
+    // Update arrow indicators
+    Array.from(ths).forEach(function (th, i) {
+      th.classList.remove('sort-asc', 'sort-desc');
+      const arrow = th.querySelector('.sort-arrow');
+      if (arrow) {
+        arrow.classList.remove('fa-sort', 'fa-sort-up', 'fa-sort-down');
+        arrow.classList.add(i === idx ? (dir === 'asc' ? 'fa-sort-up' : 'fa-sort-down') : 'fa-sort');
+      }
+    });
+    ths[idx].classList.add(dir === 'asc' ? 'sort-asc' : 'sort-desc');
+
+    // Sort the in-memory copy; re-append in new order
+    const sorted = rows.slice().sort(function (a, b) {
+      const av = getCellValue(a, idx, type);
+      const bv = getCellValue(b, idx, type);
+      if (av < bv) return dir === 'asc' ? -1 : 1;
+      if (av > bv) return dir === 'asc' ?  1 : -1;
+      return 0;
+    });
+    sorted.forEach(function (tr) { tbody.appendChild(tr); });
+  }
+
+  Array.from(ths).forEach(function (th, i) {
+    th.addEventListener('click', function () {
+      applySort(i, th.dataset.type || 'text');
+    });
+  });
+})();
+</script>
 {% endblock %}

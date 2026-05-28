@@ -2,12 +2,21 @@
 {% block title %}Access denied - FPEL Credit Check{% endblock %}
 {% block content %}
 <div class="login-card">
-  <h1>Access denied</h1>
-  <p>You don't have permission to view this page.</p>
-  <p class="muted">
+  <div class="text-center mb-2" style="font-size: 2.5rem; color: var(--primary-orange);">
+    <i class="fas fa-lock"></i>
+  </div>
+  <h1 class="text-center">Access denied</h1>
+  <p class="muted text-center">
+    You don't have permission to view this page.
+  </p>
+  <p class="muted text-center" style="font-size:.88rem;">
     If you believe this is in error, please contact an administrator
     (<a href="mailto:ai@fourthpartner.co">ai@fourthpartner.co</a>).
   </p>
-  <a class="btn" href="{{ url_for('dashboard') }}">Back to dashboard</a>
+  <div class="d-grid mt-3">
+    <a class="btn btn-primary" href="{{ url_for('home') }}">
+      <i class="fas fa-arrow-left me-2"></i> Back to home
+    </a>
+  </div>
 </div>
 {% endblock %}

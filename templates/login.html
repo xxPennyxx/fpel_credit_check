@@ -2,21 +2,29 @@
 {% block title %}Sign in - FPEL Credit Check{% endblock %}
 {% block content %}
 <div class="login-card">
-  <h1>Sign in</h1>
-  <p class="muted">
-    FPEL Credit Check uses your Microsoft 365 (Azure AD) account.
-    Click the button below to sign in with your <strong>@fourthpartner.co</strong> work account.
+  <div class="text-center mb-3">
+    <img src="{{ url_for('static', filename='images/fpe_logo.png') }}"
+         alt="Fourth Partner Energy" style="height: 48px;">
+  </div>
+  <h1 class="text-center">Welcome back</h1>
+  <p class="muted text-center">
+    FPEL Credit Check uses Microsoft 365 (Entra ID) single sign-on.<br>
+    Sign in with your <strong>@fourthpartner.co</strong> work account.
   </p>
 
   {% if error %}
-    <div class="flash flash-error">{{ error }}</div>
+    <div class="flash flash-error">
+      <i class="fas fa-exclamation-triangle me-1"></i> {{ error }}
+    </div>
   {% endif %}
 
-  <a class="btn btn-primary btn-lg" href="{{ url_for('auth.login') }}">
-    Sign in with Microsoft
-  </a>
+  <div class="d-grid mt-3">
+    <a class="btn btn-primary btn-lg" href="{{ url_for('auth.login') }}">
+      <i class="fab fa-microsoft me-2"></i> Sign in with Microsoft
+    </a>
+  </div>
 
-  <p class="muted" style="margin-top:1.5rem">
+  <p class="muted text-center" style="margin-top:1.5rem; font-size:.85rem;">
     Don't have access? Contact the administrator
     (<a href="mailto:ai@fourthpartner.co">ai@fourthpartner.co</a>).
   </p>
