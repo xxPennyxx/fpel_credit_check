@@ -69,16 +69,6 @@
 <div class="row-between mb-2">
   <div>
     <h1><i class="fas fa-database me-1"></i> D365 Credit Cases</h1>
-    <p class="muted" style="margin:.2rem 0 0;">
-      Live mirror of <code>FPELDetailBases</code>. <code>ResponsiblePerson</code>
-      resolved via the <code>Employees</code> entity.
-      {% if d365_meta and d365_meta.last_run_at %}
-        Last synced <strong>{{ d365_meta.last_run_at.strftime('%d-%m-%Y %H:%M:%S') }} UTC</strong>
-        by {{ d365_meta.triggered_by or 'system' }}.
-      {% else %}
-        Not synced yet &mdash; click <strong>Sync from D365</strong> to fetch.
-      {% endif %}
-    </p>
   </div>
   <form action="{{ url_for('d365_sync_now') }}?next={{ url_for('dashboard') }}"
         method="post" class="m-0">

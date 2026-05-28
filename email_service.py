@@ -70,6 +70,60 @@ def _get_app_token() -> str:
     return _TOKEN_CACHE["value"]
 
 
+def lookup_display_name(email: str) -> tuple[str | None, str | None]:
+    """
+    Resolve a user's display name from Microsoft Graph by email/UPN.
+
+    Uses the same app-only token as send_mail. The app registration must
+    have the Microsoft Graph APPLICATION permission `User.Read.All`
+    granted (with admin consent) for this to succeed against the tenant.
+
+    Returns a tuple `(name, error)`:
+      - on success: ("Some Person", None)
+      - on failure: (None, "<short reason>")
+    """
+    if not email:
+        return None, "empty email"
+
+    try:
+        token = _get_app_token()
+    except RuntimeError as e:
+        return None, f"token error: {e}"
+
+    from urllib.parse import quote
+    url = (
+        f"{GRAPH_BASE}/users/{quote(email)}"
+        f"?$select=displayName,givenName,surname,mail,userPrincipalName"
+    )
+    try:
+        r = requests.get(
+            url,
+            headers={"Authorization": f"Bearer {token}"},
+            timeout=10,
+        )
+    except requests.RequestException as e:
+        return None, f"network error: {e}"
+
+    if r.status_code != 200:
+        # Surface Graph's own error code/message so admin permission issues
+        # (e.g. missing User.Read.All) become obvious in the logs.
+        try:
+            err = r.json().get("error", {})
+            msg = f"{err.get('code', r.status_code)}: {err.get('message', '')[:200]}"
+        except ValueError:
+            msg = f"HTTP {r.status_code}: {r.text[:200]}"
+        return None, msg
+
+    data = r.json() or {}
+    name = (
+        data.get("displayName")
+        or (" ".join(filter(None, [data.get("givenName"), data.get("surname")])) or None)
+    )
+    if not name:
+        return None, "Graph returned no name fields"
+    return name, None
+
+
 def send_mail(
     to: str | list[str],
     subject: str,

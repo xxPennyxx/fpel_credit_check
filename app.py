@@ -19,7 +19,7 @@ from flask import (
 
 from models import db, Company, FinancialRecord, Case, CreditCheck, AuditLog, User, D365Case, SyncMeta
 from auth import auth_bp, login_required, admin_required, _resolve_role_for_email
-from email_service import send_mail
+from email_service import send_mail, lookup_display_name
 from d365_sync import sync_d365_cases, get_last_sync_meta
 
 
@@ -78,10 +78,21 @@ def create_app():
 
 def _ensure_seed_admins():
     """
-    Create placeholder User rows for the super-admin and default admin(s) so
-    the Admin portal shows them even before they sign in for the first time.
-    Their roles are re-asserted on every login anyway (see auth._resolve_role_for_email).
+    Create User rows for the super-admin and default admin(s) so the Admin
+    portal shows them even before they sign in for the first time. Their
+    roles are re-asserted on every login (see auth._resolve_role_for_email).
+
+    Display names are hard-coded to the real names of the seeded accounts;
+    once a user signs in via SSO the name from the ID-token claims takes
+    over (so anyone with a different Entra ID display name will be updated
+    automatically).
     """
+    # Known default display names for the two seeded accounts.
+    DEFAULT_DISPLAY_NAMES = {
+        "ai@fourthpartner.co": "AI FPEL",
+        "vaidehi.sridhar@fourthpartner.co": "Vaidehi Sridhar",
+    }
+
     seeds = [
         (os.environ.get("SUPER_ADMIN_EMAIL", "ai@fourthpartner.co").lower(), "super_admin"),
     ]
@@ -91,15 +102,26 @@ def _ensure_seed_admins():
             seeds.append((e, "admin"))
 
     for email, role in seeds:
+        default_name = (
+            DEFAULT_DISPLAY_NAMES.get(email)
+            or email.split("@")[0].replace(".", " ").title()
+        )
         u = User.query.filter_by(email=email).first()
         if u is None:
             db.session.add(User(
                 email=email, role=role,
-                display_name=email.split("@")[0].replace(".", " ").title(),
+                display_name=default_name,
                 login_count=0,
             ))
         else:
             u.role = _resolve_role_for_email(email, u.role)
+            # Backfill display_name only if it's still the auto-generated
+            # placeholder (so we don't clobber a real name from SSO claims).
+            placeholder = email.split("@")[0].replace(".", " ").title()
+            if email in DEFAULT_DISPLAY_NAMES and (
+                not u.display_name or u.display_name == placeholder
+            ):
+                u.display_name = default_name
     db.session.commit()
 
 
@@ -371,6 +393,43 @@ def register_routes(app):
         users = User.query.order_by(
             User.login_count.desc(), User.last_login_at.desc(), User.email.asc()
         ).all()
+
+        # Backfill display names from Microsoft Graph for any user whose
+        # current display_name looks like the auto-generated placeholder
+        # (email local-part title-cased). On failure we flash the Graph
+        # error so misconfiguration (e.g. missing User.Read.All) is visible.
+        dirty = False
+        last_error = None
+        for u in users:
+            placeholder = (u.email.split("@")[0] or "").replace(".", " ").title()
+            looks_auto = (
+                not u.display_name
+                or u.display_name == placeholder
+                or (u.login_count or 0) == 0
+            )
+            if not looks_auto:
+                continue
+            graph_name, err = lookup_display_name(u.email)
+            if graph_name and graph_name != u.display_name:
+                u.display_name = graph_name
+                dirty = True
+            elif err:
+                last_error = err
+                app.logger.warning(
+                    "Graph name lookup failed for %s: %s", u.email, err
+                )
+        if dirty:
+            db.session.commit()
+        elif last_error:
+            # Only flash if no name was updated AND something went wrong.
+            # Keeps the page quiet on the happy path / on repeat loads.
+            flash(
+                "Could not refresh names from Microsoft Graph. "
+                "Ensure the app registration has the 'User.Read.All' "
+                f"application permission with admin consent. Details: {last_error}",
+                "error",
+            )
+
         return render_template(
             "admin_users.html",
             users=users,
