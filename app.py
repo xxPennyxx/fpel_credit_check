@@ -19,7 +19,7 @@ from flask import (
 
 from models import db, Company, FinancialRecord, Case, CreditCheck, AuditLog, User, D365Case, SyncMeta
 from auth import auth_bp, login_required, admin_required, _resolve_role_for_email
-from email_service import send_mail, lookup_display_name
+from email_service import send_mail
 from d365_sync import sync_d365_cases, get_last_sync_meta
 
 
@@ -394,41 +394,8 @@ def register_routes(app):
             User.login_count.desc(), User.last_login_at.desc(), User.email.asc()
         ).all()
 
-        # Backfill display names from Microsoft Graph for any user whose
-        # current display_name looks like the auto-generated placeholder
-        # (email local-part title-cased). On failure we flash the Graph
-        # error so misconfiguration (e.g. missing User.Read.All) is visible.
-        dirty = False
-        last_error = None
-        for u in users:
-            placeholder = (u.email.split("@")[0] or "").replace(".", " ").title()
-            looks_auto = (
-                not u.display_name
-                or u.display_name == placeholder
-                or (u.login_count or 0) == 0
-            )
-            if not looks_auto:
-                continue
-            graph_name, err = lookup_display_name(u.email)
-            if graph_name and graph_name != u.display_name:
-                u.display_name = graph_name
-                dirty = True
-            elif err:
-                last_error = err
-                app.logger.warning(
-                    "Graph name lookup failed for %s: %s", u.email, err
-                )
-        if dirty:
-            db.session.commit()
-        elif last_error:
-            # Only flash if no name was updated AND something went wrong.
-            # Keeps the page quiet on the happy path / on repeat loads.
-            flash(
-                "Could not refresh names from Microsoft Graph. "
-                "Ensure the app registration has the 'User.Read.All' "
-                f"application permission with admin consent. Details: {last_error}",
-                "error",
-            )
+        # Display names are captured from the SSO token claims at first login
+        # (see auth.callback). No Microsoft Graph lookup is performed here.
 
         return render_template(
             "admin_users.html",
@@ -527,17 +494,6 @@ if __name__ == "__main__":
     is_no_reload = os.environ.get("WERKZEUG_RUN_MAIN") is None  # reloader disabled
     if is_worker or is_no_reload:
         print()
-        print("=" * 60)
-        print("  FPEL Credit Check is running")
-        print(f"  -> Home page:        {url}/")
-        print(f"  -> Sign-in:          {url}/auth/login")
-        print(f"  -> Dashboard:        {url}/dashboard")
-        print(f"  -> D365 cases:       {url}/d365/cases")
-        print(f"  -> Admin portal:     {url}/admin/users")
-        print("  -> Press CTRL+C to stop")
-        print("=" * 60)
-        print()
-
     # Reloader picks up code changes automatically. WERKZEUG_RUN_MAIN is set
     # on the reload-spawned child process, so the banner only prints once.
     app.run(host=host, port=port, debug=True, use_reloader=True)

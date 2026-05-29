@@ -43,11 +43,11 @@
       {% set role_label = 'Admin' if u.role in ('admin', 'super_admin') else 'Viewer' %}
       <tr>
         <td>
+          {{ u.email }}
           {% if is_super %}
             <i class="fas fa-crown" style="color:#d4a017;margin-right:.35rem;"
                title="Super admin"></i>
           {% endif %}
-          {{ u.email }}
           {% if is_self %}
             <span class="badge" style="background:var(--bg-2);color:var(--muted);margin-left:.4rem;">you</span>
           {% endif %}
