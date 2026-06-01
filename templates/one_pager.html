@@ -1,24 +1,76 @@
 {% extends "base.html" %}
-{% block title %}One Pagers - FPEL Credit Check{% endblock %}
+{% block title %}One Pager - FPEL Credit Check{% endblock %}
 {% block content %}
-<h1>One Pager module</h1>
-<p class="muted">Periodic review for existing offtakers (SOP Section IV).</p>
+<div class="row-between mb-2">
+  <div>
+    <h1><i class="fas fa-clipboard-list me-1"></i> One Pager</h1>
+    <p class="muted m-0">Planned &amp; In Process credit cases awaiting RC review.</p>
+  </div>
+</div>
 
-{% if offtakers %}
-<table class="data-table">
-  <thead><tr><th>Offtaker</th><th>Industry</th><th>Rating</th><th></th></tr></thead>
-  <tbody>
-    {% for c in offtakers %}
-    <tr>
-      <td>{{ c.name }}</td>
-      <td>{{ c.industry }}</td>
-      <td>{{ c.external_rating_agency }} / {{ c.external_rating }}</td>
-      <td><a class="btn btn-sm" href="{{ url_for('one_pager_view', company_id=c.id) }}">Generate</a></td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{% if cases %}
+<div class="table-wrap" style="overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-1);">
+  <table class="data-table" style="width:100%;">
+    <thead>
+      <tr>
+        <th>Case ID</th>
+        <th>Entity Name</th>
+        <th>Responsible Person</th>
+        <th>State</th>
+        <th>Status</th>
+        <th>Internal Rating</th>
+        <th class="text-end">Report</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for c in cases %}
+      <tr>
+        <td>
+          <a href="{{ url_for('d365_case_detail', case_id=c.case_id) }}">
+            <code>{{ c.case_id }}</code>
+          </a>
+        </td>
+        <td>{{ c.entity_name or '-' }}</td>
+        <td>{{ c.responsible_person or '-' }}</td>
+        <td>{{ c.state or '-' }}</td>
+        <td>
+          {% if c.status %}
+            <span class="badge badge-{{ (c.status|lower|replace(' ', '-')) }}">{{ c.status }}</span>
+          {% else %}-{% endif %}
+        </td>
+        <td>
+          {% if c.internal_credit_rating %}
+            <span class="rating-pill">{{ c.internal_credit_rating }}</span>
+          {% else %}-{% endif %}
+        </td>
+        <td class="text-end">
+          {% if c.credit_report_filename %}
+            <a class="btn btn-sm btn-outline-primary"
+               href="{{ url_for('d365_credit_report_download', case_id=c.case_id) }}">
+              <i class="fas fa-download me-1"></i> Download
+            </a>
+          {% endif %}
+          <a class="btn btn-sm btn-primary"
+             href="{{ url_for('d365_credit_report', case_id=c.case_id) }}">
+            <i class="fas fa-file-word me-1"></i>
+            {{ 'Regenerate' if c.credit_report_filename else 'Generate Report' }}
+          </a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="muted mt-2" style="font-size:.85rem;">
+  Showing <strong>{{ cases|length }}</strong> Planned / In Process case(s).
+</p>
 {% else %}
-<p class="muted">No existing offtakers in the system yet.</p>
+<div class="card">
+  <div class="empty-state" style="text-align:center;padding:3rem 1rem;color:var(--muted);">
+    <i class="fas fa-clipboard-check" style="font-size:2.5rem;opacity:.4;"></i>
+    <h3 style="border:0;padding:0;">No Planned or In Process cases</h3>
+    <p>Cases appear here once they are raised and pending RC review.</p>
+  </div>
+</div>
 {% endif %}
 {% endblock %}

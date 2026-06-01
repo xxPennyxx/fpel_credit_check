@@ -17,9 +17,19 @@
     <a href="{{ url_for('dashboard') }}" class="btn">
       <i class="fas fa-arrow-left me-1"></i> Back to dashboard
     </a>
+    {% if perm_can_create %}
+    <a href="{{ url_for('d365_case_edit', case_id=case.case_id) }}" class="btn btn-primary">
+      <i class="fas fa-pen-to-square me-1"></i> Edit case
+    </a>
+    {% endif %}
+    {% if perm_is_rc %}
+    <a href="#rc-action" class="btn btn-primary">
+      <i class="fas fa-pen-to-square me-1"></i> Take action
+    </a>
+    {% endif %}
     <form action="{{ url_for('d365_sync_now') }}?next={{ url_for('d365_case_detail', case_id=case.case_id) }}"
           method="post" class="m-0">
-      <button type="submit" class="btn btn-primary">
+      <button type="submit" class="btn">
         <i class="fas fa-sync-alt me-1"></i> Re-sync
       </button>
     </form>
@@ -108,7 +118,97 @@
     <dt>Reply from RC to BD</dt><dd>{{ case.reply_rc_to_bd or '-' }}</dd>
     <dt>Description</dt>        <dd style="white-space:pre-wrap;">{{ case.description or '-' }}</dd>
     <dt>Memo</dt>               <dd style="white-space:pre-wrap;">{{ case.memo or '-' }}</dd>
+    <dt>Attachment</dt>
+    <dd>
+      {% if case.attachment_filename %}
+        <a href="{{ url_for('d365_case_attachment', case_id=case.case_id) }}">
+          <i class="fas fa-paperclip me-1"></i>
+          {{ case.attachment_original_name or case.attachment_filename }}
+        </a>
+      {% else %}-{% endif %}
+    </dd>
   </dl>
 </div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:0;padding:0;">
+    <i class="fas fa-file-contract me-1"></i> Credit Check Report
+  </h2>
+  <dl class="kv">
+    <dt>Internal Rating</dt>
+    <dd>
+      {% if case.internal_credit_rating %}
+        <span class="rating-pill">{{ case.internal_credit_rating }}</span>
+      {% else %}-{% endif %}
+    </dd>
+    <dt>Decision</dt><dd>{{ case.credit_decision or '-' }}</dd>
+    <dt>Score</dt>
+    <dd>{{ '%.0f / 100'|format(case.credit_score) if case.credit_score is not none else '-' }}</dd>
+    <dt>Report</dt>
+    <dd>
+      {% if case.credit_report_filename %}
+        <a href="{{ url_for('d365_credit_report_download', case_id=case.case_id) }}">
+          <i class="fas fa-file-word me-1"></i> Download Word report
+        </a>
+      {% else %}
+        <span class="muted">Not generated yet.</span>
+      {% endif %}
+    </dd>
+  </dl>
+  {% if perm_is_rc %}
+    <a href="{{ url_for('d365_credit_report', case_id=case.case_id) }}" class="btn btn-primary">
+      <i class="fas fa-cogs me-1"></i>
+      {{ 'Regenerate credit report' if case.credit_report_filename else 'Generate credit report' }}
+    </a>
+  {% endif %}
+</div>
+
+{% if perm_is_rc %}
+<div class="card" id="rc-action" style="border-color: var(--primary-blue);">
+  <h2 style="margin-top:0;border:0;padding:0;">
+    <i class="fas fa-user-gear me-1"></i> RC Action
+  </h2>
+  <p class="muted" style="margin-top:.25rem;">
+    Only RC members (and admins) can take action on a case. Update the status,
+    record the internal rating, and reply to the BD team.
+  </p>
+  <form action="{{ url_for('d365_case_action', case_id=case.case_id) }}"
+        method="post" class="form-grid" style="margin-top:.75rem;">
+    <div class="field">
+      <label>Status</label>
+      <select name="status">
+        {% for s in ["Planned", "InProcess", "Closed", "Cancelled"] %}
+          <option value="{{ s }}" {% if case.status == s %}selected{% endif %}>{{ s }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="field">
+      <label>Internal Credit Rating</label>
+      <input type="text" name="internal_credit_rating"
+             value="{{ case.internal_credit_rating or '' }}" placeholder="e.g. 4PEL AA" />
+    </div>
+    <div class="field field-wide">
+      <label>Reply from RC to BD</label>
+      <textarea name="reply_rc_to_bd" rows="3">{{ case.reply_rc_to_bd or '' }}</textarea>
+    </div>
+    <div class="field field-wide">
+      <label>Memo / Notes</label>
+      <textarea name="memo" rows="3">{{ case.memo or '' }}</textarea>
+    </div>
+    <div class="form-actions">
+      <button class="btn btn-primary" type="submit">
+        <i class="fas fa-save me-1"></i> Save action
+      </button>
+    </div>
+  </form>
+</div>
+{% else %}
+<div class="card">
+  <p class="muted" style="margin:0;">
+    <i class="fas fa-lock me-1"></i>
+    Only RC members can take action on this case. You have view-only access.
+  </p>
+</div>
+{% endif %}
 
 {% endblock %}

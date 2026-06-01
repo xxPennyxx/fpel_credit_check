@@ -49,6 +49,7 @@
     max-width: 360px;
   }
   table.d365-table tbody tr:hover { background: var(--light-blue); }
+  table.d365-table tbody tr.row-link { cursor: pointer; }
   table.d365-table tbody tr.hidden { display: none; }
   table.d365-table .truncate {
     display: inline-block; max-width: 280px;
@@ -62,6 +63,38 @@
     color: var(--muted);
   }
   .empty-state i { font-size: 2.5rem; opacity: .4; margin-bottom: .75rem; }
+
+  /* ---- Multiselect status filter ---- */
+  .ms-filter { position: relative; }
+  .ms-toggle {
+    height: 38px; min-width: 180px; text-align: left;
+    cursor: pointer; background: #fff;
+    display: inline-flex; align-items: center; justify-content: space-between;
+  }
+  .ms-toggle::after {
+    content: "\25BE"; margin-left: .5rem; opacity: .6; font-size: .8em;
+  }
+  .ms-menu {
+    position: absolute; z-index: 50; top: calc(100% + 4px); left: 0;
+    min-width: 220px; max-height: 320px; overflow-y: auto;
+    background: #fff; border: 1px solid var(--line);
+    border-radius: var(--radius); box-shadow: var(--shadow-1);
+    padding: .35rem;
+  }
+  .ms-option {
+    display: flex; align-items: center; gap: .5rem;
+    padding: 6px 8px; border-radius: 6px; cursor: pointer; font-size: 13px;
+  }
+  .ms-option:hover { background: var(--light-blue); }
+  .ms-option input { margin: 0; }
+  .ms-actions {
+    border-top: 1px solid var(--line); margin-top: .35rem;
+    padding-top: .35rem; text-align: right;
+  }
+  .ms-actions .btn-link {
+    background: none; border: 0; color: var(--primary-blue);
+    cursor: pointer; font-size: 12px; padding: 4px 6px;
+  }
 </style>
 {% endblock %}
 
@@ -95,12 +128,25 @@
 <div class="toolbar">
   <input id="dt-search" type="search" class="form-control"
          placeholder="Type to filter (case id, entity, person, anything)..." autocomplete="off">
-  <select id="dt-status" class="form-select" style="width:auto;">
-    <option value="">All statuses</option>
-    {% for s in statuses %}
-      <option value="{{ s }}">{{ s }}</option>
-    {% endfor %}
-  </select>
+  <div class="ms-filter" id="dt-status-wrap">
+    <button type="button" class="form-select ms-toggle" id="dt-status-toggle"
+            aria-haspopup="true" aria-expanded="false">
+      <span id="dt-status-label">All statuses</span>
+    </button>
+    <div class="ms-menu" id="dt-status-menu" hidden>
+      {% set default_statuses = ['planned', 'inprocess', 'in progress'] %}
+      {% for s in statuses %}
+        <label class="ms-option">
+          <input type="checkbox" value="{{ s }}"
+            {% if (s|lower) in default_statuses %}checked{% endif %}>
+          <span>{{ s }}</span>
+        </label>
+      {% endfor %}
+      <div class="ms-actions">
+        <button type="button" class="btn-link" id="dt-status-clear">Clear</button>
+      </div>
+    </div>
+  </div>
   <span class="muted" style="font-size:.85rem;">
     Showing <span id="dt-shown">{{ rows|length }}</span>
     of <strong>{{ rows|length }}</strong>
@@ -152,7 +198,9 @@
       {# Pre-compute display strings so JS sort can read text content directly #}
       {% set solar = ('%.2f' % c.solar_capacity) if c.solar_capacity is not none else '' %}
       {% set wind  = ('%.2f' % c.wind_capacity)  if c.wind_capacity  is not none else '' %}
-      <tr data-status="{{ c.status or '' }}">
+      <tr data-status="{{ c.status or '' }}"
+          class="row-link"
+          data-href="{{ url_for('d365_case_detail', case_id=c.case_id) }}">
         <td>
           <a href="{{ url_for('d365_case_detail', case_id=c.case_id) }}">
             <code>{{ c.case_id }}</code>
@@ -160,9 +208,9 @@
         </td>
         <td>
           {{ c.responsible_person or '-' }}
-          {% if c.responsible_person_personnel_number %}
+          <!-- {% if c.responsible_person_personnel_number %}
             <div class="muted" style="font-size:11px;">#{{ c.responsible_person_personnel_number }}</div>
-          {% endif %}
+          {% endif %} -->
         </td>
         <td class="num" data-sort-value="{{ c.solar_capacity if c.solar_capacity is not none else '' }}">{{ solar or '-' }}</td>
         <td>
@@ -232,16 +280,58 @@
   const tbody   = table.tBodies[0];
   const rows    = Array.from(tbody.rows);
   const search  = document.getElementById('dt-search');
-  const status  = document.getElementById('dt-status');
   const shownEl = document.getElementById('dt-shown');
+
+  // ---- Multiselect status filter ----
+  const msWrap    = document.getElementById('dt-status-wrap');
+  const msToggle  = document.getElementById('dt-status-toggle');
+  const msMenu    = document.getElementById('dt-status-menu');
+  const msLabel   = document.getElementById('dt-status-label');
+  const msClear   = document.getElementById('dt-status-clear');
+  const msBoxes   = msMenu ? Array.from(msMenu.querySelectorAll('input[type=checkbox]')) : [];
+
+  function selectedStatuses() {
+    return msBoxes.filter(function (b) { return b.checked; })
+                  .map(function (b) { return b.value; });
+  }
+
+  function updateMsLabel() {
+    const sel = selectedStatuses();
+    if (sel.length === 0)      msLabel.textContent = 'All statuses';
+    else if (sel.length === 1) msLabel.textContent = sel[0];
+    else                       msLabel.textContent = sel.length + ' selected';
+  }
+
+  function openMenu(open) {
+    msMenu.hidden = !open;
+    msToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
+  if (msToggle) {
+    msToggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      openMenu(msMenu.hidden);
+    });
+    msMenu.addEventListener('click', function (e) { e.stopPropagation(); });
+    document.addEventListener('click', function () { openMenu(false); });
+    msBoxes.forEach(function (b) {
+      b.addEventListener('change', function () { updateMsLabel(); applyFilter(); });
+    });
+    if (msClear) {
+      msClear.addEventListener('click', function () {
+        msBoxes.forEach(function (b) { b.checked = false; });
+        updateMsLabel(); applyFilter();
+      });
+    }
+  }
 
   function applyFilter() {
     const q = (search.value || '').trim().toLowerCase();
-    const s = status.value;
+    const sel = selectedStatuses();
     let shown = 0;
     rows.forEach(function (tr) {
       const matchesQ = !q || tr.textContent.toLowerCase().indexOf(q) !== -1;
-      const matchesS = !s || tr.dataset.status === s;
+      const matchesS = sel.length === 0 || sel.indexOf(tr.dataset.status) !== -1;
       const visible = matchesQ && matchesS;
       tr.classList.toggle('hidden', !visible);
       if (visible) shown++;
@@ -250,7 +340,10 @@
   }
 
   search.addEventListener('input',  applyFilter);
-  status.addEventListener('change', applyFilter);
+
+  // Apply default status selection (Planned / In Process) on load
+  updateMsLabel();
+  applyFilter();
 
   // ---------- Sort ----------
   const ths = table.tHead.rows[0].cells;
@@ -302,6 +395,20 @@
     th.addEventListener('click', function () {
       applySort(i, th.dataset.type || 'text');
     });
+  });
+
+  // ---------- Row click → open case detail ----------
+  tbody.addEventListener('click', function (e) {
+    // Don't hijack clicks on links/buttons inside the row
+    if (e.target.closest('a, button')) return;
+    const tr = e.target.closest('tr.row-link');
+    if (!tr || !tr.dataset.href) return;
+    // Ctrl/Cmd/middle-click opens in a new tab
+    if (e.ctrlKey || e.metaKey) {
+      window.open(tr.dataset.href, '_blank');
+    } else {
+      window.location.href = tr.dataset.href;
+    }
   });
 })();
 </script>

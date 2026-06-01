@@ -40,7 +40,7 @@
       {% for u in users %}
       {% set is_self = current_user and current_user.id == u.id %}
       {% set is_super = u.email == super_admin_email %}
-      {% set role_label = 'Admin' if u.role in ('admin', 'super_admin') else 'Viewer' %}
+      {% set role_label = role_labels.get(u.role, u.role|capitalize) %}
       <tr>
         <td>
           {{ u.email }}
@@ -53,7 +53,23 @@
           {% endif %}
         </td>
         <td>{{ u.display_name or '-' }}</td>
-        <td><span class="badge badge-role-{{ u.role }}">{{ role_label }}</span></td>
+        <td>
+          {% if is_super or is_self %}
+            <span class="badge badge-role-{{ u.role }}">{{ role_label }}</span>
+          {% else %}
+            <form action="{{ url_for('admin_set_role', user_id=u.id) }}"
+                  method="post" class="inline-form" style="gap:.4rem;">
+              <select name="role" class="form-select" style="width:auto;height:34px;font-size:13px;">
+                {% for r in assignable_roles %}
+                  <option value="{{ r }}" {% if u.role == r %}selected{% endif %}>
+                    {{ role_labels.get(r, r|capitalize) }}
+                  </option>
+                {% endfor %}
+              </select>
+              <button type="submit" class="btn btn-sm btn-primary">Set</button>
+            </form>
+          {% endif %}
+        </td>
         <td>
           {% if is_super or is_self %}
             <button type="button" class="btn btn-sm btn-secondary" disabled

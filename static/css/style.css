@@ -249,6 +249,8 @@ table.table tbody tr:hover { background: var(--light-blue); }
   display: inline-block; padding: 4px 10px; border-radius: 999px;
   font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
   font-weight: 700;
+  /* Default fallback so any status (incl. unmapped D365 values) stays visible */
+  background: #e2e8f0; color: #1e293b;
 }
 .badge-submitted     { background: var(--warn-soft);    color: var(--warn); }
 .badge-under-review  { background: var(--info-soft);    color: var(--info); }
@@ -257,8 +259,15 @@ table.table tbody tr:hover { background: var(--light-blue); }
 .badge-role-super_admin { background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue)); color:#fff; }
 .badge-role-admin       { background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue)); color:#fff; }
 .badge-role-viewer      { background: #94a3b8; color:#fff; }
+.badge-role-bd          { background: #fef3c7; color: #92400e; }
+.badge-role-rc          { background: #dbeafe; color: #1e40af; }
 .badge-active           { background: var(--success-soft); color: #166534; }
 .badge-inactive         { background: var(--danger-soft);  color: #991b1b; }
+/* D365 case statuses */
+.badge-closed           { background: var(--success-soft); color: #166534; }
+.badge-inprocess        { background: var(--info-soft);    color: var(--info); }
+.badge-planned          { background: var(--warn-soft);    color: var(--warn); }
+.badge-cancelled        { background: var(--danger-soft);  color: #991b1b; }
 
 .rating-pill {
   background: linear-gradient(135deg, var(--primary-orange) 0%, var(--accent-orange) 100%);

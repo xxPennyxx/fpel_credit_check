@@ -236,6 +236,15 @@ class D365Case(db.Model):
     description = db.Column(db.Text)                          # Description
     memo = db.Column(db.Text)                                 # Memo
 
+    # Attachment (financial statement / electricity bill) uploaded by BD
+    attachment_filename = db.Column(db.String(255))        # stored filename on disk
+    attachment_original_name = db.Column(db.String(255))   # original upload name
+
+    # Generated RC credit-check report (Word doc) + computed outcome
+    credit_report_filename = db.Column(db.String(255))     # stored .docx filename
+    credit_decision = db.Column(db.String(40))             # Approved / Judgementally Approved / Not Approved
+    credit_score = db.Column(db.Float)                     # total 4PEL score (0-100)
+
     # Sync metadata
     last_synced_at = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
 

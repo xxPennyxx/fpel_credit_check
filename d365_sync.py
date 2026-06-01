@@ -235,6 +235,50 @@ def fetch_d365_employees_map() -> tuple[bool, dict[str, str] | str]:
         return False, f"D365 employees fetch error: {exc}"
 
 
+def resolve_employee_id(name: str | None = None, email: str | None = None) -> str | None:
+    """Best-effort lookup of an Employee's PersonnelNumber (Employee ID) from
+    the D365 Employees entity, matching on Name first and then on the primary
+    email field if configured.
+
+    Returns the PersonnelNumber string, or None if D365 is unreachable / the
+    employee can't be matched. Callers must treat None as "not resolved".
+    """
+    base = _d365_base()
+    if not base:
+        return None
+    try:
+        token = _get_d365_token()
+    except Exception:
+        return None
+
+    # Optional email field name (varies by tenant); only used if configured.
+    email_field = _cfg("D365_EMPLOYEE_EMAIL_FIELD", "").strip()
+
+    # Build candidate $filter clauses (tried in order, most reliable first).
+    filters = []
+    if name:
+        safe = name.replace("'", "''")
+        filters.append(f"Name eq '{safe}'")
+    if email and email_field:
+        safe = email.replace("'", "''")
+        filters.append(f"{email_field} eq '{safe}'")
+
+    select = ",".join(EMPLOYEE_FIELDS)
+    for flt in filters:
+        qs = urllib.parse.urlencode({"$select": select, "$filter": flt})
+        url = f"{base}/data/{_employees_entity()}?{qs}&cross-company=true"
+        try:
+            data = _odata_get(url, token)
+            rows = data.get("value") or []
+            if rows:
+                pn = (rows[0].get("PersonnelNumber") or "").strip()
+                if pn:
+                    return pn
+        except Exception:
+            continue
+    return None
+
+
 # ---------------------------------------------------------------------------
 #  Helpers - coerce D365 values into model types
 # ---------------------------------------------------------------------------

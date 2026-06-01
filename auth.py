@@ -83,15 +83,20 @@ def _allowed_domain() -> str | None:
 def _resolve_role_for_email(email: str, existing_role: str | None) -> str:
     """
     Hard rules:
-      - super admin email is ALWAYS super_admin
-      - default admin emails are admin UNLESS they've already been promoted to super_admin
-      - otherwise keep whatever role they already had, defaulting to viewer
+      - super admin email is ALWAYS super_admin (cannot be locked out)
+      - default admin emails are bootstrapped to admin ONLY on first creation
+        (existing_role is None). After that, whatever role an admin has assigned
+        them via the Admin portal is respected — so a default admin can be
+        re-assigned to BD / RC / Viewer and it will stick.
+      - everyone else keeps their existing role, defaulting to viewer
     """
     email_l = (email or "").lower()
     if email_l == _super_admin_email():
         return "super_admin"
     if email_l in _default_admin_emails():
-        return existing_role if existing_role == "super_admin" else "admin"
+        # Only force admin when the account is brand new; otherwise preserve
+        # the role currently stored (which may have been changed in the portal).
+        return existing_role or "admin"
     return existing_role or "viewer"
 
 
@@ -117,6 +122,65 @@ def admin_required(view):
             session["next_url"] = request.url
             return redirect(url_for("auth.login"))
         if u.get("role") not in ("admin", "super_admin"):
+            return render_template("unauthorized.html"), 403
+        return view(*args, **kwargs)
+    return wrapper
+
+
+# ---------------------------------------------------------------------------
+# Role / permission model
+# ---------------------------------------------------------------------------
+# Assignable roles (super_admin is a hard-coded variant of admin).
+#   bd     -> can create new cases
+#   rc     -> can work on / take action on a case and view the dashboard
+#   viewer -> can view everything (read-only)
+#   admin  -> can grant access and edit everything
+ASSIGNABLE_ROLES = ("bd", "rc", "viewer", "admin")
+ROLE_LABELS = {
+    "super_admin": "Admin",
+    "admin": "Admin",
+    "rc": "RC",
+    "bd": "BD",
+    "viewer": "Viewer",
+}
+
+
+def is_admin_role(role) -> bool:
+    """Admin / super_admin: full access (grant access + edit all)."""
+    return role in ("admin", "super_admin")
+
+
+def can_create_case(role) -> bool:
+    """BD (and Admin) can raise a new case."""
+    return role in ("bd", "admin", "super_admin")
+
+
+def is_rc_role(role) -> bool:
+    """RC (and Admin) can work on / take action on a case."""
+    return role in ("rc", "admin", "super_admin")
+
+
+def bd_required(view):
+    @wraps(view)
+    def wrapper(*args, **kwargs):
+        u = session.get("user")
+        if not u:
+            session["next_url"] = request.url
+            return redirect(url_for("auth.login"))
+        if not can_create_case(u.get("role")):
+            return render_template("unauthorized.html"), 403
+        return view(*args, **kwargs)
+    return wrapper
+
+
+def rc_required(view):
+    @wraps(view)
+    def wrapper(*args, **kwargs):
+        u = session.get("user")
+        if not u:
+            session["next_url"] = request.url
+            return redirect(url_for("auth.login"))
+        if not is_rc_role(u.get("role")):
             return render_template("unauthorized.html"), 403
         return view(*args, **kwargs)
     return wrapper
