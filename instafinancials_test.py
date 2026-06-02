@@ -30,8 +30,9 @@ ENDPOINT    = "/{product}/V1/json/CompanyCIN/{cin}/all"
 
 # Sample company for the sandbox test.
 # Replace with the sample CIN your sandbox provides if different.
-COMPANY_NAME = "Hyundai Motor India Ltd"
-SAMPLE_CIN   = "U34102TN1996PLC036141"   # verify against sandbox sample data
+COMPANY_NAME = "MARUTI OXYGEN PRIVATE LIMITED"
+SAMPLE_CIN   = "U24111HR2000PTC034588"   
+#testing: U40108TG2010PTC070806
 # ---------------------------------------------------------------------------------
 
 
