@@ -118,3 +118,13 @@ reviews and the scoring/qualitative work is unchanged.
 
 > Always verify auto-fetched figures against the source before the report goes
 > to BD — InstaFinancials data can lag MCA filings.
+
+
+1. Register: Create an account on the InstaFinancials platform.
+2. Login: Access api.instafinancials.com.
+3. Generate Key: Click on “Generate API Key.”
+4. Activation: Share your registered email ID and the products you wish to test with us at sales@instafinancials.com for API key activation.
+5. Test: Access the Sandbox environment to test the APIs.
+6. Payment: Purchase API credits through advance payment.
+7. Production: Receive your Production API Key.
+8. Integration: Start integrating the APIs into your application using the Production Key.
