@@ -1,0 +1,3171 @@
+{
+  "InstaSummary": {
+    "CompanyMasterSummary": {
+      "LastUpdatedDateTime": "23-03-2022",
+      "CompanyCIN": "L32309KA1954GOI000787",
+      "CompanyName": "Bharat electronics limited",
+      "CompanyPan": "null",
+      "CompanyDateOfInc": "21-04-1954",
+      "CompanyRocCity": "RoC-Bangalore",
+      "CompanyRegNumber": "787",
+      "CompanyCategory": "Company limited by shares",
+      "CompanySubCategory": "Union Government Company",
+      "CompanyClass": "Public Company",
+      "CompanyAuthCapital": "2500000000",
+      "CompanyPaidUpCapital": "2436592943",
+      "CompanyFullAddress": "OUTER RING ROAD; NAGAVARA; BANGALORE; BANGALORE; Karnataka; 560045; India",
+      "CompanyRegState": "Karnataka",
+      "CompanyRegCity": "BANGALORE",
+      "CompanyRegPinCode": "560045",
+      "CompanyBookAddress": "null",
+      "CompanyMcaStatus": "Active",
+      "CompanyLastAgmDate": "28-09-2021",
+      "CompanyLastBsDate": "31-03-2021",
+      "CompanyEmail": "secretary@bel.co.in",
+      "CompanyWebSite": "null",
+      "CompanyMcaIndustry": "Manufacture of television and radio receivers; sound or video recording or reproducing apparatus; and associated goods",
+      "CompanyMcaIndustryDivision": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+      "CompanyMcaIndustryGroup": "Manufacture of television and radio receivers; sound or video recording or reproducing apparatus; and associated goods"
+    },
+    "DirectorSignatoryMasterSummary": {
+      "LastUpdatedDateTime": "23-03-2022",
+      "DirectorCurrentMasterSummary": {
+        "Director": [
+          {
+            "DirectorName": "MANSUKHBHAI SHAMJIBHAI KHACHARIYA",
+            "DirectorDin": "01423119",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "28-12-2021",
+            "DirectorDateOfBirth": "01-02-1960",
+            "DirectorPANNumber": "ALVPK4137E",
+            "DirectorContactNo": "9909962711",
+            "DirectorEmail": "mskhachariya77@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Desai Wadi; Near Shamnath Mandir; Jetpur; Rajkot Gujarat 360370 India",
+            "DirectorPresentCity": "Rajkot",
+            "DirectorPresentState": "GJ",
+            "DirectorPermanentAddress": "Desai Wadi; Near Shamnath Mandir; Rajkot Gujarat 360370 India",
+            "DirectorPermanentCity": "Rajkot",
+            "DirectorPermanentState": "GJ",
+            "DirectorCapitalization": "2457602943",
+            "DirectorAvgCapitalization": "819200981",
+            "DirectorCurrentDirectorshipCount": "3",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "SUNIL KUMAR KOHLI",
+            "DirectorDin": "05321549",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "18-07-2019",
+            "DirectorDateOfBirth": "17-08-1958",
+            "DirectorPANNumber": "AAAPK1892N",
+            "DirectorContactNo": "9953128358",
+            "DirectorEmail": "kohlisk@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Flat No. 3636; Sector-D; Pocket-3 Vasant Kunj; Vasant Vihar; South West De lhi Delhi Delhi 110070 India",
+            "DirectorPresentCity": "Delhi",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "Flat No. 3636; Sector-D; Pocket-3 Delhi Delhi 110070 India",
+            "DirectorPermanentCity": "Delhi",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "3459755243",
+            "DirectorAvgCapitalization": "1729877621",
+            "DirectorCurrentDirectorshipCount": "2",
+            "DirectorPastDirectorshipCount": "2"
+          },
+          {
+            "DirectorName": "PRAFULLA KUMAR CHOUDHURY",
+            "DirectorDin": "00871919",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "28-12-2021",
+            "DirectorDateOfBirth": "23-07-1957",
+            "DirectorPANNumber": "AAJPC7881Q",
+            "DirectorContactNo": "9938499447",
+            "DirectorEmail": "prafulla2307@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Flat No.2103; Tower-II DN OXY Park; Cosmopolis Road; Dumuduma Bhubaneswar Orissa 751019 India",
+            "DirectorPresentCity": "Bhubaneswar",
+            "DirectorPresentState": "OR",
+            "DirectorPermanentAddress": "At-Sankobahal Sambalpur Orissa 768221 India",
+            "DirectorPermanentCity": "Sambalpur",
+            "DirectorPermanentState": "OR",
+            "DirectorCapitalization": "2437784043",
+            "DirectorAvgCapitalization": "1218892021",
+            "DirectorCurrentDirectorshipCount": "2",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "VENKATA PARTHASARATHI PODALA",
+            "DirectorDin": "06400408",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "28-12-2021",
+            "DirectorDateOfBirth": "30-08-1970",
+            "DirectorPANNumber": "AKEPP2812K",
+            "DirectorContactNo": "9399950105",
+            "DirectorEmail": "partha4545@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "15-31; RTP-1-D18-F/11/01; 10-1101 RTP MALAYSIAN; KPHB HYDERABAD Telangana 500072 India",
+            "DirectorPresentCity": "HYDERABAD",
+            "DirectorPresentState": "TG",
+            "DirectorPermanentAddress": "15-31; RTP-1-D18-F/11/01; 10-1101 HYDERABAD Telangana 500072 India",
+            "DirectorPermanentCity": "HYDERABAD",
+            "DirectorPermanentState": "TG",
+            "DirectorCapitalization": "2511198163",
+            "DirectorAvgCapitalization": "502239632",
+            "DirectorCurrentDirectorshipCount": "5",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "ANANDI RAMALINGAM",
+            "DirectorDin": "07616518",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "16-09-2016",
+            "DirectorDateOfBirth": "17-08-1962",
+            "DirectorPANNumber": "ACYPR4590E",
+            "DirectorContactNo": "9902100666",
+            "DirectorEmail": "anandiramalingam1962@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "FLAT 2A; SAHAJANYA APARTMENTS; PLOT NO.309 & 310 T V; 6TH BLOCK; BEL LAYOUT; VIDYARANYAPURA BENGALURU Karnataka 560097 India",
+            "DirectorPresentCity": "BENGALURU",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "FLAT 2A; SAHAJANYA APARTMENTS; PLOT NO.309 & 310 T V; 6TH BENGALURU Karnataka 560097 India",
+            "DirectorPermanentCity": "BENGALURU",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "3281662643",
+            "DirectorAvgCapitalization": "1640831321",
+            "DirectorCurrentDirectorshipCount": "2",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "MANJULA JILLELLAMUDI",
+            "DirectorDin": "07684528",
+            "DirectorDesignation": "Nominee Director",
+            "DirectorDateOfAppnt": "23-04-2018",
+            "DirectorDateOfBirth": "26-04-1962",
+            "DirectorPANNumber": "ACKPJ0451G",
+            "DirectorContactNo": "9902477322",
+            "DirectorEmail": "dgecs@hqr.drdo.in",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "G-2 DG(ECS) HOUSE DRDO TOWNSHIP PH-II KAGGADASAPURA; CV RAMAN NAGAR BENGALURU Karnataka 560093 India",
+            "DirectorPresentCity": "BENGALURU",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "FLAT NO. -3 SHIKHARA ENCLAVE; HYDERABAD Telangana 500079 India",
+            "DirectorPermanentCity": "HYDERABAD",
+            "DirectorPermanentState": "TG",
+            "DirectorCapitalization": "3163284943",
+            "DirectorAvgCapitalization": "1581642471",
+            "DirectorCurrentDirectorshipCount": "2",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "VINAY KUMAR KATYAL",
+            "DirectorDin": "08281078",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "27-11-2018",
+            "DirectorDateOfBirth": "26-07-1963",
+            "DirectorPANNumber": "AEGPK1812A",
+            "DirectorContactNo": "9535124487",
+            "DirectorEmail": "katyalvk@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "D-20; BEL Officers Colony Jalahalli Post Bengaluru Karnataka 560013 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "D-20; BEL Officers Colony Bengaluru Karnataka 560013 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "3112746643",
+            "DirectorAvgCapitalization": "1037582214",
+            "DirectorCurrentDirectorshipCount": "3",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "DINESH KUMAR BATRA",
+            "DirectorDin": "08773363",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "01-08-2020",
+            "DirectorDateOfBirth": "11-10-1962",
+            "DirectorPANNumber": "ACSPB7936L",
+            "DirectorContactNo": "9871294565",
+            "DirectorEmail": "dineshbatra11@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "No.104; Anugraha; 3rd Block 4th Cross; CMR Road; HRBR Layout Bengaluru Karnataka 560043 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "No.104; Anugraha; 3rd Block Bengaluru Karnataka 560043 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "3857816343",
+            "DirectorAvgCapitalization": "1285938781",
+            "DirectorCurrentDirectorshipCount": "3",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "RAJASEKHAR VENKATA MATUKUMALLI",
+            "DirectorDin": "08850171",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "01-09-2020",
+            "DirectorDateOfBirth": "19-08-1962",
+            "DirectorPANNumber": "ACDPM2148J",
+            "DirectorContactNo": "9440769296",
+            "DirectorEmail": "mvrsbel@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Flat No. 305; Durga Nivas Lakshipura Main Road Near Sambram College; Vidyaranyapura; Ba ngalore No Bengaluru Karnataka 560097 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "Flat No. 305; Durga Nivas Lakshipura Main Road Bengaluru Karnataka 560097 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "3957816343",
+            "DirectorAvgCapitalization": "989454085",
+            "DirectorCurrentDirectorshipCount": "4",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "ANURAG BAJPAI",
+            "DirectorDin": "08948155",
+            "DirectorDesignation": "Nominee Director",
+            "DirectorDateOfAppnt": "29-10-2020",
+            "DirectorDateOfBirth": "13-07-1970",
+            "DirectorPANNumber": "AEMPB7121B",
+            "DirectorContactNo": "9899311502",
+            "DirectorEmail": "anu.baj137@nic.in",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "D-1/77; D-I Flats Bharti Nagar; Maharshi Raman Marg New Delhi Delhi 110001 India",
+            "DirectorPresentCity": "New Delhi",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "D-1/77; D-I Flats New Delhi Delhi 110001 India",
+            "DirectorPermanentCity": "New Delhi",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "4310092943",
+            "DirectorAvgCapitalization": "1436697647",
+            "DirectorCurrentDirectorshipCount": "3",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "SHIV NATH YADAV",
+            "DirectorDin": "09450917",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "28-12-2021",
+            "DirectorDateOfBirth": "11-07-1957",
+            "DirectorPANNumber": "AATPY6015A",
+            "DirectorContactNo": "9415204086",
+            "DirectorEmail": "snyadav630@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "S 8/108; C-1 D.I.G Colony; Vishwanath Kunj M. A. Road Varanasi Uttar Pradesh 221002 India",
+            "DirectorPresentCity": "Varanasi",
+            "DirectorPresentState": "UP",
+            "DirectorPermanentAddress": "S 8/108; C-1 D.I.G Colony; Vishwanath Kunj Varanasi Uttar Pradesh 221002 India",
+            "DirectorPermanentCity": "Varanasi",
+            "DirectorPermanentState": "UP",
+            "DirectorCapitalization": "2436592943",
+            "DirectorAvgCapitalization": "2436592943",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "NARAYANAPILLAI SANTHOSHKUMAR",
+            "DirectorDin": "09451052",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "28-12-2021",
+            "DirectorDateOfBirth": "03-07-1963",
+            "DirectorPANNumber": "AIKPS7613K",
+            "DirectorContactNo": "9496130548",
+            "DirectorEmail": "sknnss@yahoo.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "11 445 Sarovaram; Surya Nagar; Akathethara Akathethara; Palakkad Kerala 678008 India",
+            "DirectorPresentCity": "Palakkad",
+            "DirectorPresentState": "KL",
+            "DirectorPermanentAddress": "11 445 Sarovaram; Surya Nagar; Akathethara Palakkad Kerala 678008 India",
+            "DirectorPermanentCity": "Palakkad",
+            "DirectorPermanentState": "KL",
+            "DirectorCapitalization": "2436592943",
+            "DirectorAvgCapitalization": "2436592943",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "GOKULAN BANGAKANDY",
+            "DirectorDin": "09473378",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "20-01-2022",
+            "DirectorDateOfBirth": "23-05-1962",
+            "DirectorPANNumber": "AQUPB2431N",
+            "DirectorContactNo": "8086272061",
+            "DirectorEmail": "gokulanb@yahoo.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Thayyullathil House; Namath Road; Paloor; VTC: koyyottutheru PO: Naiuthara; Sub. District: Mahe Pundicherry Pondicherry 673310 India",
+            "DirectorPresentCity": "Pundicherry",
+            "DirectorPresentState": "PY",
+            "DirectorPermanentAddress": "Thayyullathil House; Namath Road; Paloor; VTC: koyyottutheru Pundicherry Pondicherry 673310 India",
+            "DirectorPermanentCity": "Pundicherry",
+            "DirectorPermanentState": "PY",
+            "DirectorCapitalization": "2436592943",
+            "DirectorAvgCapitalization": "2436592943",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "0"
+          },
+          {
+            "DirectorName": "SHYAMA KUMARI",
+            "DirectorDin": "09495164",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "07-02-2022",
+            "DirectorDateOfBirth": "15-10-1966",
+            "DirectorPANNumber": "AMZPK2946E",
+            "DirectorContactNo": "7004840942",
+            "DirectorEmail": "shyamasingh1510@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "South Church Road; Gali N0 1 Near Kochar Petrol Pump; Gaya Bihar 823001 India",
+            "DirectorPresentCity": "Gaya",
+            "DirectorPresentState": "BR",
+            "DirectorPermanentAddress": "South Church Road; Gali N0 1 Gaya Bihar 823001 India",
+            "DirectorPermanentCity": "Gaya",
+            "DirectorPermanentState": "BR",
+            "DirectorCapitalization": "2436592943",
+            "DirectorAvgCapitalization": "2436592943",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "0"
+          }
+        ]
+      },
+      "DirectorPastMasterSummary": {
+        "Director": [
+          {
+            "DirectorName": "BHASKAR RAMAMURTHI",
+            "DirectorDin": "01914155",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "02-12-2015",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "17-04-1959",
+            "DirectorPANNumber": "AAAPB4527F",
+            "DirectorContactNo": "9444008001",
+            "DirectorEmail": "bhaskar@iitm.ac.in",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "DIRECTORS BUNGALOW I.I.T. MADRAS CAMPUS CHENNAI Tamil Nadu 600036 India",
+            "DirectorPresentCity": "CHENNAI",
+            "DirectorPresentState": "TN",
+            "DirectorPermanentAddress": "DIRECTORS BUNGALOW CHENNAI Tamil Nadu 600036 India",
+            "DirectorPermanentCity": "CHENNAI",
+            "DirectorPermanentState": "TN",
+            "DirectorCapitalization": "52937800000",
+            "DirectorAvgCapitalization": "10587560000",
+            "DirectorCurrentDirectorshipCount": "5",
+            "DirectorPastDirectorshipCount": "5"
+          },
+          {
+            "DirectorName": "GOVERDHAN MEHTA",
+            "DirectorDin": "00350615",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "23-05-2006",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "25-06-1943",
+            "DirectorPANNumber": "AEWPM3097D",
+            "DirectorContactNo": "8008393737",
+            "DirectorEmail": "gmehta43@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "A - 45; South Campus; University of Hyderabad; Gachibowli; Hyderabad Telangana 500046 India",
+            "DirectorPresentCity": "Hyderabad",
+            "DirectorPresentState": "TG",
+            "DirectorPermanentAddress": "A - 45; South Campus; University of Hyderabad; Hyderabad Telangana 500046 India",
+            "DirectorPermanentCity": "Hyderabad",
+            "DirectorPermanentState": "TG",
+            "DirectorCapitalization": "100000",
+            "DirectorAvgCapitalization": "50000",
+            "DirectorCurrentDirectorshipCount": "2",
+            "DirectorPastDirectorshipCount": "4"
+          },
+          {
+            "DirectorName": "ASHOK JHUNJHUNWALA",
+            "DirectorDin": "00417944",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "23-05-2006",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "22-06-1953",
+            "DirectorPANNumber": "AAAPJ2661E",
+            "DirectorContactNo": "+919840016781",
+            "DirectorEmail": "ashok@tenet.res.in",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "C2-2-5;THIRD LOOP ROAD; IIT CAMPUS; IIT MADRAS CHENNAI Tamil Nadu 600036 India",
+            "DirectorPresentCity": "CHENNAI",
+            "DirectorPresentState": "TN",
+            "DirectorPermanentAddress": "C2-2-5;THIRD LOOP ROAD; CHENNAI Tamil Nadu 600036 India",
+            "DirectorPermanentCity": "CHENNAI",
+            "DirectorPermanentState": "TN",
+            "DirectorCapitalization": "1025850340",
+            "DirectorAvgCapitalization": "256462585",
+            "DirectorCurrentDirectorshipCount": "4",
+            "DirectorPastDirectorshipCount": "18"
+          },
+          {
+            "DirectorName": "SHANMUKH MUCHINAMANE LINGAPPA",
+            "DirectorDin": "00058949",
+            "DirectorDesignation": "Whole-time director",
+            "DirectorDateOfAppnt": "18-08-2004",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "04-10-1956",
+            "DirectorPANNumber": "AMPPS9024B",
+            "DirectorContactNo": "9880142143",
+            "DirectorEmail": "shanmukhml4@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "FLAT NO.501-1B; AKME HARMONY APTS; BENGALURU Karnataka 560103 India",
+            "DirectorPresentCity": "BENGALURU",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "FLAT NO.501-1B; BENGALURU Karnataka 560103 India",
+            "DirectorPermanentCity": "BENGALURU",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "100000",
+            "DirectorAvgCapitalization": "100000",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "2"
+          },
+          {
+            "DirectorName": "SIDDHARTHA MAHAVIR ACHARYA",
+            "DirectorDin": "00545141",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "26-03-2013",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "19-05-1949",
+            "DirectorPANNumber": "AEDPA2606K",
+            "DirectorContactNo": "9900719258",
+            "DirectorEmail": "virusm@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "No.256;2nd Main Road; HIG Dollar Colony; R M V 2nd Stage; Bangalore-560094 BANGALORE Karnataka 560094 India",
+            "DirectorPresentCity": "BANGALORE",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "No.256;2nd Main Road; HIG Dollar Colony; BANGALORE Karnataka 560094 India",
+            "DirectorPermanentCity": "BANGALORE",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "290407240",
+            "DirectorAvgCapitalization": "290407240",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "3"
+          },
+          {
+            "DirectorName": "JARUGUMILLI RAMA KRISHNA RAO",
+            "DirectorDin": "03288804",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "03-11-2014",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "01-03-1959",
+            "DirectorPANNumber": "ACJPJ9272C",
+            "DirectorContactNo": "9540002255",
+            "DirectorEmail": "jrkraoias@yahoo.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "C-10; ROLLING HILLS GATED COMMUNITY; GACHIBOWLI HYDERABAD Telangana 500032 India",
+            "DirectorPresentCity": "HYDERABAD",
+            "DirectorPresentState": "TG",
+            "DirectorPermanentAddress": "C-10; ROLLING HILLS HYDERABAD Telangana 500032 India",
+            "DirectorPermanentCity": "HYDERABAD",
+            "DirectorPermanentState": "TG",
+            "DirectorCapitalization": "29411500",
+            "DirectorAvgCapitalization": "29411500",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "3"
+          },
+          {
+            "DirectorName": "SUNIL KUMAR SHARMA",
+            "DirectorDin": "03614952",
+            "DirectorDesignation": "Managing Director",
+            "DirectorDateOfAppnt": "01-09-2011",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "22-09-1956",
+            "DirectorPANNumber": "AQIPS6986M",
+            "DirectorContactNo": "9845404951",
+            "DirectorEmail": "sksharma1215@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "33; D-Block; CQAL Layout Sahakar Nagar Bangalore Karnataka 560092 India",
+            "DirectorPresentCity": "Bangalore",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "33; D-Block; Bangalore Karnataka 560092 India",
+            "DirectorPermanentCity": "Bangalore",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "718788030",
+            "DirectorAvgCapitalization": "143757606",
+            "DirectorCurrentDirectorshipCount": "5",
+            "DirectorPastDirectorshipCount": "5"
+          },
+          {
+            "DirectorName": "KRISHNAN ANANDA CHANGALI",
+            "DirectorDin": "05126607",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "01-05-2014",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "20-10-1955",
+            "DirectorPANNumber": "ACGPC8870Q",
+            "DirectorContactNo": "9618577111",
+            "DirectorEmail": "cakrish55@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "SANGAM OFFICERS QUARTERS DSSC WELLINGTON NILGIRIS Tamil Nadu 643231 India",
+            "DirectorPresentCity": "NILGIRIS",
+            "DirectorPresentState": "TN",
+            "DirectorPermanentAddress": "SANGAM OFFICERS QUARTERS NILGIRIS Tamil Nadu 643231 India",
+            "DirectorPermanentCity": "NILGIRIS",
+            "DirectorPermanentState": "TN",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "AMOL NEWASKAR LAXMAN",
+            "DirectorDin": "05290353",
+            "DirectorDesignation": "Whole-time director",
+            "DirectorDateOfAppnt": "24-05-2012",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "02-04-1956",
+            "DirectorPANNumber": "ABAPN4679B",
+            "DirectorContactNo": "9945117340",
+            "DirectorEmail": "amolnew06@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "# A- 404; Shriram Shreyas Apartment; Telecom Colony Kodigehalli; Bengaluru North Bengaluru Karnataka 560097 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "# A- 404; Shriram Shreyas Apartment; Telecom Colony Bengaluru Karnataka 560097 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "AJIT TAVANAPPA KALGHATGI",
+            "DirectorDin": "05300252",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "01-09-2012",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "03-05-1958",
+            "DirectorPANNumber": "AARPK1227E",
+            "DirectorContactNo": "+918023452025",
+            "DirectorEmail": "ajitkalghatgi58@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "No.7054; Glenfield; Prestige Wellington Park 1 and 2 IAF Main Road; Gangamma Circle; Jalahalli Bengaluru Karnataka 560013 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "No.7054; Glenfield; Prestige Wellington Park Bengaluru Karnataka 560013 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "74505000",
+            "DirectorAvgCapitalization": "37252500",
+            "DirectorCurrentDirectorshipCount": "2",
+            "DirectorPastDirectorshipCount": "3"
+          },
+          {
+            "DirectorName": "VIKRAM SRIVASTAVA",
+            "DirectorDin": "06541689",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "26-03-2013",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "18-03-1952",
+            "DirectorPANNumber": "AAKPS1979A",
+            "DirectorContactNo": "9810642323",
+            "DirectorEmail": "vikramsrivastava1973@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "E 202; 2nd Floor; Greater Kailash Part 2; Greater Kailash New Delhi Delhi 110048 India",
+            "DirectorPresentCity": "New Delhi",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "E 202; 2nd Floor; Greater Kailash Part 2; New Delhi Delhi 110048 India",
+            "DirectorPermanentCity": "New Delhi",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "VINOD KUMAR MEHTA",
+            "DirectorDin": "06572646",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "26-03-2013",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "13-01-1952",
+            "DirectorPANNumber": "ABJPM1538M",
+            "DirectorContactNo": "7589369604",
+            "DirectorEmail": "vskjm3@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Flat No. 204; Block No. E-15; GH-79 (AWHO) Sandeep Vihar; Sector-20 Panchkula Haryana 134116 India",
+            "DirectorPresentCity": "Panchkula",
+            "DirectorPresentState": "HR",
+            "DirectorPermanentAddress": "Flat No. 204; Block No. E-15; GH-79 (AWHO) Panchkula Haryana 134116 India",
+            "DirectorPermanentCity": "Panchkula",
+            "DirectorPermanentState": "HR",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "PREM CHAND JAIN",
+            "DirectorDin": "06664784",
+            "DirectorDesignation": "Whole-time director",
+            "DirectorDateOfAppnt": "01-09-2013",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "17-07-1956",
+            "DirectorPANNumber": "AADPJ3766F",
+            "DirectorContactNo": "9945588121",
+            "DirectorEmail": "prem.jain@relianceada.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Flat No 2101 Nishat CGHS LTD Sector 19 B Dwarka Plot No 5 Dwarka Sec 6 South West Delhi Delhi 110075 India",
+            "DirectorPresentCity": "South West Delhi",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "Flat No 2101 Nishat CGHS LTD South West Delhi Delhi 110075 India",
+            "DirectorPermanentCity": "South West Delhi",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "4"
+          },
+          {
+            "DirectorName": "PRABHAT RANJAN ACHARYA",
+            "DirectorDin": "06683267",
+            "DirectorDesignation": "Whole-time director",
+            "DirectorDateOfAppnt": "02-09-2013",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "11-07-1958",
+            "DirectorPANNumber": "AAEPA5259P",
+            "DirectorContactNo": "9810400231",
+            "DirectorEmail": "pracharya@bel.co.in",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Flat No. 003; Narmada; Block 4; Pocket D-6; Vasant Kunj; New Delhi Delhi 110070 India",
+            "DirectorPresentCity": "New Delhi",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "Flat No. 003; Narmada; Block 4; New Delhi Delhi 110070 India",
+            "DirectorPermanentCity": "New Delhi",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "6"
+          },
+          {
+            "DirectorName": "MANMOHAN HANDA",
+            "DirectorDin": "06942720",
+            "DirectorDesignation": "Whole-time director",
+            "DirectorDateOfAppnt": "31-07-2014",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "30-04-1956",
+            "DirectorPANNumber": "AALPH4184R",
+            "DirectorContactNo": "9611099112",
+            "DirectorEmail": "mannmohan09@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "C/O B304; BEL WHITE SQUARE APARTMENTS; VIDYARANYAPURA MAIN ROAD; VIDYARANYAPURA; BANGALORE NORTH; BENGALURU Karnataka 560097 India",
+            "DirectorPresentCity": "BENGALURU",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "C/O B304; BEL WHITE SQUARE APARTMENTS; VIDYARANYAPURA MAIN BENGALURU Karnataka 560097 India",
+            "DirectorPermanentCity": "BENGALURU",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "390000610",
+            "DirectorAvgCapitalization": "390000610",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "2"
+          },
+          {
+            "DirectorName": "MADRAS SESHAMANI RAMACHANDRAN",
+            "DirectorDin": "00943629",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "23-11-2009",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "25-02-1945",
+            "DirectorPANNumber": "AGJPM9097J",
+            "DirectorContactNo": "9810096145",
+            "DirectorEmail": "ramchandms@yahoo.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Flat No.2; 25; Maya Apts.; 1st Cresent Park Road Near St. Patrick School; Gandhi Nagar; P .O. Adyar Chennai Tamil Nadu 600020 India",
+            "DirectorPresentCity": "Chennai",
+            "DirectorPresentState": "TN",
+            "DirectorPermanentAddress": "C-23; 2ND FLOOR; GREEN PARK MAIN; NEW DELHI Delhi 110016 India",
+            "DirectorPermanentCity": "NEW DELHI",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "15730236515",
+            "DirectorAvgCapitalization": "5243412171",
+            "DirectorCurrentDirectorshipCount": "3",
+            "DirectorPastDirectorshipCount": "8"
+          },
+          {
+            "DirectorName": "NARAYANASWAMY BALAKRISHNAN",
+            "DirectorDin": "00181842",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "23-05-2006",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "01-06-1950",
+            "DirectorPANNumber": "AAKPB8687Q",
+            "DirectorContactNo": "9845187936",
+            "DirectorEmail": "balki.iisc@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Meenakshi; No. 428; 5th Cross 1st Main; JRD Tata Nagar Bangalore Karnataka 560092 India",
+            "DirectorPresentCity": "Bangalore",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "Meenakshi; No. 428; 5th Cross Bangalore Karnataka 560092 India",
+            "DirectorPermanentCity": "Bangalore",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "34183698560",
+            "DirectorAvgCapitalization": "8545924640",
+            "DirectorCurrentDirectorshipCount": "4",
+            "DirectorPastDirectorshipCount": "6"
+          },
+          {
+            "DirectorName": "RAGHUNATH SHEVGAONKAR KASHINATH",
+            "DirectorDin": "01500448",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "02-12-2015",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "11-05-1954",
+            "DirectorPANNumber": "AAEPS6432J",
+            "DirectorContactNo": "9818001702",
+            "DirectorEmail": "rkshevgaonkar@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "B-301/302 Lake Homes Phase II Chandiwali; Powai Mumbai Maharashtra 400076 India",
+            "DirectorPresentCity": "Mumbai",
+            "DirectorPresentState": "MH",
+            "DirectorPermanentAddress": "B-301/302 Lake Homes Phase II Mumbai Maharashtra 400076 India",
+            "DirectorPermanentCity": "Mumbai",
+            "DirectorPermanentState": "MH",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "3"
+          },
+          {
+            "DirectorName": "VENKATRAMA BAKTHAVATSALAM",
+            "DirectorDin": "00485957",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "23-05-2006",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "07-07-1943",
+            "DirectorPANNumber": "AADPB7461K",
+            "DirectorContactNo": "9840888165",
+            "DirectorEmail": "vbakthavatsalam@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Plot No. 118; Pocket - 1 Second Floor; Jasola; New Friends Colony S.O. South Delhi Delhi 110025 India",
+            "DirectorPresentCity": "South Delhi",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "Plot No. 118; Pocket - 1 South Delhi Delhi 110025 India",
+            "DirectorPermanentCity": "South Delhi",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "201727970",
+            "DirectorAvgCapitalization": "40345594",
+            "DirectorCurrentDirectorshipCount": "5",
+            "DirectorPastDirectorshipCount": "3"
+          },
+          {
+            "DirectorName": "AMIT SAHAI",
+            "DirectorDin": "02188330",
+            "DirectorDesignation": "Nominee Director",
+            "DirectorDateOfAppnt": "30-10-2017",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "19-05-1962",
+            "DirectorPANNumber": "AKHPS0091E",
+            "DirectorContactNo": "9435113256",
+            "DirectorEmail": "amit62sahai@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "M-1/73; Sector B Aliganj Colony Lucknow Uttar Pradesh 226024 India",
+            "DirectorPresentCity": "Lucknow",
+            "DirectorPresentState": "UP",
+            "DirectorPermanentAddress": "M-1/73; Sector B Lucknow Uttar Pradesh 226024 India",
+            "DirectorPermanentCity": "Lucknow",
+            "DirectorPermanentState": "UP",
+            "DirectorCapitalization": "350000000",
+            "DirectorAvgCapitalization": "350000000",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "2"
+          },
+          {
+            "DirectorName": "SOWMYANARAYANAN SADAGOPAN",
+            "DirectorDin": "00118285",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "23-05-2006",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "02-04-1951",
+            "DirectorPANNumber": "ABIPS3864P",
+            "DirectorContactNo": "9900177142",
+            "DirectorEmail": "s.sadagopan@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "B-106; Purva Heights Apartments; Bilekahalli;Bangalore South Bannerghatta Road; Near 11M Opp. Mantri Erite Apts Bangalore Karnataka 560076 India",
+            "DirectorPresentCity": "Bangalore",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "B-106; Purva Heights Apartments; Bilekahalli;Bangalore South Bangalore Karnataka 560076 India",
+            "DirectorPermanentCity": "Bangalore",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "1069320000",
+            "DirectorAvgCapitalization": "213864000",
+            "DirectorCurrentDirectorshipCount": "5",
+            "DirectorPastDirectorshipCount": "14"
+          },
+          {
+            "DirectorName": "CHANDRAKER BHARTI",
+            "DirectorDin": "02599261",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "19-09-2017",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "30-10-1967",
+            "DirectorPANNumber": "ADCPB8337L",
+            "DirectorContactNo": "9868105262",
+            "DirectorEmail": "cbharti@hotmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "S/O; 74; C-2 FLATS; SHAHJAHAN ROAD; NIRMAN BHAWAN CENTRAL DELHI Delhi 110011 India",
+            "DirectorPresentCity": "CENTRAL DELHI",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "S/O; 74; C-2 FLATS; CENTRAL DELHI Delhi 110011 India",
+            "DirectorPermanentCity": "CENTRAL DELHI",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "5176787500",
+            "DirectorAvgCapitalization": "1725595833",
+            "DirectorCurrentDirectorshipCount": "3",
+            "DirectorPastDirectorshipCount": "6"
+          },
+          {
+            "DirectorName": "SHARAD SHYAM SANGHI",
+            "DirectorDin": "00265977",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "07-01-2016",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "28-10-1966",
+            "DirectorPANNumber": "AKLPS1485N",
+            "DirectorContactNo": "9821025882",
+            "DirectorEmail": "sharad@netmagicsolutions.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "23; SEAGULL; CARMICHEL ROAD; CUMBALLA HILL; GAMDEVI MUMBAI Maharashtra 400026 India",
+            "DirectorPresentCity": "MUMBAI",
+            "DirectorPresentState": "MH",
+            "DirectorPermanentAddress": "23; SEAGULL; CARMICHEL ROAD; MUMBAI Maharashtra 400026 India",
+            "DirectorPermanentCity": "MUMBAI",
+            "DirectorPermanentState": "MH",
+            "DirectorCapitalization": "12364314240",
+            "DirectorAvgCapitalization": "1236431424",
+            "DirectorCurrentDirectorshipCount": "10",
+            "DirectorPastDirectorshipCount": "4"
+          },
+          {
+            "DirectorName": "ANURAG KUMAR",
+            "DirectorDin": "03403112",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "21-12-2010",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "13-07-1955",
+            "DirectorPANNumber": "ACRPK2884K",
+            "DirectorContactNo": "9845006755",
+            "DirectorEmail": "anurag@iisc.ac.in",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "NO 23 UAS LAYOUT 1ST MAIN 6TH CROSS R M V EXTENTION STAGE 2 BANGALORE Karnataka 560094 India",
+            "DirectorPresentCity": "BANGALORE",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "NO 23 UAS LAYOUT BANGALORE Karnataka 560094 India",
+            "DirectorPermanentCity": "BANGALORE",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "622764400",
+            "DirectorAvgCapitalization": "155691100",
+            "DirectorCurrentDirectorshipCount": "4",
+            "DirectorPastDirectorshipCount": "2"
+          },
+          {
+            "DirectorName": "BHUPINDER SINGH",
+            "DirectorDin": "00062754",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "23-05-2006",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "09-07-1939",
+            "DirectorPANNumber": "AAMPS7576H",
+            "DirectorContactNo": "9891050182",
+            "DirectorEmail": "bmconsultant44@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "K-43 FIRST FLOOR KAILASH COLONY GREATER KAILASH S.O;SOUTH DELHI NEW DELHI Delhi 110048 India",
+            "DirectorPresentCity": "NEW DELHI",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "K-43 FIRST FLOOR KAILASH COLONY NEW DELHI Delhi 110048 India",
+            "DirectorPermanentCity": "NEW DELHI",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "587242146",
+            "DirectorAvgCapitalization": "117448429",
+            "DirectorCurrentDirectorshipCount": "5",
+            "DirectorPastDirectorshipCount": "8"
+          },
+          {
+            "DirectorName": "SASTRY VENKATA RAMA VADLAMANI",
+            "DirectorDin": "00027875",
+            "DirectorDesignation": "Managing Director",
+            "DirectorDateOfAppnt": "01-05-2005",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "23-04-1949",
+            "DirectorPANNumber": "ABHPS4677B",
+            "DirectorContactNo": "9845279327",
+            "DirectorEmail": "sastryvvr@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "NO 957; 9TH MAIN; 3RD STAGE; 3RD BLOCK; BANGALORE NORTH; BASAVESHWARA NAGAR BANGALORE Karnataka 560079 India",
+            "DirectorPresentCity": "BANGALORE",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "NO 957; 9TH MAIN; 3RD STAGE; 3RD BLOCK; BANGALORE Karnataka 560079 India",
+            "DirectorPermanentCity": "BANGALORE",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "434618172",
+            "DirectorAvgCapitalization": "144872724",
+            "DirectorCurrentDirectorshipCount": "3",
+            "DirectorPastDirectorshipCount": "9"
+          },
+          {
+            "DirectorName": "USHA MATHUR",
+            "DirectorDin": "07382132",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "23-12-2015",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "23-05-1951",
+            "DirectorPANNumber": "AAAPM5366K",
+            "DirectorContactNo": "9910487373",
+            "DirectorEmail": "usha.m.mathur@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "B-1/1122 Vasant Kunj; Sector-B; South West Delhi New Delhi Delhi 110070 India",
+            "DirectorPresentCity": "New Delhi",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "B-1/1122 New Delhi Delhi 110070 India",
+            "DirectorPermanentCity": "New Delhi",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "INDRAGANTY VENKATESWARA SARMA",
+            "DirectorDin": "02144740",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "01-04-2008",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "13-08-1952",
+            "DirectorPANNumber": "ABIPS3906Q",
+            "DirectorContactNo": "9972644554",
+            "DirectorEmail": "ivsarma@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "A 702 Mantri Astra Apts Hennur Road Chelkere Hunnur Bangalore North Kalyanan agar Bangalore Karnataka 560043 India",
+            "DirectorPresentCity": "Bangalore",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "A 702 Mantri Astra Apts Hennur Road Bangalore Karnataka 560043 India",
+            "DirectorPermanentCity": "Bangalore",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "152686610",
+            "DirectorAvgCapitalization": "76343305",
+            "DirectorCurrentDirectorshipCount": "2",
+            "DirectorPastDirectorshipCount": "6"
+          },
+          {
+            "DirectorName": "SUKHRAJ PAL KOCHHAR",
+            "DirectorDin": "05102289",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "01-09-2011",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "05-08-1953",
+            "DirectorPANNumber": "AFKPK1452R",
+            "DirectorContactNo": "8377004550",
+            "DirectorEmail": "kochharsp@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "1135-P; KRISHNA NIWAS SECTOR-43; GURGAON; SIKANDEPUR GHOSI 68 GURGAON Haryana 122002 India",
+            "DirectorPresentCity": "GURGAON",
+            "DirectorPresentState": "HR",
+            "DirectorPermanentAddress": "1135-P; KRISHNA NIWAS GURGAON Haryana 122002 India",
+            "DirectorPermanentCity": "GURGAON",
+            "DirectorPermanentState": "HR",
+            "DirectorCapitalization": "33510500",
+            "DirectorAvgCapitalization": "11170166",
+            "DirectorCurrentDirectorshipCount": "3",
+            "DirectorPastDirectorshipCount": "8"
+          },
+          {
+            "DirectorName": "GIRISH KUMAR",
+            "DirectorDin": "07506008",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "01-05-2016",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "01-12-1958",
+            "DirectorPANNumber": "ABKPK7101P",
+            "DirectorContactNo": "9871826677",
+            "DirectorEmail": "girishkumar@bel.co.in",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "No. B-308; BEL White Square Apartment 4th Block; BEL Layout; Vidyaranyapura Bengaluru Karnataka 560097 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "No. B-308; BEL White Square Apartment Bengaluru Karnataka 560097 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "3"
+          },
+          {
+            "DirectorName": "NATARAJ KRISHNAPPA",
+            "DirectorDin": "07506012",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "01-05-2016",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "14-11-1959",
+            "DirectorPANNumber": "ACUPK0802C",
+            "DirectorContactNo": "9845047038",
+            "DirectorEmail": "natarajk042@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "F-1 NO.7; NISARGA APARTMENT 17TH MAIN; 18TH CROSS; M C LAYOUT; VIJAY ANAGAR Bengaluru Karnataka 560040 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "F-1 NO.7; NISARGA APARTMENT Bengaluru Karnataka 560040 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "3"
+          },
+          {
+            "DirectorName": "MANOJ SAUNIK",
+            "DirectorDin": "02954463",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "11-10-2012",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "02-12-1963",
+            "DirectorPANNumber": "AFFPS8063M",
+            "DirectorContactNo": "8451040999",
+            "DirectorEmail": "manojsaunik@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "16; Suniti; Gen. J. Bhosale Marg Nariman Point Mumbai Maharashtra 400021 India",
+            "DirectorPresentCity": "Mumbai",
+            "DirectorPresentState": "MH",
+            "DirectorPermanentAddress": "16; Suniti; Gen. J. Bhosale Marg Mumbai Maharashtra 400021 India",
+            "DirectorPermanentCity": "Mumbai",
+            "DirectorPermanentState": "MH",
+            "DirectorCapitalization": "78639687000",
+            "DirectorAvgCapitalization": "13106614500",
+            "DirectorCurrentDirectorshipCount": "6",
+            "DirectorPastDirectorshipCount": "4"
+          },
+          {
+            "DirectorName": "GYANESH KUMAR",
+            "DirectorDin": "02046823",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "31-12-2007",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "27-01-1964",
+            "DirectorPANNumber": "AAKPK5446L",
+            "DirectorContactNo": "9871502929",
+            "DirectorEmail": "jsk@nic.in",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "C-11 A-8-2 MS FLAT SECTOR-13 R K PURAM NEW DELHI Delhi 110022 India",
+            "DirectorPresentCity": "NEW DELHI",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "C-11 A-8-2 MS FLAT NEW DELHI Delhi 110022 India",
+            "DirectorPermanentCity": "NEW DELHI",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "800000000",
+            "DirectorAvgCapitalization": "800000000",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "5"
+          },
+          {
+            "DirectorName": "VENKATESWARA GOWTAMA MANNAVA",
+            "DirectorDin": "07628039",
+            "DirectorDesignation": "Managing Director",
+            "DirectorDateOfAppnt": "08-11-2016",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "26-06-1961",
+            "DirectorPANNumber": "AFYPM9121M",
+            "DirectorContactNo": "9900388771",
+            "DirectorEmail": "gowtamamv@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "NO. 41; 2ND CROSS; HORAMAVU MAIN ROAD BYNARAYANA REDDY LAYO UT BENGALURU Karnataka 560043 India",
+            "DirectorPresentCity": "BENGALURU",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "NO. 41; 2ND CROSS; BENGALURU Karnataka 560043 India",
+            "DirectorPermanentCity": "BENGALURU",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "100000",
+            "DirectorAvgCapitalization": "100000",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "2"
+          },
+          {
+            "DirectorName": "ALEXANDER KOSHY",
+            "DirectorDin": "07896084",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "25-09-2017",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "15-07-1960",
+            "DirectorPANNumber": "AGBPK5502C",
+            "DirectorContactNo": "9845061879",
+            "DirectorEmail": "alex3fca@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "#59; 2nd main; Jaladarshini BEL Layout; New BEL Road R.M.V Extension II Stage; North Bengalur u Bengaluru Karnataka 560095 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "#59; 2nd main; Jaladarshini BEL Layout; New BEL Road Bengaluru Karnataka 560095 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "465371520",
+            "DirectorAvgCapitalization": "465371520",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "4"
+          },
+          {
+            "DirectorName": "VIJAY SHANKAR MADAN",
+            "DirectorDin": "00806142",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "11-09-2017",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "30-08-1956",
+            "DirectorPANNumber": "AAAPM0206E",
+            "DirectorContactNo": "9971093366",
+            "DirectorEmail": "vijay.madan@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "J 105 SOM VIHAR APARTMENTS; R.K PURAM SECTOR - 10 SOUTH WEST DELHI Delhi 110022 India",
+            "DirectorPresentCity": "SOUTH WEST DELHI",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "C1/49; BAPA NAGAR CENTRAL DELHI LODHI ROAD Delhi 110003 India",
+            "DirectorPermanentCity": "CENTRAL DELHI LODHI ROAD",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "15248813230",
+            "DirectorAvgCapitalization": "2541468871",
+            "DirectorCurrentDirectorshipCount": "6",
+            "DirectorPastDirectorshipCount": "4"
+          },
+          {
+            "DirectorName": "SURENDRA SINGH SIROHI",
+            "DirectorDin": "07595264",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "11-09-2017",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "23-07-1955",
+            "DirectorPANNumber": "COSPS8266Q",
+            "DirectorContactNo": "9868130000",
+            "DirectorEmail": "sssirohi77@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "D - 249 T/f DEFENCE COLONY; LAJPAT NAGAR SOUTH DELHI Delhi 110024 India",
+            "DirectorPresentCity": "SOUTH DELHI",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "D - 249 T/f SOUTH DELHI Delhi 110024 India",
+            "DirectorPermanentCity": "SOUTH DELHI",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "1376584221",
+            "DirectorAvgCapitalization": "1376584221",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "RAMCHANDER NARAYANRAO BAGDALKAR",
+            "DirectorDin": "07715648",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "23-01-2017",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "05-05-1959",
+            "DirectorPANNumber": "ABPPB1084K",
+            "DirectorContactNo": "9177446614",
+            "DirectorEmail": "rnbagdalkar@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "H M R Purple Enclave; Flat No.-06; 9th Cross 4th Block; HBR Layout; Kalyan Nagar Bengaluru Karnataka 560005 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "House No. 209; Raja Rajeshwari Apts. Hyderabad Telangana 500035 India",
+            "DirectorPermanentCity": "Hyderabad",
+            "DirectorPermanentState": "TG",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "2"
+          },
+          {
+            "DirectorName": "HARISHBABU MUKKA",
+            "DirectorDin": "07937907",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "11-09-2017",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "20-05-1958",
+            "DirectorPANNumber": "ABJPM6314R",
+            "DirectorContactNo": "9848162068",
+            "DirectorEmail": "caharish_fca@yahoo.co.in",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "H.No. 3-1-330 ; First Floor ; Sawaran street Behind Civil Hospital Karimnagar Telangana 505001 India",
+            "DirectorPresentCity": "Karimnagar",
+            "DirectorPresentState": "TG",
+            "DirectorPermanentAddress": "H.No. 3-1-330 ; First Floor ; Sawaran street Karimnagar Telangana 505001 India",
+            "DirectorPermanentCity": "Karimnagar",
+            "DirectorPermanentState": "TG",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "ALOK PERTI",
+            "DirectorDin": "00475747",
+            "DirectorDesignation": "Director",
+            "DirectorDateOfAppnt": "08-06-2006",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "15-05-1952",
+            "DirectorPANNumber": "AASPP6540L",
+            "DirectorContactNo": "9868120880",
+            "DirectorEmail": "alokpreti123@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "HOUSE NO.-552; SHRINIKETAN CGHS; PLOT NO.-1 SECTOR-7; DWARKA NEW DELHI Delhi 110075 India",
+            "DirectorPresentCity": "NEW DELHI",
+            "DirectorPresentState": "DL",
+            "DirectorPermanentAddress": "HOUSE NO.-552; SHRINIKETAN CGHS; PLOT NO.-1 NEW DELHI Delhi 110075 India",
+            "DirectorPermanentCity": "NEW DELHI",
+            "DirectorPermanentState": "DL",
+            "DirectorCapitalization": "1554069533",
+            "DirectorAvgCapitalization": "222009933",
+            "DirectorCurrentDirectorshipCount": "7",
+            "DirectorPastDirectorshipCount": "5"
+          },
+          {
+            "DirectorName": "KAIMULANGARA SEKHAR CHANDRA",
+            "DirectorDin": "02263868",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "26-03-2013",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "31-10-1951",
+            "DirectorPANNumber": "AGLPS7295Q",
+            "DirectorContactNo": "9819844976",
+            "DirectorEmail": "chasek31@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "B 202; 2ND FLOOR; THE ICON THANISANDRA ROAD BENGALURU Karnataka 560077 India",
+            "DirectorPresentCity": "BENGALURU",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "B 202; 2ND FLOOR; THE ICON BENGALURU Karnataka 560077 India",
+            "DirectorPermanentCity": "BENGALURU",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "2238800",
+            "DirectorAvgCapitalization": "2238800",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "7"
+          },
+          {
+            "DirectorName": "ANIL KUMAR",
+            "DirectorDin": "02948372",
+            "DirectorDesignation": "Managing Director",
+            "DirectorDateOfAppnt": "03-02-2010",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "31-12-1953",
+            "DirectorPANNumber": "ABOPK7183P",
+            "DirectorContactNo": "8284993008",
+            "DirectorEmail": "lallakanant@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "1601-7-C CHANDIGARH; SECTOR 19 CHANDIGARH Chandigarh 160019 India",
+            "DirectorPresentCity": "CHANDIGARH",
+            "DirectorPresentState": "CH",
+            "DirectorPermanentAddress": "1601-7-C CHANDIGARH Chandigarh 160019 India",
+            "DirectorPermanentCity": "CHANDIGARH",
+            "DirectorPermanentState": "CH",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "3"
+          },
+          {
+            "DirectorName": "MAHESH VENKATACHALIAH",
+            "DirectorDin": "08130292",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "01-06-2018",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "25-08-1960",
+            "DirectorPANNumber": "AAVPM9142N",
+            "DirectorContactNo": "9341907704",
+            "DirectorEmail": "maheshvbgl@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "No.687; 6th Main; 3rd Block BEL Layout; Bengaluru North; Vidyaranyap ura Bengaluru Karnataka 560097 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "No.687; 6th Main; 3rd Block Bengaluru Karnataka 560097 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "3"
+          },
+          {
+            "DirectorName": "KARIYANAKATTE MADAIAH SHIVAKUMARAN",
+            "DirectorDin": "08473589",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "11-06-2019",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "13-08-1961",
+            "DirectorPANNumber": "ABIPS7580G",
+            "DirectorContactNo": "6364268282",
+            "DirectorEmail": "shivakumarankmbel@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "36/4; 9th Main; 1st cross NTI Layout; Vidyaranyapura Bengaluru Karnataka 560097 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "36/4; 9th Main; 1st cross Bengaluru Karnataka 560097 India",
+            "DirectorPermanentCity": "Bengaluru",
+            "DirectorPermanentState": "KA",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "2"
+          },
+          {
+            "DirectorName": "NARENDRA SINGH",
+            "DirectorDin": "06736209",
+            "DirectorDesignation": "Additional Director",
+            "DirectorDateOfAppnt": "01-10-2013",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "02-04-1954",
+            "DirectorPANNumber": "AORPS7895A",
+            "DirectorContactNo": "9868219954",
+            "DirectorEmail": "narendra889@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "N-131; BLOCK-N SOUTH CITY PHASE-1 GURGAON Haryana 122001 India",
+            "DirectorPresentCity": "GURGAON",
+            "DirectorPresentState": "HR",
+            "DirectorPermanentAddress": "N-131; BLOCK-N GURGAON Haryana 122001 India",
+            "DirectorPermanentCity": "GURGAON",
+            "DirectorPermanentState": "HR",
+            "DirectorCapitalization": "46570000000",
+            "DirectorAvgCapitalization": "46570000000",
+            "DirectorCurrentDirectorshipCount": "1",
+            "DirectorPastDirectorshipCount": "1"
+          },
+          {
+            "DirectorName": "SHIKHA GUPTA",
+            "DirectorDin": "08597649",
+            "DirectorDesignation": "Wholetime Director",
+            "DirectorDateOfAppnt": "01-12-2019",
+            "DirectorDateOfCessation": "null",
+            "DirectorDateOfBirth": "08-11-1961",
+            "DirectorPANNumber": "ADVPG8604L",
+            "DirectorContactNo": "9871278165",
+            "DirectorEmail": "shikhabel@gmail.com",
+            "DirectorNationality": "IN",
+            "DirectorPresentAddress": "Room No. 6; Transit House BEL; Jalahalli Bengaluru Karnataka 560013 India",
+            "DirectorPresentCity": "Bengaluru",
+            "DirectorPresentState": "KA",
+            "DirectorPermanentAddress": "H.No. - 27; Judges Colony; Near C.N.G. Pump; Ghaziabad Uttar Pradesh 201010 India",
+            "DirectorPermanentCity": "Ghaziabad",
+            "DirectorPermanentState": "UP",
+            "DirectorCapitalization": "0",
+            "DirectorAvgCapitalization": "0",
+            "DirectorCurrentDirectorshipCount": "0",
+            "DirectorPastDirectorshipCount": "2"
+          }
+        ]
+      },
+      "PotentialRelatedPartyMasterSummary": {
+        "RelatedParty": [
+          {
+            "CompanyCin": "U17120GJ2007PTC050589",
+            "CompanyName": "Classic cotton private limited",
+            "CompanyDateOfInc": "19-04-2007",
+            "CompanyMcaStatus": "Active",
+            "CompanyMcaIndustry": "MANUFACTURE OF TEXTILES",
+            "CompanyLastBsDate": "31-03-2020",
+            "CompanyPaidUpCapital": "19700000",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U45201GJ2012PTC072718",
+            "CompanyName": "Millenium integrated cottex park private limited",
+            "CompanyDateOfInc": "19-11-2012",
+            "CompanyMcaStatus": "Strike Off",
+            "CompanyMcaIndustry": "CONSTRUCTION",
+            "CompanyLastBsDate": "31-03-2016",
+            "CompanyPaidUpCapital": "1310000",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U45400DL2008GOI176096",
+            "CompanyName": "Irrigation and water resources finance corporation limited",
+            "CompanyDateOfInc": "29-03-2008",
+            "CompanyMcaStatus": "Amalgamated",
+            "CompanyMcaIndustry": "CONSTRUCTION",
+            "CompanyLastBsDate": "31-03-2015",
+            "CompanyPaidUpCapital": "1023162300",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U67120OR1996PLC004640",
+            "CompanyName": "Kanhaiya asset management limited",
+            "CompanyDateOfInc": "09-10-1996",
+            "CompanyMcaStatus": "Strike Off",
+            "CompanyMcaIndustry": "ACTIVITIES AUXILIARY TO FINANCIAL INTERMEDIATION",
+            "CompanyLastBsDate": "31-03-2017",
+            "CompanyPaidUpCapital": "1191100",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U74900AP2007PTC054710",
+            "CompanyName": "Partha dental care india private limited",
+            "CompanyDateOfInc": "05-07-2007",
+            "CompanyMcaStatus": "Active",
+            "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+            "CompanyLastBsDate": "31-03-2020",
+            "CompanyPaidUpCapital": "69405220",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U70200TG2015PTC097113",
+            "CompanyName": "RANGE INFRATECH PRIVATE LIMITED",
+            "CompanyDateOfInc": "05-01-2015",
+            "CompanyMcaStatus": "Under Process of Striking Off",
+            "CompanyMcaIndustry": "REAL ESTATE ACTIVITIES",
+            "CompanyLastBsDate": "31-03-2019",
+            "CompanyPaidUpCapital": "100000",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U70200TG2015PTC097599",
+            "CompanyName": "PARTHASARATHI STRUCTURALS PRIVATE LIMITED",
+            "CompanyDateOfInc": "11-02-2015",
+            "CompanyMcaStatus": "Under Process of Striking Off",
+            "CompanyMcaIndustry": "REAL ESTATE ACTIVITIES",
+            "CompanyLastBsDate": "31-03-2019",
+            "CompanyPaidUpCapital": "100000",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U74999TG2019PTC132658",
+            "CompanyName": "PARTHA COSMETOLOGY PRIVATE LIMITED",
+            "CompanyDateOfInc": "10-05-2019",
+            "CompanyMcaStatus": "Active",
+            "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+            "CompanyLastBsDate": "31-03-2020",
+            "CompanyPaidUpCapital": "5000000",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U32100PN1990GOI058096",
+            "CompanyName": "Bel optronic devices limited",
+            "CompanyDateOfInc": "10-09-1990",
+            "CompanyMcaStatus": "Active",
+            "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+            "CompanyLastBsDate": "31-03-2021",
+            "CompanyPaidUpCapital": "845069700",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U32109DL1974GOI007325",
+            "CompanyName": "CENTRAL ELECTRONICS LIMITED",
+            "CompanyDateOfInc": "26-06-1974",
+            "CompanyMcaStatus": "Active",
+            "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+            "CompanyLastBsDate": "31-03-2021",
+            "CompanyPaidUpCapital": "726692000",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U31909KA1996PTC020482",
+            "CompanyName": "Ge be private limited",
+            "CompanyDateOfInc": "17-05-1996",
+            "CompanyMcaStatus": "Active",
+            "CompanyMcaIndustry": "MANUFACTURE OF ELECTRICAL MACHINERY AND APPARATUS N.E.C.",
+            "CompanyLastBsDate": "31-03-2021",
+            "CompanyPaidUpCapital": "100000000",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U32106KA2014GOI076102",
+            "CompanyName": "Bel-thales systems limited",
+            "CompanyDateOfInc": "28-08-2014",
+            "CompanyMcaStatus": "Active",
+            "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+            "CompanyLastBsDate": "31-03-2021",
+            "CompanyPaidUpCapital": "576153700",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "U35990TN2021GOI145504",
+            "CompanyName": "ARMOURED VEHICLES NIGAM LIMITED",
+            "CompanyDateOfInc": "14-08-2021",
+            "CompanyMcaStatus": "Active",
+            "CompanyMcaIndustry": "MANUFACTURE OF OTHER TRANSPORT EQUIPMENT",
+            "CompanyLastBsDate": "null",
+            "CompanyPaidUpCapital": "100000",
+            "CommonDirectorCount": "1"
+          },
+          {
+            "CompanyCin": "L14292TG1973GOI001660",
+            "CompanyName": "Mishra dhatu nigam limited",
+            "CompanyDateOfInc": "20-11-1973",
+            "CompanyMcaStatus": "Active",
+            "CompanyMcaIndustry": "OTHER MINING AND QUARRYING",
+            "CompanyLastBsDate": "31-03-2021",
+            "CompanyPaidUpCapital": "1873400000",
+            "CommonDirectorCount": "1"
+          }
+        ]
+      },
+      "DirectorCurrentDirectorshipMasterSummary": {
+        "Director": [
+          {
+            "DirectorName": "MANSUKHBHAI SHAMJIBHAI KHACHARIYA",
+            "DirectorDin": "01423119",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U17120GJ2007PTC050589",
+                "CompanyName": "Classic cotton private limited",
+                "CompanyDateOfInc": "19-04-2007",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "1"
+              },
+              {
+                "CompanyCin": "U45201GJ2012PTC072718",
+                "CompanyName": "Millenium integrated cottex park private limited",
+                "CompanyDateOfInc": "19-11-2012",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "1"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SUNIL KUMAR KOHLI",
+            "DirectorDin": "05321549",
+            "CompanyOtherDirecorship": {
+              "CompanyCin": "U45400DL2008GOI176096",
+              "CompanyName": "Irrigation and water resources finance corporation limited",
+              "CompanyDateOfInc": "29-03-2008",
+              "CompanyMcaStatus": "Active",
+              "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+              "CompanyLastBsDate": "31-03-2021",
+              "CompanyPaidUpCapital": "2436592943",
+              "CommonDirectorCount": "1"
+            }
+          },
+          {
+            "DirectorName": "PRAFULLA KUMAR CHOUDHURY",
+            "DirectorDin": "00871919",
+            "CompanyOtherDirecorship": {
+              "CompanyCin": "U67120OR1996PLC004640",
+              "CompanyName": "Kanhaiya asset management limited",
+              "CompanyDateOfInc": "09-10-1996",
+              "CompanyMcaStatus": "Active",
+              "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+              "CompanyLastBsDate": "31-03-2021",
+              "CompanyPaidUpCapital": "2436592943",
+              "CommonDirectorCount": "1"
+            }
+          },
+          {
+            "DirectorName": "VENKATA PARTHASARATHI PODALA",
+            "DirectorDin": "06400408",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U74900AP2007PTC054710",
+                "CompanyName": "Partha dental care india private limited",
+                "CompanyDateOfInc": "05-07-2007",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "1"
+              },
+              {
+                "CompanyCin": "U70200TG2015PTC097113",
+                "CompanyName": "RANGE INFRATECH PRIVATE LIMITED",
+                "CompanyDateOfInc": "05-01-2015",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "1"
+              },
+              {
+                "CompanyCin": "U70200TG2015PTC097599",
+                "CompanyName": "PARTHASARATHI STRUCTURALS PRIVATE LIMITED",
+                "CompanyDateOfInc": "11-02-2015",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "1"
+              },
+              {
+                "CompanyCin": "U74999TG2019PTC132658",
+                "CompanyName": "PARTHA COSMETOLOGY PRIVATE LIMITED",
+                "CompanyDateOfInc": "10-05-2019",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "1"
+              }
+            ]
+          },
+          {
+            "DirectorName": "ANANDI RAMALINGAM",
+            "DirectorDin": "07616518",
+            "CompanyOtherDirecorship": {
+              "CompanyCin": "U32100PN1990GOI058096",
+              "CompanyName": "Bel optronic devices limited",
+              "CompanyDateOfInc": "10-09-1990",
+              "CompanyMcaStatus": "Active",
+              "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+              "CompanyLastBsDate": "31-03-2021",
+              "CompanyPaidUpCapital": "2436592943",
+              "CommonDirectorCount": "3"
+            }
+          },
+          {
+            "DirectorName": "MANJULA JILLELLAMUDI",
+            "DirectorDin": "07684528",
+            "CompanyOtherDirecorship": {
+              "CompanyCin": "U32109DL1974GOI007325",
+              "CompanyName": "CENTRAL ELECTRONICS LIMITED",
+              "CompanyDateOfInc": "26-06-1974",
+              "CompanyMcaStatus": "Active",
+              "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+              "CompanyLastBsDate": "31-03-2021",
+              "CompanyPaidUpCapital": "2436592943",
+              "CommonDirectorCount": "1"
+            }
+          },
+          {
+            "DirectorName": "VINAY KUMAR KATYAL",
+            "DirectorDin": "08281078",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U31909KA1996PTC020482",
+                "CompanyName": "Ge be private limited",
+                "CompanyDateOfInc": "17-05-1996",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "2"
+              },
+              {
+                "CompanyCin": "U32106KA2014GOI076102",
+                "CompanyName": "Bel-thales systems limited",
+                "CompanyDateOfInc": "28-08-2014",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "3"
+              }
+            ]
+          },
+          {
+            "DirectorName": "DINESH KUMAR BATRA",
+            "DirectorDin": "08773363",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U32100PN1990GOI058096",
+                "CompanyName": "Bel optronic devices limited",
+                "CompanyDateOfInc": "10-09-1990",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "3"
+              },
+              {
+                "CompanyCin": "U32106KA2014GOI076102",
+                "CompanyName": "Bel-thales systems limited",
+                "CompanyDateOfInc": "28-08-2014",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "3"
+              }
+            ]
+          },
+          {
+            "DirectorName": "RAJASEKHAR VENKATA MATUKUMALLI",
+            "DirectorDin": "08850171",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U32106KA2014GOI076102",
+                "CompanyName": "Bel-thales systems limited",
+                "CompanyDateOfInc": "28-08-2014",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "3"
+              },
+              {
+                "CompanyCin": "U32100PN1990GOI058096",
+                "CompanyName": "Bel optronic devices limited",
+                "CompanyDateOfInc": "10-09-1990",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "3"
+              },
+              {
+                "CompanyCin": "U31909KA1996PTC020482",
+                "CompanyName": "Ge be private limited",
+                "CompanyDateOfInc": "17-05-1996",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "2"
+              }
+            ]
+          },
+          {
+            "DirectorName": "ANURAG BAJPAI",
+            "DirectorDin": "08948155",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U35990TN2021GOI145504",
+                "CompanyName": "ARMOURED VEHICLES NIGAM LIMITED",
+                "CompanyDateOfInc": "14-08-2021",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "1"
+              },
+              {
+                "CompanyCin": "L14292TG1973GOI001660",
+                "CompanyName": "Mishra dhatu nigam limited",
+                "CompanyDateOfInc": "20-11-1973",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2436592943",
+                "CommonDirectorCount": "1"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SHIV NATH YADAV",
+            "DirectorDin": "09450917"
+          },
+          {
+            "DirectorName": "NARAYANAPILLAI SANTHOSHKUMAR",
+            "DirectorDin": "09451052"
+          },
+          {
+            "DirectorName": "GOKULAN BANGAKANDY",
+            "DirectorDin": "09473378"
+          },
+          {
+            "DirectorName": "SHYAMA KUMARI",
+            "DirectorDin": "09495164"
+          }
+        ]
+      },
+      "DirectorPastDirectorshipMasterSummary": {
+        "Director": [
+          {
+            "DirectorName": "BHASKAR RAMAMURTHI",
+            "DirectorDin": "01914155",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U73100TN2006NPL059651",
+                "CompanyName": "Iit madras research park",
+                "CompanyDateOfInc": "27-04-2006",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "U73200TN2013NPL094014",
+                "CompanyName": "Iitm incubation cell",
+                "CompanyDateOfInc": "03-12-2013",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "U74999KA2017NPL103474",
+                "CompanyName": "HIGHER EDUCATION FINANCING AGENCY",
+                "CompanyDateOfInc": "31-05-2017",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "52937500000"
+              },
+              {
+                "CompanyCin": "U73100TN2020NPL135863",
+                "CompanyName": "IITM PRAVARTAK TECHNOLOGIES FOUNDATION",
+                "CompanyDateOfInc": "17-06-2020",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "U80903HR2020NPL086861",
+                "CompanyName": "Iit Foundation For Accreditation And Assessment",
+                "CompanyDateOfInc": "18-06-2020",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "EDUCATION",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "300000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "GOVERDHAN MEHTA",
+            "DirectorDin": "00350615",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U73100TG2003NPL042023",
+                "CompanyName": "DR.REDDY'S INSTITUTE OF LIFE SCIENCES",
+                "CompanyDateOfInc": "07-11-2003",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "U73100TG2011PTC076387",
+                "CompanyName": "NOVITAS RESEARCH LABS PRIVATE LIMITED",
+                "CompanyDateOfInc": "08-09-2011",
+                "CompanyMcaStatus": "Strike Off",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "100000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "ASHOK JHUNJHUNWALA",
+            "DirectorDin": "00417944",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U73100TN2006NPL059651",
+                "CompanyName": "Iit madras research park",
+                "CompanyDateOfInc": "27-04-2006",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "U73200TN2013NPL094014",
+                "CompanyName": "Iitm incubation cell",
+                "CompanyDateOfInc": "03-12-2013",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "U64202TN2001PTC046928",
+                "CompanyName": "Nmsworks software private limited",
+                "CompanyDateOfInc": "09-04-2001",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "POST AND TELECOMMUNICATIONS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "25850340"
+              },
+              {
+                "CompanyCin": "U72900TG2021NPL149978",
+                "CompanyName": "RESERVE BANK INNOVATION HUB",
+                "CompanyDateOfInc": "23-03-2021",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "1000000000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SHANMUKH MUCHINAMANE LINGAPPA",
+            "DirectorDin": "00058949",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U70109KA2021GOI149486",
+                "CompanyName": "BEML LAND ASSETS LIMITED",
+                "CompanyDateOfInc": "15-07-2021",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "REAL ESTATE ACTIVITIES",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "100000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SIDDHARTHA MAHAVIR ACHARYA",
+            "DirectorDin": "00545141",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "L74899DL1989PLC034594",
+                "CompanyName": "NUCLEUS SOFTWARE EXPORTS LIMITED",
+                "CompanyDateOfInc": "09-01-1989",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "290407240"
+              }
+            ]
+          },
+          {
+            "DirectorName": "JARUGUMILLI RAMA KRISHNA RAO",
+            "DirectorDin": "03288804",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U85320TG2002NPL039032",
+                "CompanyName": "National institute for smart government",
+                "CompanyDateOfInc": "28-05-2002",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "HEALTH AND SOCIAL WORK",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "29411500"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SUNIL KUMAR SHARMA",
+            "DirectorDin": "03614952",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U32109KA1997PTC022695",
+                "CompanyName": "BEL MULTITONE Private LIMITED",
+                "CompanyDateOfInc": "26-08-1997",
+                "CompanyMcaStatus": "Dissolved",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2013",
+                "CompanyPaidUpCapital": "6505000"
+              },
+              {
+                "CompanyCin": "U85110KA1998PLC023993",
+                "CompanyName": "Smile electronics limited",
+                "CompanyDateOfInc": "27-07-1998",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "HEALTH AND SOCIAL WORK",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "99299420"
+              },
+              {
+                "CompanyCin": "L29309TG1991PLC013203",
+                "CompanyName": "Astra micro wave products limited",
+                "CompanyDateOfInc": "13-09-1991",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF MACHINERY AND EQUIPMENT N.E.C.",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "173223000"
+              },
+              {
+                "CompanyCin": "U29253MH2009PLC193352",
+                "CompanyName": "PARAS DEFENCE AND SPACE TECHNOLOGIES LIMITED",
+                "CompanyDateOfInc": "16-06-2009",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF MACHINERY AND EQUIPMENT N.E.C.",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "390000610"
+              },
+              {
+                "CompanyCin": "U32209TG2013PTC089834",
+                "CompanyName": "Bhavyabhanu electronics private limited",
+                "CompanyDateOfInc": "03-09-2013",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "49760000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "KRISHNAN ANANDA CHANGALI",
+            "DirectorDin": "05126607"
+          },
+          {
+            "DirectorName": "AMOL NEWASKAR LAXMAN",
+            "DirectorDin": "05290353"
+          },
+          {
+            "DirectorName": "AJIT TAVANAPPA KALGHATGI",
+            "DirectorDin": "05300252",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U32109KA1997PTC022695",
+                "CompanyName": "BEL MULTITONE Private LIMITED",
+                "CompanyDateOfInc": "26-08-1997",
+                "CompanyMcaStatus": "Dissolved",
+                "CompanyMcaIndustry": "MANUFACTURE OF RADIO; TELEVISION AND COMMUNICATION EQUIPMENT AND APPARATUS",
+                "CompanyLastBsDate": "31-03-2013",
+                "CompanyPaidUpCapital": "6505000"
+              },
+              {
+                "CompanyCin": "U85110KA1992GOI013570",
+                "CompanyName": "Antrix corporation limited",
+                "CompanyDateOfInc": "28-09-1992",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "HEALTH AND SOCIAL WORK",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "68000000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "VIKRAM SRIVASTAVA",
+            "DirectorDin": "06541689"
+          },
+          {
+            "DirectorName": "VINOD KUMAR MEHTA",
+            "DirectorDin": "06572646"
+          },
+          {
+            "DirectorName": "PREM CHAND JAIN",
+            "DirectorDin": "06664784"
+          },
+          {
+            "DirectorName": "PRABHAT RANJAN ACHARYA",
+            "DirectorDin": "06683267"
+          },
+          {
+            "DirectorName": "MANMOHAN HANDA",
+            "DirectorDin": "06942720",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U29253MH2009PLC193352",
+                "CompanyName": "PARAS DEFENCE AND SPACE TECHNOLOGIES LIMITED",
+                "CompanyDateOfInc": "16-06-2009",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF MACHINERY AND EQUIPMENT N.E.C.",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "390000610"
+              }
+            ]
+          },
+          {
+            "DirectorName": "MADRAS SESHAMANI RAMACHANDRAN",
+            "DirectorDin": "00943629",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "L23200MH1989PLC054633",
+                "CompanyName": "Supreme petrochem limited",
+                "CompanyDateOfInc": "14-12-1989",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF COKE; REFINED PETROLEUM PRODUCTS AND NUCLEAR FUEL",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "940206710"
+              },
+              {
+                "CompanyCin": "L24111UR1985PLC015063",
+                "CompanyName": "Ester industries limited",
+                "CompanyDateOfInc": "04-02-1985",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF CHEMICALS AND CHEMICAL PRODUCTS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "416968795"
+              },
+              {
+                "CompanyCin": "L66010MH2000PLC127837",
+                "CompanyName": "Icici prudential life insurance company limited",
+                "CompanyDateOfInc": "20-07-2000",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "INSURANCE AND PENSION FUNDING; EXCEPT COMPULSORY SOCIAL SECURITY",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "14373061010"
+              }
+            ]
+          },
+          {
+            "DirectorName": "NARAYANASWAMY BALAKRISHNAN",
+            "DirectorDin": "00181842",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "L74899DL1993GOI053677",
+                "CompanyName": "Ifci limited",
+                "CompanyDateOfInc": "21-05-1993",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "20419784930"
+              },
+              {
+                "CompanyCin": "U72200KL2000NPL014187",
+                "CompanyName": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY AND MANAGEMENT KERALA (SEC 25COMPANY)",
+                "CompanyDateOfInc": "05-09-2000",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "1250000000"
+              },
+              {
+                "CompanyCin": "U74120DL2008NPL182363",
+                "CompanyName": "Data security council of india",
+                "CompanyDateOfInc": "22-08-2008",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "L65191TN1993PLC025280",
+                "CompanyName": "EQUITAS SMALL FINANCE BANK LIMITED",
+                "CompanyDateOfInc": "21-06-1993",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "FINANCIAL INTERMEDIATION; EXCEPT INSURANCE AND PENSION FUNDING",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "12513913630"
+              }
+            ]
+          },
+          {
+            "DirectorName": "RAGHUNATH SHEVGAONKAR KASHINATH",
+            "DirectorDin": "01500448"
+          },
+          {
+            "DirectorName": "VENKATRAMA BAKTHAVATSALAM",
+            "DirectorDin": "00485957",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U01403TN2006PTC061365",
+                "CompanyName": "B & g life sciences private limited",
+                "CompanyDateOfInc": "20-10-2006",
+                "CompanyMcaStatus": "Converted to LLP",
+                "CompanyMcaIndustry": "AGRICULTURE ; HUNTING AND RELATED SERVICE ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2016",
+                "CompanyPaidUpCapital": "10000000"
+              },
+              {
+                "CompanyCin": "U40105TN2001PTC047408",
+                "CompanyName": "B & g infrastructure company private limited",
+                "CompanyDateOfInc": "11-07-2001",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "ELECTRICITY; GAS; STEAM AND HOT WATER SUPPLY",
+                "CompanyLastBsDate": "31-03-2019",
+                "CompanyPaidUpCapital": "140634450"
+              },
+              {
+                "CompanyCin": "U40106TN2010PTC075514",
+                "CompanyName": "Indiko solar private limited",
+                "CompanyDateOfInc": "28-04-2010",
+                "CompanyMcaStatus": "Strike Off",
+                "CompanyMcaIndustry": "ELECTRICITY; GAS; STEAM AND HOT WATER SUPPLY",
+                "CompanyLastBsDate": "31-03-2016",
+                "CompanyPaidUpCapital": "1203520"
+              },
+              {
+                "CompanyCin": "U93000TN2010PTC075502",
+                "CompanyName": "B & g solar private limited",
+                "CompanyDateOfInc": "27-04-2010",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER SERVICE ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "49790000"
+              },
+              {
+                "CompanyCin": "U40106TN2021PTC148562",
+                "CompanyName": "B & G GREEN ENERGY PRIVATE LIMITED",
+                "CompanyDateOfInc": "14-12-2021",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "ELECTRICITY; GAS; STEAM AND HOT WATER SUPPLY",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "100000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "AMIT SAHAI",
+            "DirectorDin": "02188330",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U29150TG1943GOI000622",
+                "CompanyName": "Praga tools ltd",
+                "CompanyDateOfInc": "28-05-1943",
+                "CompanyMcaStatus": "Converted to LLP",
+                "CompanyMcaIndustry": "MANUFACTURE OF MACHINERY AND EQUIPMENT N.E.C.",
+                "CompanyLastBsDate": "31-03-2007",
+                "CompanyPaidUpCapital": "350000000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SOWMYANARAYANAN SADAGOPAN",
+            "DirectorDin": "00118285",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U75112KA1976SGC003055",
+                "CompanyName": "Karnataka state electronic development corporation limited",
+                "CompanyDateOfInc": "22-09-1976",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "309220000"
+              },
+              {
+                "CompanyCin": "U93090KA2009NPL049485",
+                "CompanyName": "Iiitb innovation centre",
+                "CompanyDateOfInc": "30-03-2009",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER SERVICE ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2019",
+                "CompanyPaidUpCapital": "100000"
+              },
+              {
+                "CompanyCin": "U72900MH2016GOI282855",
+                "CompanyName": "NATIONAL E- GOVERNANCE SERVICES LIMITED",
+                "CompanyDateOfInc": "24-06-2016",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "750000000"
+              },
+              {
+                "CompanyCin": "U72200MH2017GOI302982",
+                "CompanyName": "NESL E-INFRASTRUCTURE LIMITED",
+                "CompanyDateOfInc": "18-12-2017",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "10000000"
+              },
+              {
+                "CompanyCin": "U73100KA2020NPL141745",
+                "CompanyName": "IIITB COMET FOUNDATION",
+                "CompanyDateOfInc": "02-12-2020",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "0"
+              }
+            ]
+          },
+          {
+            "DirectorName": "CHANDRAKER BHARTI",
+            "DirectorDin": "02599261",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "L35301KA1963GOI001622",
+                "CompanyName": "Hindustan aeronautics limited",
+                "CompanyDateOfInc": "16-08-1963",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF OTHER TRANSPORT EQUIPMENT",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "3343875000"
+              },
+              {
+                "CompanyCin": "L24292TG1970GOI001353",
+                "CompanyName": "Bharat dynamics limited",
+                "CompanyDateOfInc": "16-07-1970",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF CHEMICALS AND CHEMICAL PRODUCTS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "1832812500"
+              },
+              {
+                "CompanyCin": "U29270UP2021GOI150734",
+                "CompanyName": "ADVANCED WEAPONS AND EQUIPMENT INDIA LIMITED",
+                "CompanyDateOfInc": "14-08-2021",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF MACHINERY AND EQUIPMENT N.E.C.",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "100000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SHARAD SHYAM SANGHI",
+            "DirectorDin": "00265977",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U72900DL2003NPL120999",
+                "CompanyName": "National internet exchange of india",
+                "CompanyDateOfInc": "19-06-2003",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "U72900MH2005PTC153896",
+                "CompanyName": "NTT GLOBAL DATA CENTERS & CLOUD INFRASTRUCTURE INDIA PRIVATE LIMITED",
+                "CompanyDateOfInc": "10-06-2005",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "201953040"
+              },
+              {
+                "CompanyCin": "U73900MH1998PTC116053",
+                "CompanyName": "Netmagic solutions private limited",
+                "CompanyDateOfInc": "30-07-1998",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "431381200"
+              },
+              {
+                "CompanyCin": "U00075DL2005PTC140544",
+                "CompanyName": "NTT INDIA SOLUTIONS PRIVATE LIMITED",
+                "CompanyDateOfInc": "09-09-2005",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "AGRICULTURE; HUNTING AND FORESTRY",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "182360000"
+              },
+              {
+                "CompanyCin": "U64200DL2015PTC279006",
+                "CompanyName": "NTT Communications India Network Services Private Limited",
+                "CompanyDateOfInc": "13-04-2015",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "POST AND TELECOMMUNICATIONS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "405000000"
+              },
+              {
+                "CompanyCin": "U65993MH2001PTC132784",
+                "CompanyName": "NETMAGIC STOCK HOLDING PRIVATE LIMITED",
+                "CompanyDateOfInc": "18-07-2001",
+                "CompanyMcaStatus": "Strike Off",
+                "CompanyMcaIndustry": "FINANCIAL INTERMEDIATION; EXCEPT INSURANCE AND PENSION FUNDING",
+                "CompanyLastBsDate": "31-03-2010",
+                "CompanyPaidUpCapital": "100000"
+              },
+              {
+                "CompanyCin": "L29290MH1987PLC045499",
+                "CompanyName": "AARVI ENCON LIMITED",
+                "CompanyDateOfInc": "03-12-1987",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF MACHINERY AND EQUIPMENT N.E.C.",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "147840000"
+              },
+              {
+                "CompanyCin": "U72900MH2020FTC349530",
+                "CompanyName": "NTT GLOBAL DATA CENTERS BOM8 PRIVATE LIMITED",
+                "CompanyDateOfInc": "05-11-2020",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "646780000"
+              },
+              {
+                "CompanyCin": "U72900MH2021PTC355020",
+                "CompanyName": "NTT GLOBAL DATA CENTERS NAV2 PRIVATE LIMITED",
+                "CompanyDateOfInc": "10-02-2021",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "10285100000"
+              },
+              {
+                "CompanyCin": "U72200MH1994PTC083713",
+                "CompanyName": "NTT INDIA PRIVATE LIMITED",
+                "CompanyDateOfInc": "13-12-1994",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "63800000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "ANURAG KUMAR",
+            "DirectorDin": "03403112",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U74210KA2006PLC041192",
+                "CompanyName": "Indian scientific innovation company limited.",
+                "CompanyDateOfInc": "12-12-2006",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2019",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "U73100KA2020NPL137018",
+                "CompanyName": "FOUNDATION FOR SCIENCE INNOVATION AND DEVELOPMENT",
+                "CompanyDateOfInc": "08-08-2020",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "U85320KA2020NPL138681",
+                "CompanyName": "I-HUB FOR ROBOTICS AND AUTONOMOUS SYSTEMS INNOVATION FOUNDATION",
+                "CompanyDateOfInc": "16-09-2020",
+                "CompanyMcaStatus": "Not Available for eFiling",
+                "CompanyMcaIndustry": "HEALTH AND SOCIAL WORK",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "L85110KA1989PLC009968",
+                "CompanyName": "Tata elxsi limited",
+                "CompanyDateOfInc": "30-03-1989",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "HEALTH AND SOCIAL WORK",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "622764400"
+              }
+            ]
+          },
+          {
+            "DirectorName": "BHUPINDER SINGH",
+            "DirectorDin": "00062754",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U74899DL2000PTC105452",
+                "CompanyName": "Smw entertainers private limited",
+                "CompanyDateOfInc": "26-04-2000",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "442000"
+              },
+              {
+                "CompanyCin": "U74899DL1991PTC044132",
+                "CompanyName": "AMULET INTERNATIONAL PRIVATE LIMITED",
+                "CompanyDateOfInc": "29-04-1991",
+                "CompanyMcaStatus": "Strike Off",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2010",
+                "CompanyPaidUpCapital": "1510000"
+              },
+              {
+                "CompanyCin": "L74899DL1993PLC053060",
+                "CompanyName": "EMMSONS INTERNATIONAL LIMITED",
+                "CompanyDateOfInc": "15-04-1993",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2017",
+                "CompanyPaidUpCapital": "119960400"
+              },
+              {
+                "CompanyCin": "L33117PB1984PLC022350",
+                "CompanyName": "Panacea biotec limited",
+                "CompanyDateOfInc": "02-02-1984",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF MEDICAL; PRECISION AND OPTICAL INSTRUMENTS; WATCHES AND CLOCKS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "222620746"
+              },
+              {
+                "CompanyCin": "L67190DL1991PLC045857",
+                "CompanyName": "Avonmore Capital & Management Services Limited",
+                "CompanyDateOfInc": "30-09-1991",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "ACTIVITIES AUXILIARY TO FINANCIAL INTERMEDIATION",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "242709000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SASTRY VENKATA RAMA VADLAMANI",
+            "DirectorDin": "00027875",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U31402AP1999PLC032257",
+                "CompanyName": "Amara raja electronics limited",
+                "CompanyDateOfInc": "09-08-1999",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF ELECTRICAL MACHINERY AND APPARATUS N.E.C.",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "338050000"
+              },
+              {
+                "CompanyCin": "U74999KA2017PLC099774",
+                "CompanyName": "TUMAKURU SMART CITY LIMITED",
+                "CompanyDateOfInc": "06-02-2017",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "1000000"
+              },
+              {
+                "CompanyCin": "U72200TN1998PLC061236",
+                "CompanyName": "DATA PATTERNS (INDIA) LIMITED",
+                "CompanyDateOfInc": "11-11-1998",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "95568172"
+              }
+            ]
+          },
+          {
+            "DirectorName": "USHA MATHUR",
+            "DirectorDin": "07382132"
+          },
+          {
+            "DirectorName": "INDRAGANTY VENKATESWARA SARMA",
+            "DirectorDin": "02144740",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U72200KA2010PTC053563",
+                "CompanyName": "Eldaas technologies private limited",
+                "CompanyDateOfInc": "10-05-2010",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "5206220"
+              },
+              {
+                "CompanyCin": "U72200TG1980PLC002703",
+                "CompanyName": "Acs technologies limited",
+                "CompanyDateOfInc": "04-06-1980",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "147480390"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SUKHRAJ PAL KOCHHAR",
+            "DirectorDin": "05102289",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U74210DL2005FTC142568",
+                "CompanyName": "NELSON PLANNING AND DESIGN PRIVATE LIMITED",
+                "CompanyDateOfInc": "16-11-2005",
+                "CompanyMcaStatus": "Amalgamated",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2017",
+                "CompanyPaidUpCapital": "7333500"
+              },
+              {
+                "CompanyCin": "U74899DL1994PLC062516",
+                "CompanyName": "Ind global securities limited",
+                "CompanyDateOfInc": "02-11-1994",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2019",
+                "CompanyPaidUpCapital": "21177000"
+              },
+              {
+                "CompanyCin": "U74999DL2016PTC308705",
+                "CompanyName": "MOBIPRO INNOVATION PRIVATE LIMITED",
+                "CompanyDateOfInc": "30-11-2016",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "5000000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "GIRISH KUMAR",
+            "DirectorDin": "07506008"
+          },
+          {
+            "DirectorName": "NATARAJ KRISHNAPPA",
+            "DirectorDin": "07506012"
+          },
+          {
+            "DirectorName": "MANOJ SAUNIK",
+            "DirectorDin": "02954463",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U45200MH1974SGC017281",
+                "CompanyName": "Maharashtra state police housing and welfare corpn ltd",
+                "CompanyDateOfInc": "13-03-1974",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "CONSTRUCTION",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "79591000"
+              },
+              {
+                "CompanyCin": "U72200DL2013NPL249988",
+                "CompanyName": "GOODS AND SERVICES TAX NETWORK",
+                "CompanyDateOfInc": "28-03-2013",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "COMPUTER AND RELATED ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "100000000"
+              },
+              {
+                "CompanyCin": "U60100MH2015SGC262054",
+                "CompanyName": "MAHARASHTRA METRO RAIL CORPORATION LIMITED",
+                "CompanyDateOfInc": "18-02-2015",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "LAND TRANSPORT; TRANSPORT VIA PIPELINES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "39637596000"
+              },
+              {
+                "CompanyCin": "U45201MH2019SGC330067",
+                "CompanyName": "PUNE (PURANDAR) INTERNATIONAL AIRPORT LIMITED",
+                "CompanyDateOfInc": "02-09-2019",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "CONSTRUCTION",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "500000000"
+              },
+              {
+                "CompanyCin": "U60100MH2008SGC181770",
+                "CompanyName": "Mumbai metro rail corporation limited",
+                "CompanyDateOfInc": "30-04-2008",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "LAND TRANSPORT; TRANSPORT VIA PIPELINES",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "38152000000"
+              },
+              {
+                "CompanyCin": "U45203MH2002SGC136979",
+                "CompanyName": "Maharashtra airport development company limited",
+                "CompanyDateOfInc": "26-08-2002",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "CONSTRUCTION",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "170500000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "GYANESH KUMAR",
+            "DirectorDin": "02046823",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U65920JK2005GOI002523",
+                "CompanyName": "Jammu and kashmir development finance corporation limited",
+                "CompanyDateOfInc": "30-05-2005",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "FINANCIAL INTERMEDIATION; EXCEPT INSURANCE AND PENSION FUNDING",
+                "CompanyLastBsDate": "31-03-2019",
+                "CompanyPaidUpCapital": "800000000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "VENKATESWARA GOWTAMA MANNAVA",
+            "DirectorDin": "07628039",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U73100KA2017NPL102118",
+                "CompanyName": "DEFENCE INNOVATION ORGANISATION",
+                "CompanyDateOfInc": "10-04-2017",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "RESEARCH AND DEVELOPMENT",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "100000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "ALEXANDER KOSHY",
+            "DirectorDin": "07896084",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U29128KA2008PTC045825",
+                "CompanyName": "Kaynes technology india private limited",
+                "CompanyDateOfInc": "28-03-2008",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF MACHINERY AND EQUIPMENT N.E.C.",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "465371520"
+              }
+            ]
+          },
+          {
+            "DirectorName": "VIJAY SHANKAR MADAN",
+            "DirectorDin": "00806142",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U74999DL2018PTC332763",
+                "CompanyName": "SU-SWA CONSULTANTS PRIVATE LIMITED",
+                "CompanyDateOfInc": "19-04-2018",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2019",
+                "CompanyPaidUpCapital": "500000"
+              },
+              {
+                "CompanyCin": "U74999DL1995PLC064132",
+                "CompanyName": "Religare finvest limited",
+                "CompanyDateOfInc": "06-01-1995",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2620952870"
+              },
+              {
+                "CompanyCin": "U74899DL1993PLC054259",
+                "CompanyName": "Religare housing development finance corporation limited",
+                "CompanyDateOfInc": "30-06-1993",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "399980000"
+              },
+              {
+                "CompanyCin": "L74899DL1984PLC146935",
+                "CompanyName": "Religare enterprises limited",
+                "CompanyDateOfInc": "30-01-1984",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "3452433120"
+              },
+              {
+                "CompanyCin": "U66000DL2007PLC161503",
+                "CompanyName": "CARE HEALTH INSURANCE LIMITED",
+                "CompanyDateOfInc": "02-04-2007",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "INSURANCE AND PENSION FUNDING; EXCEPT COMPULSORY SOCIAL SECURITY",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "8737143430"
+              },
+              {
+                "CompanyCin": "U80904DL2021PTC376677",
+                "CompanyName": "GENLEAP ECOSYSTEM PRIVATE LIMITED",
+                "CompanyDateOfInc": "08-02-2021",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "EDUCATION",
+                "CompanyLastBsDate": "null",
+                "CompanyPaidUpCapital": "37803810"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SURENDRA SINGH SIROHI",
+            "DirectorDin": "07595264",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "L64200HP1987PLC007466",
+                "CompanyName": "HFCL LIMITED",
+                "CompanyDateOfInc": "11-05-1987",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "POST AND TELECOMMUNICATIONS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "1376584221"
+              }
+            ]
+          },
+          {
+            "DirectorName": "RAMCHANDER NARAYANRAO BAGDALKAR",
+            "DirectorDin": "07715648"
+          },
+          {
+            "DirectorName": "HARISHBABU MUKKA",
+            "DirectorDin": "07937907"
+          },
+          {
+            "DirectorName": "ALOK PERTI",
+            "DirectorDin": "00475747",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "L24222HR1902PLC065611",
+                "CompanyName": "Shalimar paints ltd",
+                "CompanyDateOfInc": "16-12-1902",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF CHEMICALS AND CHEMICAL PRODUCTS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "108601553"
+              },
+              {
+                "CompanyCin": "U74999DL2012GOI231473",
+                "CompanyName": "IIFCL Projects Limited",
+                "CompanyDateOfInc": "14-02-2012",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2019",
+                "CompanyPaidUpCapital": "47500000"
+              },
+              {
+                "CompanyCin": "U93000DL2009NPL195395",
+                "CompanyName": "Donkey sanctuary welfare association",
+                "CompanyDateOfInc": "21-10-2009",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER SERVICE ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2019",
+                "CompanyPaidUpCapital": "0"
+              },
+              {
+                "CompanyCin": "L24121MH1979PLC021360",
+                "CompanyName": "Deepak fertilisers and petrochemicals corporation ltd",
+                "CompanyDateOfInc": "31-05-1979",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MANUFACTURE OF CHEMICALS AND CHEMICAL PRODUCTS",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "1205929480"
+              },
+              {
+                "CompanyCin": "U74140CH1984PLC005796",
+                "CompanyName": "NITCON LIMITED",
+                "CompanyDateOfInc": "28-03-1984",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER BUSINESS ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "2348500"
+              },
+              {
+                "CompanyCin": "U93090MH2019PTC332789",
+                "CompanyName": "EQARO SURETY PRIVATE LIMITED",
+                "CompanyDateOfInc": "08-11-2019",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "OTHER SERVICE ACTIVITIES",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "19190000"
+              },
+              {
+                "CompanyCin": "U67120PN1987PLC166034",
+                "CompanyName": "Smartchem technologies limited",
+                "CompanyDateOfInc": "21-01-1987",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "ACTIVITIES AUXILIARY TO FINANCIAL INTERMEDIATION",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "170500000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "KAIMULANGARA SEKHAR CHANDRA",
+            "DirectorDin": "02263868",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U85110TN1988PTC016426",
+                "CompanyName": "M v hospital for diabetes private limited",
+                "CompanyDateOfInc": "03-11-1988",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "HEALTH AND SOCIAL WORK",
+                "CompanyLastBsDate": "31-03-2020",
+                "CompanyPaidUpCapital": "2238800"
+              }
+            ]
+          },
+          {
+            "DirectorName": "ANIL KUMAR",
+            "DirectorDin": "02948372"
+          },
+          {
+            "DirectorName": "MAHESH VENKATACHALIAH",
+            "DirectorDin": "08130292"
+          },
+          {
+            "DirectorName": "KARIYANAKATTE MADAIAH SHIVAKUMARAN",
+            "DirectorDin": "08473589"
+          },
+          {
+            "DirectorName": "NARENDRA SINGH",
+            "DirectorDin": "06736209",
+            "CompanyOtherDirecorship": [
+              {
+                "CompanyCin": "U10101JH1972GOI000918",
+                "CompanyName": "Bharat coking coal limited",
+                "CompanyDateOfInc": "01-01-1972",
+                "CompanyMcaStatus": "Active",
+                "CompanyMcaIndustry": "MINING OF COAL AND LIGNITE; EXTRACTION OF PEAT",
+                "CompanyLastBsDate": "31-03-2021",
+                "CompanyPaidUpCapital": "46570000000"
+              }
+            ]
+          },
+          {
+            "DirectorName": "SHIKHA GUPTA",
+            "DirectorDin": "08597649"
+          }
+        ]
+      },
+      "SignatoryCurrentMasterSummary": {
+        "Signatory": [
+          {
+            "SignatoryName": "SREENIVAS SRIPADA",
+            "SignatoryPan": "ANTPS9479F",
+            "SignatoryDesignation": "Company Secretary",
+            "SignatoryDateOfAppnt": "01-04-2014"
+          },
+          {
+            "SignatoryName": "DINESH KUMAR BATRA",
+            "SignatoryPan": "ACSPB7936L",
+            "SignatoryDesignation": "CFO(KMP)",
+            "SignatoryDateOfAppnt": "01-08-2020"
+          }
+        ]
+      },
+      "SignatoryPastMasterSummary": {
+        "Signatory": [
+          {
+            "SignatoryName": "ALEXANDER KOSHY",
+            "SignatoryPan": "AGBPK5502C",
+            "SignatoryDesignation": "CFO(KMP)",
+            "SignatoryDateOfAppnt": "27-10-2016"
+          }
+        ]
+      }
+    },
+    "ChargesMasterSummary": {
+      "LastUpdatedDateTime": "23-03-2022",
+      "OpenChargesMasterSummary": {
+        "Charge": [
+          {
+            "ChargeID": "80037904",
+            "ChargeHolderName": "State Bank of India",
+            "ChargeHolderAddress": "Overseas Branch; No.65; St. Marks RoadSBI LHO CompoundBangaloreKA560001IN",
+            "ChargeAmount": "40000000000",
+            "ChargeDateOfCreation": "16-10-2001",
+            "ChargeDateOfLastModification": "21-12-2021",
+            "ChargeAssetsSecured": "Book debts; Current assets like RMC, WIP, FG, other stock"
+          }
+        ]
+      },
+      "SatisfiedChargesMasterSummary": {
+        "Charge": [
+          {
+            "ChargeID": "100091210",
+            "ChargeHolderName": "State Bank of India",
+            "ChargeHolderAddress": "Specialised Mid Corporate Branch; No. 97Railway Parallel Road; Kumara Park WestBengaluruKA560020IN",
+            "ChargeAmount": "1000000000",
+            "ChargeDateOfCreation": "31-03-2017",
+            "ChargeDateOfLastModification": "null",
+            "ChargeDateOfSatisfaction": "04-05-2020",
+            "ChargeAssetsSecured": "Book debts; Current assets like RM, WIP, FG, other stock"
+          }
+        ]
+      }
+    },
+    "FinancialsSummary": {
+      "LastUpdatedDateTime": "23-03-2022",
+      "FinancialsYearWise": [
+        {
+          "FinancialYear": "2021",
+          "PaidUpCapital": "2436593000",
+          "NetWorth": "108078900000",
+          "TotalIncome": "141899300000",
+          "TotalExpense": "112551200000",
+          "ProfitBeforeTax": "29348100000",
+          "IncomeTax": "8693900000",
+          "ProfitAfterTax": "20654200000"
+        },
+        {
+          "FinancialYear": "2020",
+          "PaidUpCapital": "2436593000",
+          "NetWorth": "98529400000",
+          "TotalIncome": "130230500000",
+          "TotalExpense": "105438800000",
+          "ProfitBeforeTax": "24791700000",
+          "IncomeTax": "6853400000",
+          "ProfitAfterTax": "17938300000"
+        },
+        {
+          "FinancialYear": "2019",
+          "PaidUpCapital": "2436593000",
+          "NetWorth": "90189100000",
+          "TotalIncome": "122541400000",
+          "TotalExpense": "95509500000",
+          "ProfitBeforeTax": "27031900000",
+          "IncomeTax": "7759000000",
+          "ProfitAfterTax": "19272900000"
+        },
+        {
+          "FinancialYear": "2018",
+          "PaidUpCapital": "2436593000",
+          "NetWorth": "77610100000",
+          "TotalIncome": "106009900000",
+          "TotalExpense": "86531500000",
+          "ProfitBeforeTax": "19478400000",
+          "IncomeTax": "5485500000",
+          "ProfitAfterTax": "13992900000"
+        },
+        {
+          "FinancialYear": "2017",
+          "PaidUpCapital": "2233600000",
+          "NetWorth": "75085400000",
+          "TotalIncome": "96114500000",
+          "TotalExpense": "75820300000",
+          "ProfitBeforeTax": "20294200000",
+          "IncomeTax": "4818000000",
+          "ProfitAfterTax": "15476200000"
+        },
+        {
+          "FinancialYear": "2016",
+          "PaidUpCapital": "2400000000",
+          "NetWorth": "87338334000",
+          "TotalIncome": "78273046000",
+          "TotalExpense": "60103995000",
+          "ProfitBeforeTax": "18169051000",
+          "IncomeTax": "4514788000",
+          "ProfitAfterTax": "13654263000"
+        },
+        {
+          "FinancialYear": "2015",
+          "PaidUpCapital": "800000000",
+          "NetWorth": "78850289000",
+          "TotalIncome": "73206083000",
+          "TotalExpense": "58546727000",
+          "ProfitBeforeTax": "14659356000",
+          "IncomeTax": "2994458000",
+          "ProfitAfterTax": "11664898000"
+        }
+      ]
+    },
+    "EmployeeAndEstablishmentSummary": {
+      "EstablishmentMaster": {
+        "LastUpdatedDateTime": "null",
+        "Establishment": [
+          {
+            "EstablishmentCode": "PYPNY0015160000",
+            "EstablishmentName": "BHARAT ELECTRONICS LTD OFFICERS CLUB",
+            "EstablishmentAddress": "JALAHALLI BANGALORE",
+            "EPFCity": "BANGALORE",
+            "EstablishmentPrimaryBusinessActivity": "BANGALORE"
+          },
+          {
+            "EstablishmentCode": "MRMRT0004167000",
+            "EstablishmentName": "BHARAT ELECTRONICS LTD.",
+            "EstablishmentAddress": "SAHIBABAD INDUSTRY AREA, SITE-IV",
+            "EPFCity": "GHAZIABAD",
+            "EstablishmentPrimaryBusinessActivity": "GHAZIABAD"
+          },
+          {
+            "EstablishmentCode": "GRGNT1149254000",
+            "EstablishmentName": "BHARAT ELECTRONICS LTD.,",
+            "EstablishmentAddress": "null",
+            "EPFCity": "null",
+            "EstablishmentPrimaryBusinessActivity": "null"
+          },
+          {
+            "EstablishmentCode": "MRMRT1136795000",
+            "EstablishmentName": "BHARAT ELECTRONICS LIMITED",
+            "EstablishmentAddress": "null",
+            "EPFCity": "null",
+            "EstablishmentPrimaryBusinessActivity": "null"
+          }
+        ]
+      },
+      "EmployeeTrend": {
+        "EmployeeMonthWise": [
+          {
+            "WagesMonth": "JUL-97",
+            "EpfEmployeeCountTotal": "1",
+            "EpfAmountPaidTotal": "417.00"
+          },
+          {
+            "WagesMonth": "AUG-97",
+            "EpfEmployeeCountTotal": "1",
+            "EpfAmountPaidTotal": "417.00"
+          },
+          {
+            "WagesMonth": "SEP-97",
+            "EpfEmployeeCountTotal": "1",
+            "EpfAmountPaidTotal": "417.00"
+          },
+          {
+            "WagesMonth": "OCT-97",
+            "EpfEmployeeCountTotal": "1",
+            "EpfAmountPaidTotal": "417.00"
+          },
+          {
+            "WagesMonth": "NOV-97",
+            "EpfEmployeeCountTotal": "1",
+            "EpfAmountPaidTotal": "417.00"
+          },
+          {
+            "WagesMonth": "DEC-97",
+            "EpfEmployeeCountTotal": "1",
+            "EpfAmountPaidTotal": "417.00"
+          },
+          {
+            "WagesMonth": "JAN-98",
+            "EpfEmployeeCountTotal": "1",
+            "EpfAmountPaidTotal": "417.00"
+          },
+          {
+            "WagesMonth": "FEB-98",
+            "EpfEmployeeCountTotal": "1",
+            "EpfAmountPaidTotal": "417.00"
+          }
+        ]
+      }
+    },
+    "CreditRatingDetail": {
+      "LastUpdatedDateTime": "null",
+      "CreditRating": [
+        {
+          "RatingAgency": "ICRA",
+          "RatingPeriod": "null",
+          "RatingAssigned": "--",
+          "RatingInstrumentName": "Commercial Paper",
+          "RatingInstrumentwiseAmount": "null",
+          "RatingRoundingoff": "null",
+          "RatingCurrency": "null",
+          "RatingAssignedDate": "17-02-2021",
+          "RatingPdfUrl": "null"
+        },
+        {
+          "RatingAgency": "ICRA",
+          "RatingPeriod": "Short Term",
+          "RatingAssigned": "--",
+          "RatingInstrumentName": "Commercial Paper",
+          "RatingInstrumentwiseAmount": "null",
+          "RatingRoundingoff": "null",
+          "RatingCurrency": "null",
+          "RatingAssignedDate": "19-02-2019",
+          "RatingPdfUrl": "null"
+        },
+        {
+          "RatingAgency": "ICRA",
+          "RatingPeriod": "Long Term",
+          "RatingAssigned": "[ICRA]AAA(Stable)",
+          "RatingInstrumentName": "Fund Based Limits",
+          "RatingInstrumentwiseAmount": "null",
+          "RatingRoundingoff": "null",
+          "RatingCurrency": "null",
+          "RatingAssignedDate": "19-02-2019",
+          "RatingPdfUrl": "null"
+        },
+        {
+          "RatingAgency": "ICRA",
+          "RatingPeriod": "Long Term",
+          "RatingAssigned": "[ICRA]AAA(Stable)",
+          "RatingInstrumentName": "Fund Based Limits",
+          "RatingInstrumentwiseAmount": "null",
+          "RatingRoundingoff": "null",
+          "RatingCurrency": "null",
+          "RatingAssignedDate": "17-02-2021",
+          "RatingPdfUrl": "null"
+        },
+        {
+          "RatingAgency": "ICRA",
+          "RatingPeriod": "Long Term",
+          "RatingAssigned": "[ICRA]AAA(Stable)",
+          "RatingInstrumentName": "Long Term - Unallocated",
+          "RatingInstrumentwiseAmount": "null",
+          "RatingRoundingoff": "null",
+          "RatingCurrency": "null",
+          "RatingAssignedDate": "19-02-2019",
+          "RatingPdfUrl": "null"
+        },
+        {
+          "RatingAgency": "ICRA",
+          "RatingPeriod": "Long Term",
+          "RatingAssigned": "[ICRA]AAA(Stable)",
+          "RatingInstrumentName": "Long Term - Unallocated",
+          "RatingInstrumentwiseAmount": "null",
+          "RatingRoundingoff": "null",
+          "RatingCurrency": "null",
+          "RatingAssignedDate": "17-02-2021",
+          "RatingPdfUrl": "null"
+        },
+        {
+          "RatingAgency": "ICRA",
+          "RatingPeriod": "Short Term",
+          "RatingAssigned": "--",
+          "RatingInstrumentName": "Non Fund Based Limits",
+          "RatingInstrumentwiseAmount": "null",
+          "RatingRoundingoff": "null",
+          "RatingCurrency": "null",
+          "RatingAssignedDate": "19-02-2019",
+          "RatingPdfUrl": "null"
+        },
+        {
+          "RatingAgency": "ICRA",
+          "RatingPeriod": "Short Term",
+          "RatingAssigned": "--",
+          "RatingInstrumentName": "Non Fund Based Limits",
+          "RatingInstrumentwiseAmount": "null",
+          "RatingRoundingoff": "null",
+          "RatingCurrency": "null",
+          "RatingAssignedDate": "17-02-2021",
+          "RatingPdfUrl": "null"
+        },
+        {
+          "RatingAgency": "ICRA",
+          "RatingPeriod": "Long Term",
+          "RatingAssigned": "[ICRA]AAA(Stable)",
+          "RatingInstrumentName": "Term Loan",
+          "RatingInstrumentwiseAmount": "null",
+          "RatingRoundingoff": "null",
+          "RatingCurrency": "null",
+          "RatingAssignedDate": "19-02-2019",
+          "RatingPdfUrl": "null"
+        }
+      ]
+    }
+  }
+}
