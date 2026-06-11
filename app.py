@@ -58,15 +58,18 @@ def create_app():
         "MICROSOFT_AUTHORITY", "MICROSOFT_GRAPH_SCOPE",
         "SUPER_ADMIN_EMAIL", "DEFAULT_ADMIN_EMAILS",
         "ALLOWED_EMAIL_DOMAIN", "GRAPH_SENDER_UPN",
-        "SESSION_COOKIE_SECURE", "SESSION_COOKIE_SAMESITE",
     ):
         if os.environ.get(key):
             app.config[key] = os.environ[key]
 
-    # Honor SESSION_COOKIE_SECURE from .env (true for prod over HTTPS, false locally)
+    if os.environ.get("SESSION_COOKIE_SAMESITE"):
+        app.config["SESSION_COOKIE_SAMESITE"] = os.environ["SESSION_COOKIE_SAMESITE"]
+
+    # Honor SESSION_COOKIE_SECURE from .env (true for prod over HTTPS, false locally).
+    # Must be parsed to a real bool — the raw string "false" is truthy and would
+    # mark the cookie Secure, which browsers drop over plain HTTP.
     sec = (os.environ.get("SESSION_COOKIE_SECURE") or "").strip().lower()
-    if sec in ("true", "1", "yes"):
-        app.config["SESSION_COOKIE_SECURE"] = True
+    app.config["SESSION_COOKIE_SECURE"] = sec in ("true", "1", "yes")
 
     db.init_app(app)
     app.register_blueprint(auth_bp)

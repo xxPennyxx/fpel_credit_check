@@ -8,19 +8,22 @@ Setup:
 """
 
 import os
+import sys
 import json
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ---------------- CONFIG ----------------
-API_KEY  = os.getenv("INSTA_API_KEY", "fm3IoYaPDjL2U09KYZlsdo0zp6EGUHUe30cBFTGs2TGN8jnG1wm8dQ==")
-BASE_URL = "https://instafinancials.com/api"
-ENDPOINT = "/InstaSummary/v1/json/CompanyCIN/{cin}"
-CIN      = os.getenv("INSTA_TEST_CIN", "L32309KA1954GOI000787")
+API_KEY  = os.getenv("INSTA_API_KEY") or sys.exit("ERROR: INSTA_API_KEY is not set (add it to .env).")
+BASE_URL = "https://api.instafinancials.com"
+ENDPOINT = "/InstaReports/v1/BRiskSummary/CompanyCIN/{CompanyCIN}/OrderReport"
+CIN      = os.getenv("INSTA_TEST_CIN")
 # -----------------------------------------
 
-
 def main():
-    url = BASE_URL + ENDPOINT.format(cin=CIN)
+    url = BASE_URL + ENDPOINT.format(CompanyCIN=CIN)
     headers = {"user-key": API_KEY}
 
     print(f"Requesting (GET): {url}")

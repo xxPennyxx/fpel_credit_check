@@ -12,11 +12,12 @@ Company Report"). Once confirmed, only the values in CONFIG and the field paths 
 _map_response() need changing — the rest of the pipeline is unchanged.
 
 Auth:
-  Reads the API key from the INSTAFIN_API_KEY environment variable.
-  NEVER hard-code the key in this file.
+  Reads the API key from the INSTA_API_KEY environment variable (loaded from
+  .env automatically). NEVER hard-code the key in this file.
 
 Usage:
-  export INSTAFIN_API_KEY="xxxxxxxx"
+  # set INSTA_API_KEY in .env, or:
+  export INSTA_API_KEY="xxxxxxxx"
 
   # By CIN (preferred — InstaFinancials is keyed on CIN):
   python3 fetch_instafinancials.py --cin U12345MH2009PLC123456 \
@@ -45,6 +46,10 @@ import urllib.request
 import urllib.error
 import urllib.parse
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # ----------------------------------------------------------------------------
 # CONFIG  — confirm all of these against the InstaFinancials API docs
 # ----------------------------------------------------------------------------
@@ -70,9 +75,9 @@ RUPEES_PER_CRORE = 1e7     # 1 crore = 10,000,000
 # HTTP
 # ----------------------------------------------------------------------------
 def _api_key():
-    key = os.environ.get("INSTAFIN_API_KEY")
+    key = os.environ.get("INSTA_API_KEY")
     if not key:
-        sys.exit("ERROR: INSTAFIN_API_KEY environment variable is not set.")
+        sys.exit("ERROR: INSTA_API_KEY environment variable is not set (add it to .env).")
     return key
 
 

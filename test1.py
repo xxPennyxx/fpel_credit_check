@@ -1,9 +1,16 @@
+import os
+import sys
 import requests
 import json
+from dotenv import load_dotenv
+
+load_dotenv()
+
+api_key = os.getenv("INSTA_API_KEY") or sys.exit("ERROR: INSTA_API_KEY is not set (add it to .env).")
 
 url = "https://instafinancials.com/api/InstaSummary/v1/json/CompanyCIN/L32309KA1954GOI000787"
 request_headers = {
-    "user-key": "fm3IoYaPDjL2U09KYZlsdo0zp6EGUHUe30cBFTGs2TGN8jnG1wm8dQ=="
+    "user-key": api_key
 }
 
 response = requests.get(url, headers=request_headers)
