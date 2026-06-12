@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+https://api.instafinancials.com/Docs/InstaDocs
+
 fetch_instafinancials.py
 ========================
 Fetches company financial data from the InstaFinancials API and maps it into
