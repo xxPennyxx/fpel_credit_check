@@ -28,6 +28,7 @@ ORDER_ENDPOINT    = "/InstaReports/v1/InstaDocs/CompanyCIN/{CompanyCIN}/OrderRep
 DOWNLOAD_ENDPOINT = "/InstaReports/v1/InstaDocs/OrderID/{OrderID}/DownloadReport"
 
 BRISK_ENDPOINT = "/InstaReports/v1/BRiskSummary/CompanyCIN/{CompanyCIN}/OrderReport"
+BRISK_DOWNLOAD_ENDPOINT = "/InstaReports/v1/BRiskSummary/CompanyCIN/{CompanyCIN}/DownloadReport"
 
 HEADERS = {"user-key": API_KEY}
 
@@ -92,6 +93,14 @@ def test_brisk_summary():
     print("\n--- Raw response ---")
     print(json.dumps(data, indent=2, ensure_ascii=False))
 
+def test_brisk_download():
+    url = BASE_URL + BRISK_DOWNLOAD_ENDPOINT.format(CompanyCIN=CIN)
+    data = get(url)
+    if data is None:
+        return
+    print("\n--- Raw response ---")
+    print(json.dumps(data, indent=2, ensure_ascii=False))
+
 
 def main():
     if not CIN:
@@ -110,7 +119,8 @@ def main():
     else:
         print("\nSkipping DownloadReport test (no OrderID from OrderReport).")
 
-    # test_brisk_summary()  
+    test_brisk_summary()  
+    test_brisk_download() 
 
 
 if __name__ == "__main__":
