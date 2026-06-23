@@ -1,0 +1,10 @@
+curl -X GET https://api.instafinancials.com/InstaReports/v1/BRiskSummary/CompanyCIN/L23201MH1959GOI011388/OrderReport \
+-H "user-key: fm3IoYaPDjL2U09KYZlsdo0zp6EGUHUe30cBFTGs2TGN8jnG1wm8dQ=="
+
+curl -X GET https://api.instafinancials.com/InstaReports/v1/BRiskSummary/OrderID/2303172/GetStatus \
+-H "user-key: fm3IoYaPDjL2U09KYZlsdo0zp6EGUHUe30cBFTGs2TGN8jnG1wm8dQ=="
+
+curl -X GET https://api.instafinancials.com/InstaReports/v1/BRiskSummary/OrderID/2303172/DownloadReport \
+-H "user-key: fm3IoYaPDjL2U09KYZlsdo0zp6EGUHUe30cBFTGs2TGN8jnG1wm8dQ=="
+
+https://api.instafinancials.com/Docs/BRisksum
