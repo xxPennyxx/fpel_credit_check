@@ -1,0 +1,4770 @@
+{
+  "MetaInfo": {
+    "OrderID": 2303172,
+    "InstaProduct": "BRiskSUM",
+    "Input": "L23201MH1959GOI011388",
+    "OrderTimeStamp": "23-06-2026 16:32:08.250",
+    "DeliveryTimeStamp": "24-06-2026 10:35:06.930",
+    "Version": 1,
+    "IsBillable": true
+  },
+  "ReportData": {
+    "CorporateDirectory": {
+      "CompanyKYC": {
+        "CompanyName": "INDIAN OIL CORPORATION LIMITED",
+        "CompanyCIN": "L23201MH1959GOI011388",
+        "CompanyStatus": "Active",
+        "CompanyPAN": "AAACI1681G",
+        "CompanyTAN": "BRDH01003C",
+        "CompanyEPF": [
+          "BRMUZ0020095000",
+          "TNMAS003183400A",
+          "GBRCH0021375000",
+          "GRVSP0071696000",
+          "GRVSP0071617000",
+          "KRKCH0021196000",
+          "NEGHY0000313000",
+          "NEAGT0008191000",
+          "CBCBE0072271000",
+          "CBCBE0072270000",
+          "WBCAL0041180000",
+          "JLSLG0031594000",
+          "WBHLO0049368000",
+          "DLCPM0003458000",
+          "DLCPM0043268000",
+          "DSNHP0029318000",
+          "APHYD0072820000",
+          "GRGNT0023232000",
+          "GRCDP0077690000",
+          "APHYD0073967000",
+          "GRGNT0030204000",
+          "NZNZB0028236000",
+          "GRRJY0022967000",
+          "BRPAT0008025000",
+          "BRMUZ0001193000",
+          "CGRAI0017705000",
+          "CGRAI0017700000",
+          "GAGOA0011949000",
+          "GJAHD0029145000",
+          "GJAHD0019388000",
+          "GJAHD0019389000",
+          "GJRAJ0040166000",
+          "GJRAJ0040165000",
+          "HRKNL0015699000",
+          "HRKNL0006356000",
+          "KNCKR0037395000",
+          "PYKRP0035892000",
+          "KRKKD0011961000",
+          "PYKRP0035237000",
+          "KNMLR0038951000",
+          "GBHBL0050681000",
+          "KRKCH0019064000",
+          "KRKKD0023408000",
+          "KRKCH0019548000",
+          "MHBAN0007693000",
+          "ORBBS0005586000",
+          "LDASR0022587000",
+          "PBBTI0018963000",
+          "RJRAJ0013228000",
+          "RJRAJ0000701000",
+          "RJKOT0011105000",
+          "RJUDR0012155000",
+          "TNMAS001102600A",
+          "CBCBE0072229000",
+          "RJJOD0030022000",
+          "TNMAS0011026000",
+          "MDMDU0057609000",
+          "CBTRY0004338000",
+          "TBTAM0060520000",
+          "WBDGP0037324000",
+          "WBCAL0003574000",
+          "KRKCH1054766000",
+          "WBCAL1193217000",
+          "BRPAT1442629000",
+          "GRVSP1345166000",
+          "KNMLR1355371000",
+          "KRKCH1354116000",
+          "TBPDY1407220000",
+          "DLCPM1186202000",
+          "NEGHY1224009000",
+          "KNCKR1310777000",
+          "KRKCH1355694000",
+          "HRKNL1117686000",
+          "TBTAM1205671000",
+          "KRKKD1347958000",
+          "JLSLG1365078000",
+          "TNMAS1384874000",
+          "PYKRP1534805000",
+          "RJJOD1517001000",
+          "DSNHP1191734000",
+          "TNMAS1269278000",
+          "WBCAL1367302000",
+          "KRKCH1054726000",
+          "WBCAL1193516000",
+          "GBHBL1225477000",
+          "APHYD1353444000",
+          "KRKCH1429398000",
+          "PYBOM1243769000",
+          "APHYD1026761000",
+          "JLSLG1502004000",
+          "GRGNT1174269000",
+          "NETSK1231083000"
+        ],
+        "CompanyGST": [
+          "06AAACI1681G3ZR",
+          "07AAACI1681G1ZR",
+          "03AAACI1681G1ZZ",
+          "14AAACI1681G2ZV",
+          "24AAACI1681G2ZU",
+          "19AAACI1681G5ZI",
+          "33AAACI1681G1ZW",
+          "02AAACI1681G3ZZ",
+          "24AAACI1681G1ZV",
+          "07AAACI1681G2ZQ",
+          "18AAACI1681G1ZO",
+          "10AAACI1681G1DD",
+          "30AAACI1681G1Z2",
+          "18AAACI1681G1DX",
+          "18AAACI1681G5ZK",
+          "27AAACI1681G1DY",
+          "03AAACI1681G3ZX",
+          "15AAACI1681G1ZU",
+          "04AAACI1681G1D6",
+          "36AAACI1681G1DZ",
+          "01AAACI1681G1DC",
+          "16AAACI1681G1D1",
+          "20AAACI1681G1Z3",
+          "18AAACI1681G7ZI",
+          "32AAACI1681G1D7",
+          "21AAACI1681G1DA",
+          "21AAACI1681G5ZX",
+          "34AAACI1681G1D3",
+          "08AAACI1681G1ZP",
+          "01AAACI1681G1Z3",
+          "21AAACI1681G1Z1",
+          "30AAACI1681G1DB",
+          "37AAACI1681G2ZN",
+          "14AAACI1681G1D5",
+          "06AAACI1681G4ZQ",
+          "10AAACI1681G2DC",
+          "05AAACI1681G1D4",
+          "19AAACI1681G1DV",
+          "22AAACI1681G1D8",
+          "04AAACI1681G2ZW",
+          "08AAACI1681G3ZN",
+          "32AAACI1681G2ZX",
+          "33AAACI1681G1D5",
+          "23AAACI1681G1D6",
+          "27AAACI1681G1ZP",
+          "23AAACI1681G1ZX",
+          "26AAACI1681G1ZR",
+          "23AAACI1681G2ZW",
+          "23AAACI1681G3ZV",
+          "35AAACI1681G1D1",
+          "08AAACI1681G1DY",
+          "25AAACI1681G1ZT",
+          "06AAACI1681G1D2",
+          "02AAACI1681G1Z1",
+          "21AAACI1681G6ZW",
+          "08AAACI1681G2ZO",
+          "19AAACI1681G3ZK",
+          "11AAACI1681G1Z2",
+          "08AAACI1681G4ZM",
+          "18AAACI1681G2ZN",
+          "26AAACI1681G1D0",
+          "18AAACI1681G3ZM",
+          "37AAACI1681G3ZM",
+          "36AAACI1681G1ZQ",
+          "23AAACI1681G4ZU",
+          "03AAACI1681G1D8",
+          "09AAACI1681G1ZN",
+          "19AAACI1681G1ZM",
+          "14AAACI1681G1ZW",
+          "33AAACI1681G2ZV",
+          "25AAACI1681G1D2",
+          "37AAACI1681G4ZL",
+          "16AAACI1681G1ZS",
+          "24AAACI1681G2D3",
+          "36AAACI1681G2ZP",
+          "06AAACI1681G1ZT",
+          "19AAACI1681G2ZL",
+          "04AAACI1681G1ZX",
+          "32AAACI1681G1ZY",
+          "01AAACI1681G2Z2",
+          "27AAACI1681G3ZN",
+          "21AAACI1681G4ZY",
+          "10AAACI1681G2Z3",
+          "17AAACI1681G1DZ",
+          "20AAACI1681G2DB",
+          "07AAACI1681G1D0",
+          "21AAACI1681G3ZZ",
+          "15AAACI1681G1D3",
+          "20AAACI1681G1DC",
+          "29AAACI1681G1ZL",
+          "18AAACI1681G4ZL",
+          "18AAACI1681G6ZJ",
+          "20AAACI1681G2Z2",
+          "22AAACI1681G2ZY",
+          "24AAACI1681G3ZT",
+          "12AAACI1681G3ZY",
+          "24AAACI1681G1D4",
+          "32AAACI1681G3ZW",
+          "34AAACI1681G1ZU",
+          "09AAACI1681G1DW",
+          "37AAACI1681G1DX",
+          "13AAACI1681G1D7",
+          "17AAACI1681G1ZQ",
+          "12AAACI1681G1Z0",
+          "27AAACI1681G2ZO",
+          "32AAACI1681G2D6",
+          "21AAACI1681G2D9",
+          "14AAACI1681G4ZT",
+          "05AAACI1681G1ZV",
+          "20AAACI1681G3Z1",
+          "09AAACI1681G3ZL",
+          "12AAACI1681G1D9",
+          "20AAACI1681G4Z0",
+          "19AAACI1681G4ZJ",
+          "22AAACI1681G1ZZ",
+          "37AAACI1681G1ZO",
+          "29AAACI1681G2ZK",
+          "10AAACI1681G1Z4",
+          "09AAACI1681G2ZM",
+          "29AAACI1681G1DU",
+          "35AAACI1681G1ZS",
+          "13AAACI1681G1ZY",
+          "09AAACI1681G4ZK",
+          "21AAACI1681G2Z0",
+          "02AAACI1681G1DA",
+          "18AAACI1681G8ZH",
+          "11AAACI1681G1DB",
+          "01AAACI1681G3Z1",
+          "26AAACI1681G2DZ",
+          "01AAACI1681G2DB",
+          "31AAACI1681G1Z0",
+          "31AAACI1681G1D9",
+          "26AAACI1681G2ZQ",
+          "32AAACI1681G4ZV",
+          "01AAACI1681G1CE",
+          "32AAACI1681G1C9",
+          "17AAACI1681G1C1",
+          "31AAACI1681G1CB",
+          "24AAACI1681G1C6",
+          "08AAACI1681G1C0",
+          "02AAACI1681G1CC",
+          "07AAACI1681G1C2",
+          "10AAACI1681G1CF",
+          "14AAACI1681G1C7",
+          "35AAACI1681G1C3",
+          "21AAACI1681G1CC",
+          "27AAACI1681G2DX",
+          "30AAACI1681G1CD",
+          "13AAACI1681G1C9",
+          "27AAACI1681G1C0",
+          "04AAACI1681G1C8",
+          "11AAACI1681G1CD",
+          "15AAACI1681G1C5",
+          "27AAACI1681G4ZM",
+          "36AAACI1681G1C1",
+          "16AAACI1681G1C3",
+          "12AAACI1681G1CB",
+          "26AAACI1681G1C2",
+          "20AAACI1681G1CE",
+          "19AAACI1681G1CX",
+          "22AAACI1681G1CA",
+          "06AAACI1681G1C4",
+          "18AAACI1681G1CZ",
+          "29AAACI1681G1CW",
+          "05AAACI1681G1C6",
+          "34AAACI1681G1C5",
+          "03AAACI1681G1CA",
+          "09AAACI1681G1CY",
+          "23AAACI1681G1C8",
+          "33AAACI1681G1C7",
+          "37AAACI1681G1CZ"
+        ]
+      },
+      "CompanyMaster": {
+        "DateOfIncorporation": "1959-06-30T00:00:00",
+        "Category": "Company limited by shares",
+        "SubCategory": "Union Government Company",
+        "Class": "Public Company",
+        "ListingStatus": "Listed",
+        "AuthorizedCapital": 300000000000.0,
+        "PaidupCapital": 141212383830.0,
+        "Address": "Indian Oil Bhavan; G-9 All Yavar Jung Marg; BANDRA (EAST); MUMBAI; Maharashtra; 400051; India",
+        "LastAGMDate": "2025-08-30T00:00:00",
+        "BalancesheetDate": "2025-03-31T00:00:00",
+        "Email": "kgwalani@indianoil.in",
+        "Website": "www.iocl.com",
+        "CurrentDirectorsCount": 0,
+        "PastDirectorsCount": 0,
+        "SignatoriesCount": 0,
+        "ActiveCompliance": "ACTIVE compliant",
+        "StatusUnderCIRP": "NA",
+        "SuspendedAtStockExchange": "NA",
+        "FilingStatusForLastTwoYears": "NA"
+      }
+    },
+    "ComparativeFinancialsStandalone": {
+      "ProfitAndLossStatement": {
+        "OperatingRevenues": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 5146240100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 7284454000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 9349526600000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8663453800000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 8455126100000.0
+          }
+        ],
+        "OtherIncomes": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 48171800000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 43388000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 62352200000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 47808200000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 49638400000.0
+          }
+        ],
+        "TotalRevenues": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 5194411900000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 7327842000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 9411878800000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8711262000000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 8504764500000.0
+          }
+        ],
+        "TotalExpenses": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 4897255400000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 7010511300000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 9314897400000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8187819900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 8364321300000.0
+          }
+        ],
+        "EBDITA": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 377966900000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 432292800000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 222526500000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 694007800000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 330962100000.0
+          }
+        ],
+        "Depreciations": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 98043000000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 110059100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 118594400000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 145096000000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 152841400000.0
+          }
+        ],
+        "Interests": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 30939200000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 48291000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 69302900000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 73277900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 87315900000.0
+          }
+        ],
+        "PBT": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 297156500000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 317330700000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 96981400000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 523442100000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 140443200000.0
+          }
+        ],
+        "Taxes": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 78796100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 75489700000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 14563200000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 127253700000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 29207700000.0
+          }
+        ],
+        "OtherAdjustments": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 0.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 0.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 0.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 0.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 18380200000.0
+          }
+        ],
+        "PAT": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 218360400000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 241841000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 82418200000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 396188400000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 129615700000.0
+          }
+        ]
+      },
+      "BalanceSheetStandalone": {
+        "NetWorth": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1105000400000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1312863600000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1347575400000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1767149800000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1786768600000.0
+          }
+        ],
+        "Borrowings": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 944130000000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1107985000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1324954500000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1164957400000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1344655400000.0
+          }
+        ],
+        "OtherNonCurrentLiabilities": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 108096000000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 108378400000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 114333100000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 117278000000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 122742300000.0
+          }
+        ],
+        "CurrentLiabilitiesAndProvisions": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1053667100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1217890400000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1266020300000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1356650000000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1363311600000.0
+          }
+        ],
+        "DeferredTaxLiabilityOfAssets": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 3340540800000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 3883391000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 4199013300000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 4572406200000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 4800003400000.0
+          }
+        ],
+        "TotalEquityAndLiabilities": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1409161400000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1443135300000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1626467000000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1776189500000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1823886000000.0
+          }
+        ],
+        "TangibleAssets": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 316006100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 427646000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 472011300000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 570242300000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 734531600000.0
+          }
+        ],
+        "CapitalWIPAndOthers": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 39353200000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 42567800000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 46282800000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 52892100000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 62231200000.0
+          }
+        ],
+        "IntangibleAssets": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 486194100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 577866400000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 575192700000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 710881800000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 709172000000.0
+          }
+        ],
+        "Investments": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 69678800000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 74807500000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 84920900000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 97066400000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 117596000000.0
+          }
+        ],
+        "LoansAndAdvances": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 781880100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1032069400000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1138534100000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1125074900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1056119200000.0
+          }
+        ],
+        "Inventories": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 133795600000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 181365700000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 156673800000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 127794100000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 178130000000.0
+          }
+        ],
+        "TradeReceivables": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 16683700000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 8829800000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 7730100000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8304600000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 5160100000.0
+          }
+        ],
+        "CashAndBankBalances": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 87787800000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 95103100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 91200600000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 103960500000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 113177300000.0
+          }
+        ],
+        "OtherAssets": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 129647300000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 136273600000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 146130000000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 166371000000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 182525500000.0
+          }
+        ],
+        "TotalAssets": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 3340540800000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 3883391000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 4199013300000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 4572406200000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 4800003400000.0
+          }
+        ],
+        "CurrentLiabilities": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1508138400000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1820077100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 2009398500000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 2107932100000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 2192676600000.0
+          }
+        ],
+        "CurrentAssets": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1097910000000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1371520300000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1496333600000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1459635900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1459013400000.0
+          }
+        ],
+        "WorkingCapitals": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": -410228400000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": -448556800000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": -513064900000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": -648296200000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": -733663200000.0
+          }
+        ],
+        "RedFlags": null
+      },
+      "CashFlowStatementStandalone": {
+        "OperatingActivities": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 487839800000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 227912700000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 209853500000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 680966000000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 331704600000.0
+          }
+        ],
+        "InvestingActivities": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": -210576900000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": -207999900000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": -252856300000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": -297016200000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": -292612900000.0
+          }
+        ],
+        "FinancingActivities": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": -279481100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": -15951100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 39536900000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": -382940200000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": -41102800000.0
+          }
+        ],
+        "CashAndCashEquivalentAtEnds": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 3137400000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 7099100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 3633200000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 4642800000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 2631700000.0
+          }
+        ]
+      },
+      "RatioAnalysisStandalone": {
+        "OperativeRevenueGrowthPercentages": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": -8.89
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 41.55
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 28.35
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": -7.34
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": -2.40
+          }
+        ],
+        "EBITDAGrowths": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 76.50
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 14.37
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": -48.52
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 211.88
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": -52.31
+          }
+        ],
+        "EPSGrowths": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1562.94
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": -26.16
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": -65.95
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 381.10
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": -67.29
+          }
+        ],
+        "EBITDAMarginPercentages": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 7.28
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 5.90
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 2.36
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 7.97
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 3.89
+          }
+        ],
+        "PATMarginPercentage": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 4.20
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 3.30
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 0.88
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 4.55
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1.52
+          }
+        ],
+        "ReturnOnCapitalEmployedPercentage_RoCEs": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 17.91
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 17.72
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 7.59
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 24.21
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 9.44
+          }
+        ],
+        "ReturnOnEquityPercentage_RoEs": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 19.76
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 18.42
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 6.12
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 22.42
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 7.25
+          }
+        ],
+        "ReturnOnAssetsPercentage_RoAs": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 6.54
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 6.23
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1.96
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8.66
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 2.70
+          }
+        ],
+        "AvgInventoryHoldingDays": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 87.94
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 65.76
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 52.24
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 63.67
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 60.22
+          }
+        ],
+        "AvgDebtorsOutstandingDays": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 9.30
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 7.90
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 6.60
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 5.98
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 6.60
+          }
+        ],
+        "AvgTradePayableDays": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 36.46
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 27.58
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 21.94
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 28.18
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 28.68
+          }
+        ],
+        "AvgCashConversionCycle": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 60.78
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 46.08
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 36.90
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 41.47
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 38.15
+          }
+        ],
+        "QuickRatios": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 0.21
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 0.19
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 0.18
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 0.16
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 0.18
+          }
+        ],
+        "CurrentRatio": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 0.73
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 0.75
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 0.74
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 0.69
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 0.67
+          }
+        ],
+        "LeverageTOL_TNWs": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 2.10
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 2.02
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 2.19
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1.64
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1.75
+          }
+        ],
+        "NetDebtEquities": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 0.44
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 0.39
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 0.43
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 0.23
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 0.29
+          }
+        ],
+        "InterestCoverages": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 10.60
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 7.57
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 2.40
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8.14
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 2.61
+          }
+        ],
+        "CapitalEmployedTurnovers": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 2.81
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 3.53
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 4.27
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 3.52
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 3.24
+          }
+        ],
+        "AssetTurnovers": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1.61
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 2.03
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 2.33
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1.99
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1.81
+          }
+        ],
+        "InventoryTurnovers": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 4.15
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 5.55
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 6.99
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 5.72
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 6.06
+          }
+        ],
+        "ReceivablesTurnovers": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 39.25
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 46.23
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 55.32
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 60.91
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 55.28
+          }
+        ],
+        "WorkingCapitalTurnovers": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": -11.80
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 17.07
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 19.58
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 15.00
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 12.31
+          }
+        ]
+      }
+    },
+    "SchedulesAndDisclosuresFinancialsInfo": {
+      "RevenueFromOperations": {
+        "DomesticTurnover": {
+          "DomesticSalesOfManufacturedGoods": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 5105455300000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 7238284200000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 9196544700000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 8617799500000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 8408422800000.0
+            }
+          ],
+          "DomesticSalesOfTradedGoods": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 5105455300000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 7238284200000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 9196544700000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 8617799500000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 8408422800000.0
+            }
+          ],
+          "DomesticSalesOfServices": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 3013700000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 3075800000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 3366300000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 2197500000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 3359800000.0
+            }
+          ]
+        },
+        "ExportTurnover": {
+          "ExportSalesOfManufacturedGoods": [],
+          "ExportSalesOfTradedGoods": [],
+          "ExportSalesOfServices": []
+        },
+        "TotalRevenueFromOperations": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 5146240100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 7284454000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 9349526600000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8663453800000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 8455126100000.0
+          }
+        ]
+      },
+      "FinanceCost": {
+        "InterestOnBorrowings": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 39019200000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 37998900000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 61270800000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 65781500000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 76839300000.0
+          }
+        ],
+        "OtherFinanceRelatedCharges": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": -8080000000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 10292100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 8032100000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 7496400000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 10476600000.0
+          }
+        ],
+        "TotalFinanceCosts": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 30939200000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 48291000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 69302900000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 73277900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 87315900000.0
+          }
+        ]
+      },
+      "ExpenseBreakup": {
+        "DepreciationDepletionAndAmortizationsExpenses": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 98043000000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 110059100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 118594400000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 145096000000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 152841400000.0
+          }
+        ],
+        "OtherExpenses": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1716407600000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1707803000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1456065600000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1387154100000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1408548800000.0
+          }
+        ],
+        "CostOfMaterialsConsumed": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1566479600000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 2945014800000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 4406931100000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 3905256300000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 3995215800000.0
+          }
+        ],
+        "PurchasesOfStockInTrades": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1433057300000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 2210781000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 3246061400000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 2546317800000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 2624183300000.0
+          }
+        ],
+        "ChangesInInventoriesOfFinishedGoodsWorkInProgressAndStockInTrades": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": -55475700000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": -121970200000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": -70646100000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 19048300000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": -9193700000.0
+          }
+        ],
+        "EmployeeBenefitExpenses": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 107120400000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 109917000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 87698500000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 110795600000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 103636600000.0
+          }
+        ],
+        "FinanceCosts": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 30939200000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 48291000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 69302900000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 73277900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 87315900000.0
+          }
+        ],
+        "TotalExpenses": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 4897255400000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 7010511300000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 9314897400000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8187819900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 8364321300000.0
+          }
+        ]
+      },
+      "OtherExpense": {
+        "ConsumptionOfStoresAndSpareParts": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 21391800000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 26446000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 29424700000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 33737400000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 33395800000.0
+          }
+        ],
+        "PowerAndFuels": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 43600800000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 75447100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 78044100000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 85492900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 112083400000.0
+          }
+        ],
+        "Rents": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 6003200000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 6468100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 10307200000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8290500000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 8434600000.0
+          }
+        ],
+        "RepairsToBuildingAndMachineries": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 34747900000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 41330000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 48502500000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 52077100000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 61172900000.0
+          }
+        ],
+        "TravellingConveyances": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 4707100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 6308600000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 8668700000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 8153700000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 8930800000.0
+          }
+        ],
+        "RatesAndTaxes": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1385438600000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1323867300000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 982164300000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 946701900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 924129200000.0
+          }
+        ],
+        "LegalProfessionalCharges": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1513000000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 2123300000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1931200000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 2366300000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 2333700000.0
+          }
+        ],
+        "AdvertisingPromotionals": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 4041000000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 13167500000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 12217100000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 14339900000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 9177100000.0
+          }
+        ],
+        "PaymentsToAuditors": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 41600000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 51100000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 53900000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 53000000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 57700000.0
+          }
+        ],
+        "MiscellaneousExpenses": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 214922600000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 212594000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 284751900000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 235941400000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 248833600000.0
+          }
+        ],
+        "TotalOtherExpenses": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 1716407600000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1707803000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1456065600000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1387154100000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1408548800000.0
+          }
+        ]
+      },
+      "Borrowings": {
+        "SecuredBorrowings": {
+          "SecuredBorrowingsLongTerm": {
+            "LoansFromOthers": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 5315900000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 0.0
+              }
+            ],
+            "LoansFromBanks": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 0.0
+              }
+            ],
+            "OtherBorrowings": null
+          },
+          "SecuredBorrowingsShortTerm": {
+            "LoansRepayableOnDemandFromBanks": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 79359700000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 70289300000.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 96649400000.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 100673800000.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 72087800000.0
+              }
+            ],
+            "LoansrepayableOnDemandFromOthers": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 3199700000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 41720600000.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 15226700000.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 55545400000.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 61704000000.0
+              }
+            ],
+            "OtherBorrowings": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 375000000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 4896300000.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 7176000000.0
+              }
+            ]
+          },
+          "TotalSecuredBorrowings": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 88250300000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 112009900000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 116772400000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 156219200000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 156974000000.0
+            }
+          ]
+        },
+        "UnsecuredBorrowings": {
+          "UnsecuredBorrowingsLongTerm": {
+            "LoansFromBanks": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 188318300000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 263174600000.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 337796100000.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 221022000000.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 301513000000.0
+              }
+            ],
+            "LoansFromOthers": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 12913400000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 16210700000.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 19703000000.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 23519500000.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 27801900000.0
+              }
+            ],
+            "OtherBorrowings": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 283111100000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 226413000000.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 224077200000.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 169133800000.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 169969300000.0
+              }
+            ],
+            "DeferredPaymentLiabilities": [],
+            "Deposits": [],
+            "LoansAndAdvancesFromRelatedParties": []
+          },
+          "UnsecuredBorrowingsShortTerm": {
+            "LoansRepayableOnDemandFromBanks": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 199860500000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 216413200000.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 468337100000.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 431295200000.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 576790000000.0
+              }
+            ],
+            "LoansRepayableOnDemandFromOthers": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 129308700000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 146403500000.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 0.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 0.0
+              }
+            ],
+            "UnsecuredOtherBorrowings": [
+              {
+                "FinancialYear": "2020-2021",
+                "Amount": 42367700000.0
+              },
+              {
+                "FinancialYear": "2021-2022",
+                "Amount": 127360100000.0
+              },
+              {
+                "FinancialYear": "2022-2023",
+                "Amount": 158268700000.0
+              },
+              {
+                "FinancialYear": "2023-2024",
+                "Amount": 163767700000.0
+              },
+              {
+                "FinancialYear": "2024-2025",
+                "Amount": 111607200000.0
+              }
+            ],
+            "UnsecuredShortDeposits": [],
+            "LoansAndAdvancesFromRelatedParties": []
+          },
+          "TotalUnsecuredBorrowings": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 855879700000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 995975100000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 1208182100000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 1008738200000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 1187681400000.0
+            }
+          ]
+        },
+        "TotalBorrowings": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 944130000000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 1107985000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 1324954500000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 1164957400000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 1344655400000.0
+          }
+        ]
+      },
+      "LoansAndAdvancesSchedulesAndDisclosures": {
+        "SecuredLongGood": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 9156200000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 8600200000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 10149200000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 12809600000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 15203300000.0
+          }
+        ],
+        "UnsecuredLongGood": {
+          "CapitalAdvances": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 11140800000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 13370200000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 16233600000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 23093500000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 29668700000.0
+            }
+          ],
+          "SecurityDeposits": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 0.0
+            }
+          ],
+          "LoansAndAdvancesToRelatedParties": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 7369000000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 11804200000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 12318000000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 12009800000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 12378700000.0
+            }
+          ],
+          "OtherLoansAndAdvances": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 17518700000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 16898400000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 15418000000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 16466300000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 22686400000.0
+            }
+          ],
+          "LessProvisionOnRelatedParties": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 0.0
+            }
+          ],
+          "LessProvisionOnOthers": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 2565000000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 1422000000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 0.0
+            }
+          ]
+        },
+        "UnsecuredLongDoubtful": {
+          "CapitalAdvances": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 0.0
+            }
+          ],
+          "SecurityDeposits": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 0.0
+            }
+          ],
+          "LoansAndAdvancesToRelatedParties": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 1109000000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 1109000000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 1109000000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 1109000000.0
+            }
+          ],
+          "OtherLoansAndAdvances": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 5637800000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 3801100000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 4889600000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 8308400000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 8939400000.0
+            }
+          ],
+          "LessProvisionOnRelatedParties": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 0.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 1109000000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 1109000000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 1109000000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 1109000000.0
+            }
+          ],
+          "LessProvisionOnOthers": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 5637800000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 3801100000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 6864000000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 10111400000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 10709600000.0
+            }
+          ]
+        },
+        "LongTermLoansAndAdvances": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 42619700000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 49251000000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 52144400000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 62576200000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 78166900000.0
+          }
+        ],
+        "ShortTermLoansAndAdvances": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 27059100000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 25556500000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 32776500000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 34490200000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 39429100000.0
+          }
+        ],
+        "TotalLoansAndAdvances": [
+          {
+            "FinancialYear": "2020-2021",
+            "Amount": 69678800000.0
+          },
+          {
+            "FinancialYear": "2021-2022",
+            "Amount": 74807500000.0
+          },
+          {
+            "FinancialYear": "2022-2023",
+            "Amount": 84920900000.0
+          },
+          {
+            "FinancialYear": "2023-2024",
+            "Amount": 97066400000.0
+          },
+          {
+            "FinancialYear": "2024-2025",
+            "Amount": 117596000000.0
+          }
+        ]
+      },
+      "TradeReceivablesAgeing": {
+        "DueExceedingSixMonths": {
+          "SecuredConsideredGood": [],
+          "UnsecuredConsideredGood": [],
+          "Doubtfuls": [],
+          "LessProvisions": [],
+          "NetTradeReceivables": []
+        },
+        "DueUptoSixMonths": {
+          "SecuredConsideredGood": [],
+          "UnsecuredConsideredGood": [],
+          "Doubtfuls": [],
+          "LessProvisions": [],
+          "NetTradeReceivables": []
+        },
+        "Unclassified": {
+          "TotalTradeReceivables": [
+            {
+              "FinancialYear": "2020-2021",
+              "Amount": 133795600000.0
+            },
+            {
+              "FinancialYear": "2021-2022",
+              "Amount": 181365700000.0
+            },
+            {
+              "FinancialYear": "2022-2023",
+              "Amount": 156673800000.0
+            },
+            {
+              "FinancialYear": "2023-2024",
+              "Amount": 127794100000.0
+            },
+            {
+              "FinancialYear": "2024-2025",
+              "Amount": 178130000000.0
+            }
+          ]
+        }
+      },
+      "EquityShareCapitalReconciliation": [],
+      "ContingentLiabilitiesAndCommitments": []
+    },
+    "CreditRatings": {
+      "CreditRatingsAssignedInLastOneYear": null,
+      "CreditRatingsOlderThanLastOneYear": [
+        {
+          "RatingAgency": "CRISIL",
+          "DateOfRating": "07Nil12Nil2022",
+          "InstrumentDetails": "\t\t\t\t\t\t",
+          "Amount": null,
+          "RatingAssigned": "NA",
+          "Outlook": "NA",
+          "RationalLink": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOilCorporationLimited_December 07, 2022_RR_307688.html"
+        }
+      ]
+    },
+    "SuitFiledCasesAndWillfulDefaulter_Historical": [],
+    "EstablishmentAndEPFDetails": {
+      "EstablishmentDetails": [
+        {
+          "EstablishmentName": "INDIAN OIL CORPN.LTD.RAXAUL DEPOT. U/S 2A",
+          "EstablishmentCode": "BRMUZ0020095000",
+          "City": "BEGUSARAI",
+          "State": "BIHAR",
+          "Pincode": 845305
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED (HOUSE KEEPING CONTRACT SERVICES)",
+          "EstablishmentCode": "TNMAS003183400A",
+          "City": "CHENNAI",
+          "State": "TAMIL NADU",
+          "Pincode": 600034
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPN. LTD (CONTRACT EMPLOYEES)",
+          "EstablishmentCode": "GBRCH0021375000",
+          "City": "RAICHUR",
+          "State": "KARNATAKA",
+          "Pincode": 584101
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED(CONTRACT WORKMEN)",
+          "EstablishmentCode": "GRVSP0071696000",
+          "City": "VISAKHAPATNAM",
+          "State": "ANDHRA PRADESH",
+          "Pincode": 531021
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED (CONTRACT WORKMEN)",
+          "EstablishmentCode": "GRVSP0071617000",
+          "City": "VISAKHAPATNAM",
+          "State": "ANDHRA PRADESH",
+          "Pincode": 530011
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED (CONTRACT EMPLOYEES)",
+          "EstablishmentCode": "KRKCH0021196000",
+          "City": "KOCHI",
+          "State": "KERALA",
+          "Pincode": 682016
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED GUWAHATI REFINERY.(EXEMPTED)",
+          "EstablishmentCode": "NEGHY0000313000",
+          "City": "GUWAHATI",
+          "State": "ASSAM",
+          "Pincode": 781020
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED(MARKETING DIVISION)",
+          "EstablishmentCode": "NEAGT0008191000",
+          "City": "AGARTALA",
+          "State": "TRIPURA",
+          "Pincode": 799009
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED(MARKETING DIVISION)",
+          "EstablishmentCode": "CBCBE0072271000",
+          "City": "POLLACHI",
+          "State": "TAMIL NADU",
+          "Pincode": 642202
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED(MARKETING DIVISION)",
+          "EstablishmentCode": "CBCBE0072270000",
+          "City": "POLLACHI",
+          "State": "TAMIL NADU",
+          "Pincode": 642202
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED(MARKETING DIVISION)",
+          "EstablishmentCode": "WBCAL0041180000",
+          "City": "KOLKATA",
+          "State": "WEST BENGAL",
+          "Pincode": 700068
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPN.LTD.(MD)",
+          "EstablishmentCode": "JLSLG0031594000",
+          "City": "SILIGURI",
+          "State": "WEST BENGAL",
+          "Pincode": 734007
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPN.LTD.(MOURIGRAM TERMINAL)",
+          "EstablishmentCode": "WBHLO0049368000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "DLCPM0003458000",
+          "City": "FARIDABAD",
+          "State": "HARYANA",
+          "Pincode": 121007
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "DLCPM0043268000",
+          "City": "NEW DELHI",
+          "State": "DELHI",
+          "Pincode": 110001
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "DSNHP0029318000",
+          "City": "NEW DELHI",
+          "State": "DELHI",
+          "Pincode": 110016
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "APHYD0072820000",
+          "City": "HYDERABAD",
+          "State": "TELANGANA",
+          "Pincode": 500051
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.,",
+          "EstablishmentCode": "GRGNT0023232000",
+          "City": "KONDAPAALLI",
+          "State": "ANDHRA PRADESH",
+          "Pincode": 521228
+        },
+        {
+          "EstablishmentName": "M/S INDIAN OIL CORPORATION LTD.,",
+          "EstablishmentCode": "GRCDP0077690000",
+          "City": "GUNTAKAL POST",
+          "State": "ANDHRA PRADESH",
+          "Pincode": 515801
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "APHYD0073967000",
+          "City": "KOTHUR",
+          "State": "TELANGANA",
+          "Pincode": 509325
+        },
+        {
+          "EstablishmentName": "M/S.INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "GRGNT0030204000",
+          "City": "VIJAYAWADA",
+          "State": "ANDHRA PRADESH",
+          "Pincode": 520008
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "NZNZB0028236000",
+          "City": "NIZAMABAD",
+          "State": "TELANGANA",
+          "Pincode": 503003
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED,",
+          "EstablishmentCode": "GRRJY0022967000",
+          "City": "KORUKONDA",
+          "State": "ANDHRA PRADESH",
+          "Pincode": 533289
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPN.LTD",
+          "EstablishmentCode": "BRPAT0008025000",
+          "City": "PATNA",
+          "State": "BIHAR",
+          "Pincode": 800001
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "BRMUZ0001193000",
+          "City": "BARAUNI",
+          "State": "BIHAR",
+          "Pincode": 851114
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "CGRAI0017705000",
+          "City": "BHILAI-3",
+          "State": "CHHATTISGARH",
+          "Pincode": 490001
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "CGRAI0017700000",
+          "City": "BILASPUR",
+          "State": "CHHATTISGARH",
+          "Pincode": 495004
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "GAGOA0011949000",
+          "City": "MORMUGAO",
+          "State": "GOA",
+          "Pincode": 403802
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "GJAHD0029145000",
+          "City": "AHMEDABAD",
+          "State": "GUJARAT",
+          "Pincode": 380013
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "GJAHD0019388000",
+          "City": "AHMEDABAD",
+          "State": "GUJARAT",
+          "Pincode": 380005
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "GJAHD0019389000",
+          "City": "AHMEDABAD",
+          "State": "GUJARAT",
+          "Pincode": 380014
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.,",
+          "EstablishmentCode": "GJRAJ0040166000",
+          "City": "GAURIDAD",
+          "State": "GUJARAT",
+          "Pincode": 360003
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.,",
+          "EstablishmentCode": "GJRAJ0040165000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "HRKNL0015699000",
+          "City": "PANIPAT",
+          "State": "HARYANA",
+          "Pincode": 132140
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.,",
+          "EstablishmentCode": "HRKNL0006356000",
+          "City": "AMBALA CANTT",
+          "State": "HARYANA",
+          "Pincode": 133001
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "KNCKR0037395000",
+          "City": "HASSAN",
+          "State": "KARNATAKA",
+          "Pincode": 573201
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "PYKRP0035892000",
+          "City": "BANGALORE",
+          "State": "KARNATAKA",
+          "Pincode": 560117
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.,",
+          "EstablishmentCode": "KRKKD0011961000",
+          "City": "THENJIPALAM",
+          "State": "KERALA",
+          "Pincode": 673636
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "PYKRP0035237000",
+          "City": "BANGALORE",
+          "State": "KARNATAKA",
+          "Pincode": 560067
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "KNMLR0038951000",
+          "City": "NAGARA MANGALURU",
+          "State": "KARNATAKA",
+          "Pincode": 575006
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "GBHBL0050681000",
+          "City": "BELGAUM",
+          "State": "KARNATAKA",
+          "Pincode": 590014
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "KRKCH0019064000",
+          "City": "PANAMPILLYNAGAR   COCHIN",
+          "State": "KERALA",
+          "Pincode": 682036
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "KRKKD0023408000",
+          "City": "CIVIL STATION PO",
+          "State": "KERALA",
+          "Pincode": 673020
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "KRKCH0019548000",
+          "City": "IRUMPANAM",
+          "State": "KERALA",
+          "Pincode": 682309
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORP LTD",
+          "EstablishmentCode": "MHBAN0007693000",
+          "City": "",
+          "State": "MAHARASHTRA",
+          "Pincode": 400051
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "ORBBS0005586000",
+          "City": "BALASORE",
+          "State": "ODISHA",
+          "Pincode": 756056
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "LDASR0022587000",
+          "City": "AMRITSAR",
+          "State": "PUNJAB",
+          "Pincode": 143001
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "PBBTI0018963000",
+          "City": "SANGRUR",
+          "State": "PUNJAB",
+          "Pincode": 148001
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORP LTD.",
+          "EstablishmentCode": "RJRAJ0013228000",
+          "City": "JAIPUR",
+          "State": "RAJASTHAN",
+          "Pincode": 302015
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "RJRAJ0000701000",
+          "City": "JAIPUR",
+          "State": "RAJASTHAN",
+          "Pincode": 302001
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "RJKOT0011105000",
+          "City": "SAWAIMADHOPUR",
+          "State": "RAJASTHAN",
+          "Pincode": 322001
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "RJUDR0012155000",
+          "City": "UDAIPUR",
+          "State": "RAJASTHAN",
+          "Pincode": 313002
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "TNMAS001102600A",
+          "City": "CHENNAI",
+          "State": "TAMIL NADU",
+          "Pincode": 600034
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "CBCBE0072229000",
+          "City": "POLLACHI",
+          "State": "TAMIL NADU",
+          "Pincode": 642202
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "RJJOD0030022000",
+          "City": "JODHPUR",
+          "State": "RAJASTHAN",
+          "Pincode": 342001
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "TNMAS0011026000",
+          "City": "CHENNAI",
+          "State": "TAMIL NADU",
+          "Pincode": 600034
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.,",
+          "EstablishmentCode": "MDMDU0057609000",
+          "City": "ILAYANGUDI",
+          "State": "TAMIL NADU",
+          "Pincode": 630562
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.,",
+          "EstablishmentCode": "CBTRY0004338000",
+          "City": "CUDDALORE",
+          "State": "TAMIL NADU",
+          "Pincode": 606202
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "TBTAM0060520000",
+          "City": "PADALAM",
+          "State": "TAMIL NADU",
+          "Pincode": 603308
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "WBDGP0037324000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "M/S INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "WBCAL0003574000",
+          "City": "KOLKATA",
+          "State": "WEST BENGAL",
+          "Pincode": 700137
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "KRKCH1054766000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "WBCAL1193217000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "BRPAT1442629000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "GRVSP1345166000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "KNMLR1355371000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "KRKCH1354116000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "TBPDY1407220000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD.",
+          "EstablishmentCode": "DLCPM1186202000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "NEGHY1224009000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "KNCKR1310777000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "KRKCH1355694000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "HRKNL1117686000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "TBTAM1205671000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "KRKKD1347958000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "JLSLG1365078000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIANOIL CORPORATION LIMITED",
+          "EstablishmentCode": "TNMAS1384874000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "PYKRP1534805000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "RJJOD1517001000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "DSNHP1191734000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "TNMAS1269278000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "WBCAL1367302000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "KRKCH1054726000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "M/S INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "WBCAL1193516000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "GBHBL1225477000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "APHYD1353444000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED (CONTRACT EMPLOYEES)",
+          "EstablishmentCode": "KRKCH1429398000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "PYBOM1243769000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "APHYD1026761000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LTD",
+          "EstablishmentCode": "JLSLG1502004000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED",
+          "EstablishmentCode": "GRGNT1174269000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        },
+        {
+          "EstablishmentName": "INDIAN OIL CORPORATION LIMITED ASSAM OIL DIVISION EMPLOYEES PROVIDENT FUND",
+          "EstablishmentCode": "NETSK1231083000",
+          "City": "",
+          "State": "",
+          "Pincode": null
+        }
+      ],
+      "EmploymentTrends": [
+        {
+          "MonthYear": "MAY-2026",
+          "TotalEmployees": 1346,
+          "EPFAmountPaid": 2504886.00
+        },
+        {
+          "MonthYear": "APR-2026",
+          "TotalEmployees": 2995,
+          "EPFAmountPaid": 5156335.00
+        },
+        {
+          "MonthYear": "MAR-2026",
+          "TotalEmployees": 2982,
+          "EPFAmountPaid": 5202247.00
+        },
+        {
+          "MonthYear": "FEB-2026",
+          "TotalEmployees": 3046,
+          "EPFAmountPaid": 5256151.00
+        },
+        {
+          "MonthYear": "JAN-2026",
+          "TotalEmployees": 3090,
+          "EPFAmountPaid": 5324140.00
+        },
+        {
+          "MonthYear": "DEC-2025",
+          "TotalEmployees": 3122,
+          "EPFAmountPaid": 4857214.00
+        },
+        {
+          "MonthYear": "NOV-2025",
+          "TotalEmployees": 3140,
+          "EPFAmountPaid": 4906279.00
+        },
+        {
+          "MonthYear": "OCT-2025",
+          "TotalEmployees": 3153,
+          "EPFAmountPaid": 4513749.00
+        }
+      ]
+    },
+    "DirectorKYCAndNetworks": {
+      "BoardMembersKYCs": [
+        {
+          "Name": "Nominee Director ( 07775238 )",
+          "DirectorDIN": "07775238",
+          "Designation": "Nominee Director",
+          "Age": 49.11,
+          "Tenure": 2.0,
+          "PAN": "BNDPS7049Q",
+          "City": "lucknow",
+          "State": "UP",
+          "Mobile": "8500851711",
+          "Email": "sujataias@gmail.com"
+        },
+        {
+          "Name": "Whole-time director ( 09224177 )",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "Age": 58.8,
+          "Tenure": 1.10,
+          "PAN": "ABOPK6524C",
+          "City": "New Delhi",
+          "State": "DL",
+          "Mobile": "9412207085",
+          "Email": "kumarar@indianoil.in"
+        },
+        {
+          "Name": "Whole-time director ( 09224177 )",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "Age": 58.8,
+          "Tenure": 1.10,
+          "PAN": "ABOPK6524C",
+          "City": "New Delhi",
+          "State": "DL",
+          "Mobile": "9412207085",
+          "Email": "kumarar@indianoil.in"
+        },
+        {
+          "Name": "Whole-time director ( 09224177 )",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "Age": 58.8,
+          "Tenure": 1.10,
+          "PAN": "ABOPK6524C",
+          "City": "New Delhi",
+          "State": "DL",
+          "Mobile": "9412207085",
+          "Email": "kumarar@indianoil.in"
+        },
+        {
+          "Name": "Whole-time director ( 09224177 )",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "Age": 58.8,
+          "Tenure": 1.10,
+          "PAN": "ABOPK6524C",
+          "City": "New Delhi",
+          "State": "DL",
+          "Mobile": "9412207085",
+          "Email": "kumarar@indianoil.in"
+        },
+        {
+          "Name": "Whole-time director ( 09224177 )",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "Age": 58.8,
+          "Tenure": 1.10,
+          "PAN": "ABOPK6524C",
+          "City": "New Delhi",
+          "State": "DL",
+          "Mobile": "9412207085",
+          "Email": "kumarar@indianoil.in"
+        },
+        {
+          "Name": "Whole-time director ( 09724749 )",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "Age": 57.11,
+          "Tenure": 1.3,
+          "PAN": "AAMPK0982D",
+          "City": "Ghaziabad",
+          "State": "UP",
+          "Mobile": "9873250167",
+          "Email": "kumarsuman@indianoil.in"
+        },
+        {
+          "Name": "Whole-time director ( 09724749 )",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "Age": 57.11,
+          "Tenure": 1.3,
+          "PAN": "AAMPK0982D",
+          "City": "Ghaziabad",
+          "State": "UP",
+          "Mobile": "9873250167",
+          "Email": "kumarsuman@indianoil.in"
+        },
+        {
+          "Name": "Whole-time director ( 09724749 )",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "Age": 57.11,
+          "Tenure": 1.3,
+          "PAN": "AAMPK0982D",
+          "City": "Ghaziabad",
+          "State": "UP",
+          "Mobile": "9873250167",
+          "Email": "kumarsuman@indianoil.in"
+        },
+        {
+          "Name": "Whole-time director ( 09724749 )",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "Age": 57.11,
+          "Tenure": 1.3,
+          "PAN": "AAMPK0982D",
+          "City": "Ghaziabad",
+          "State": "UP",
+          "Mobile": "9873250167",
+          "Email": "kumarsuman@indianoil.in"
+        },
+        {
+          "Name": "Whole-time director ( 09724749 )",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "Age": 57.11,
+          "Tenure": 1.3,
+          "PAN": "AAMPK0982D",
+          "City": "Ghaziabad",
+          "State": "UP",
+          "Mobile": "9873250167",
+          "Email": "kumarsuman@indianoil.in"
+        }
+      ],
+      "CurrentDirectors": [
+        {
+          "Name": "SUJATA SHARMA",
+          "DirectorDIN": "07775238",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "05-06-2024",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVIND KUMAR",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVIND KUMAR",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVIND KUMAR",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVIND KUMAR",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVIND KUMAR",
+          "DirectorDIN": "09224177",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUMAN KUMAR",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2025",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUMAN KUMAR",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2025",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUMAN KUMAR",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2025",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUMAN KUMAR",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2025",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUMAN KUMAR",
+          "DirectorDIN": "09724749",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2025",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SAUMITRA PRIYA SRIVASTAVA",
+          "DirectorDIN": "10236956",
+          "Designation": "Additional Director",
+          "AppointmentDate": "29-10-2025",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ANUJ JAIN",
+          "DirectorDIN": "10310088",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "18-10-2023",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ANUJ JAIN",
+          "DirectorDIN": "10310088",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "18-10-2023",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ANUJ JAIN",
+          "DirectorDIN": "10310088",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "18-10-2023",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ANUJ JAIN",
+          "DirectorDIN": "10310088",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "18-10-2023",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ANUJ JAIN",
+          "DirectorDIN": "10310088",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "18-10-2023",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RASHMI GOVIL",
+          "DirectorDIN": "10531397",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2024",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RASHMI GOVIL",
+          "DirectorDIN": "10531397",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2024",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RASHMI GOVIL",
+          "DirectorDIN": "10531397",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2024",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RASHMI GOVIL",
+          "DirectorDIN": "10531397",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2024",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RASHMI GOVIL",
+          "DirectorDIN": "10531397",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "20-03-2024",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVINDER SINGH SAHNEY",
+          "DirectorDIN": "10652030",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "11-12-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVINDER SINGH SAHNEY",
+          "DirectorDIN": "10652030",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "11-12-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVINDER SINGH SAHNEY",
+          "DirectorDIN": "10652030",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "11-12-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVINDER SINGH SAHNEY",
+          "DirectorDIN": "10652030",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "11-12-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVINDER SINGH SAHNEY",
+          "DirectorDIN": "10652030",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "11-12-2024",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        }
+      ],
+      "PastDirectors": [
+        {
+          "Name": "SHYAMALA GOPINATH",
+          "DirectorDIN": "02362921",
+          "Designation": "Director",
+          "AppointmentDate": "29-03-2012",
+          "DirectorshipCount": 6,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "DEVANG VIPIN KHAKHAR",
+          "DirectorDIN": "02756921",
+          "Designation": "Director",
+          "AppointmentDate": "14-09-2012",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SHYAM SARAN",
+          "DirectorDIN": "03116287",
+          "Designation": "Director",
+          "AppointmentDate": "29-03-2012",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SANJIV SINGH",
+          "DirectorDIN": "05280701",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "01-07-2014",
+          "DirectorshipCount": 7,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUBHASH CHANDRA KHUNTIA",
+          "DirectorDIN": "05344972",
+          "Designation": "Director",
+          "AppointmentDate": "09-08-2012",
+          "DirectorshipCount": 11,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARUN KUMAR SHARMA",
+          "DirectorDIN": "06665266",
+          "Designation": "Additional Director",
+          "AppointmentDate": "18-02-2019",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ASHOK BALASUBRAMANIAN",
+          "DirectorDIN": "06861345",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "16-07-2014",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "DEBASIS SEN",
+          "DirectorDIN": "06862079",
+          "Designation": "Additional Director",
+          "AppointmentDate": "15-09-2014",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ANISH AGGARWAL",
+          "DirectorDIN": "06993471",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "01-02-2015",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "VERGHESE CHERIAN",
+          "DirectorDIN": "07001243",
+          "Designation": "Additional Director",
+          "AppointmentDate": "06-01-2015",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "VINOO NARAIN MATHUR",
+          "DirectorDIN": "01508809",
+          "Designation": "Director",
+          "AppointmentDate": "22-09-2017",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "YES"
+        },
+        {
+          "Name": "VIVEK RAE",
+          "DirectorDIN": "01866765",
+          "Designation": "Additional Director",
+          "AppointmentDate": "22-09-2017",
+          "DirectorshipCount": 6,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "PARINDU KANAIYALAL BHAGAT",
+          "DirectorDIN": "01934627",
+          "Designation": "Director",
+          "AppointmentDate": "02-12-2015",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "CHITTARANJAN BISWAL",
+          "DirectorDIN": "02172414",
+          "Designation": "Director",
+          "AppointmentDate": "22-09-2017",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "URVASHI SADHWANI",
+          "DirectorDIN": "03487195",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "27-10-2017",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ASHUTOSH JINDAL",
+          "DirectorDIN": "05286122",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "12-02-2016",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SAMIRENDRA CHATTERJEE",
+          "DirectorDIN": "06567818",
+          "Designation": "Director",
+          "AppointmentDate": "22-09-2017",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SANKAR CHAKRABORTI .",
+          "DirectorDIN": "06905980",
+          "Designation": "Director",
+          "AppointmentDate": "22-09-2017",
+          "DirectorshipCount": 7,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "GOVIND KOTTIETH SATISH",
+          "DirectorDIN": "06932170",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "01-09-2016",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "BALWINDER SINGH CANTH",
+          "DirectorDIN": "07239321",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "08-10-2015",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SANJAY KAPOOR",
+          "DirectorDIN": "07348106",
+          "Designation": "Director",
+          "AppointmentDate": "02-12-2015",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "DHARMENDRA SINGH SHEKHAWAT",
+          "DirectorDIN": "07404367",
+          "Designation": "Director",
+          "AppointmentDate": "22-09-2017",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SRIVENKATA SANKARA RAMAKUMAR",
+          "DirectorDIN": "07626484",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "01-02-2017",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "MAHADEVAN BALASUBRAMANIAN",
+          "DirectorDIN": "07936246",
+          "Designation": "Additional Director",
+          "AppointmentDate": "22-09-2017",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "JAGDISH KISHWAN",
+          "DirectorDIN": "07941042",
+          "Designation": "Director",
+          "AppointmentDate": "22-09-2017",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "VENKATA RAMA GOPAL BENDAPUDI",
+          "DirectorDIN": "07551777",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "12-02-2018",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RANJAN KUMAR MOHAPATRA",
+          "DirectorDIN": "08006199",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "19-02-2018",
+          "DirectorshipCount": 6,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUSHMA TAISHETE",
+          "DirectorDIN": "03585278",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "11-05-2018",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "YES"
+        },
+        {
+          "Name": "INDRANI KAUSHAL",
+          "DirectorDIN": "02091078",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "28-05-2019",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "YES"
+        },
+        {
+          "Name": "AKSHAY KUMAR SINGH",
+          "DirectorDIN": "03579974",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "14-08-2018",
+          "DirectorshipCount": 6,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "GURMEET SINGH",
+          "DirectorDIN": "08093170",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "26-07-2018",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUSHMITA DASGUPTA",
+          "DirectorDIN": "08395557",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "20-03-2019",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SANDEEP KUMAR GUPTA",
+          "DirectorDIN": "07570165",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "03-08-2019",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RAJENDRA VISHWANATH ARLEKAR",
+          "DirectorDIN": "08518169",
+          "Designation": "Director",
+          "AppointmentDate": "24-07-2019",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SHRIKANT MADHAV VAIDYA",
+          "DirectorDIN": "06995642",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "21-09-2020",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "LATA USENDI",
+          "DirectorDIN": "07384547",
+          "Designation": "Director",
+          "AppointmentDate": "06-11-2019",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ASHISH CHATTERJEE",
+          "DirectorDIN": "07688473",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "12-12-2019",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "INDIRA JITENDRA PARIKH",
+          "DirectorDIN": "00143801",
+          "Designation": "Director",
+          "AppointmentDate": "30-07-2007",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "INDU RANJIT SHAHANI",
+          "DirectorDIN": "00112289",
+          "Designation": "Director",
+          "AppointmentDate": "01-06-2008",
+          "DirectorshipCount": 9,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RADHEY SHYAM SHARMA",
+          "DirectorDIN": "00013208",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "27-03-2002",
+          "DirectorshipCount": 16,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUDHAKAR RAO",
+          "DirectorDIN": "00267211",
+          "Designation": "Director",
+          "AppointmentDate": "30-05-2011",
+          "DirectorshipCount": 11,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SAMIRKUMAR BARUA",
+          "DirectorDIN": "00211077",
+          "Designation": "Director",
+          "AppointmentDate": "29-01-1999",
+          "DirectorshipCount": 8,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUNDARESHAN STHANUNATHAN",
+          "DirectorDIN": "01675195",
+          "Designation": "Director",
+          "AppointmentDate": "28-05-2007",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "BASAVARAJ NINGAPPA BANKAPUR",
+          "DirectorDIN": "00246410",
+          "Designation": "Director",
+          "AppointmentDate": "01-10-2006",
+          "DirectorshipCount": 4,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "KALAIKURUCHI JAIRAJ",
+          "DirectorDIN": "01875126",
+          "Designation": "Additional Director",
+          "AppointmentDate": "20-03-2014",
+          "DirectorshipCount": 23,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "Sarthak Behuria",
+          "DirectorDIN": "03290288",
+          "Designation": "Managing Director",
+          "AppointmentDate": "01-03-2005",
+          "DirectorshipCount": 13,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ARVIND MURLIDHAR UPLENCHWAR",
+          "DirectorDIN": "00142114",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "01-09-2001",
+          "DirectorshipCount": 7,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "VINEET NAYYAR",
+          "DirectorDIN": "00018243",
+          "Designation": "Director",
+          "AppointmentDate": "29-01-1999",
+          "DirectorshipCount": 6,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "VEERARAGHAVAN RANGANATHAN",
+          "DirectorDIN": "00269682",
+          "Designation": "Director",
+          "AppointmentDate": "28-08-2003",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUSHAMA NATH",
+          "DirectorDIN": "05152061",
+          "Designation": "Director",
+          "AppointmentDate": "29-03-2012",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "GYAN CHAND DAGA",
+          "DirectorDIN": "00101534",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "04-09-2006",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ANEES YUSUF NOORANI",
+          "DirectorDIN": "00041686",
+          "Designation": "Director",
+          "AppointmentDate": "01-06-2008",
+          "DirectorshipCount": 8,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "GAUTAM BARUA",
+          "DirectorDIN": "01226582",
+          "Designation": "Director",
+          "AppointmentDate": "01-06-2008",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "NESAR AHMAD",
+          "DirectorDIN": "00020196",
+          "Designation": "Additional Director",
+          "AppointmentDate": "20-03-2014",
+          "DirectorshipCount": 6,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "PRANAB KUMAR CHAKRABORTI",
+          "DirectorDIN": "00208897",
+          "Designation": "Director",
+          "AppointmentDate": "01-08-2007",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "YES"
+        },
+        {
+          "Name": "RAVINDER KUMAR MALHOTRA",
+          "DirectorDIN": "02024661",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "05-08-2010",
+          "DirectorshipCount": 3,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ASHUTOSH PANT",
+          "DirectorDIN": "03057160",
+          "Designation": "Director",
+          "AppointmentDate": "24-11-2021",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "PARVEEN KUMAR GOYAL",
+          "DirectorDIN": "00162819",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "02-05-2011",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "YES"
+        },
+        {
+          "Name": "DAYANAND SADASHIV NANAWARE",
+          "DirectorDIN": "07354849",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "28-12-2021",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "AJAY PRAKASH SAWHNEY",
+          "DirectorDIN": "03359323",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "22-07-2015",
+          "DirectorshipCount": 11,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "BRIJ MOHAN BANSAL",
+          "DirectorDIN": "00261063",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "01-03-2005",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RAMNARESH SINGH",
+          "DirectorDIN": "07571840",
+          "Designation": "Director",
+          "AppointmentDate": "22-06-2022",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SANDEEP KUMAR GUPTA",
+          "DirectorDIN": "07570165",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "28-08-2019",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SANDEEP KUMAR GUPTA",
+          "DirectorDIN": "07570165",
+          "Designation": "Additional Director",
+          "AppointmentDate": "03-08-2019",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RANJAN KUMAR MOHAPATRA",
+          "DirectorDIN": "08006199",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "29-08-2018",
+          "DirectorshipCount": 6,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "RANJAN KUMAR MOHAPATRA",
+          "DirectorDIN": "08006199",
+          "Designation": "Additional Director",
+          "AppointmentDate": "19-02-2018",
+          "DirectorshipCount": 6,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUNIL KUMAR",
+          "DirectorDIN": "08467559",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "28-12-2022",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ESHA SRIVASTAVA",
+          "DirectorDIN": "08504560",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "17-07-2025",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "NAVNEET KOTHARI",
+          "DirectorDIN": "02651712",
+          "Designation": "Nominee Director",
+          "AppointmentDate": "25-03-2020",
+          "DirectorshipCount": 5,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUDHIR BHARGAVA",
+          "DirectorDIN": "00247515",
+          "Designation": "Director",
+          "AppointmentDate": "23-03-2010",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SATISH KUMAR VADUGURI",
+          "DirectorDIN": "09322002",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "28-10-2021",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SATISH KUMAR VADUGURI",
+          "DirectorDIN": "09322002",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "28-10-2021",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SATISH KUMAR VADUGURI",
+          "DirectorDIN": "09322002",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "28-10-2021",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUDIPTA KUMAR RAY",
+          "DirectorDIN": "02534632",
+          "Designation": "Director",
+          "AppointmentDate": "24-11-2021",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "KRISHNAN SADAGOPAN",
+          "DirectorDIN": "09397902",
+          "Designation": "Director",
+          "AppointmentDate": "01-04-2025",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "DILIP GOGOI LALUNG",
+          "DirectorDIN": "09398549",
+          "Designation": "Director",
+          "AppointmentDate": "24-11-2021",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "PRASENJIT BISWAS",
+          "DirectorDIN": "09398565",
+          "Designation": "Director",
+          "AppointmentDate": "01-04-2025",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "DATTATREYA RAO SIRPURKER",
+          "DirectorDIN": "09400251",
+          "Designation": "Director",
+          "AppointmentDate": "01-04-2025",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUKLA MISTRY",
+          "DirectorDIN": "09309378",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "07-02-2022",
+          "DirectorshipCount": 2,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "SUJOY CHOUDHURY",
+          "DirectorDIN": "09503285",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "20-04-2022",
+          "DirectorshipCount": 1,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "NACHIMUTHU SENTHIL KUMAR",
+          "DirectorDIN": "10230965",
+          "Designation": "Wholetime Director",
+          "AppointmentDate": "18-08-2023",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ALOK SHARMA",
+          "DirectorDIN": "10453982",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ALOK SHARMA",
+          "DirectorDIN": "10453982",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ALOK SHARMA",
+          "DirectorDIN": "10453982",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ALOK SHARMA",
+          "DirectorDIN": "10453982",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ALOK SHARMA",
+          "DirectorDIN": "10453982",
+          "Designation": "Additional Director",
+          "AppointmentDate": "16-01-2024",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ALOK SHARMA",
+          "DirectorDIN": "10453982",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        },
+        {
+          "Name": "ALOK SHARMA",
+          "DirectorDIN": "10453982",
+          "Designation": "Whole-time director",
+          "AppointmentDate": "09-08-2024",
+          "DirectorshipCount": 0,
+          "DisqualifiedUS164_2": "NO",
+          "DINStatus": "NO"
+        }
+      ],
+      "NewDirectorshipDetails": [
+        {
+          "DirectorName": "AKSHAY KUMAR SINGH",
+          "CompanyName": "MC2 FOUNDATION",
+          "IncorporationDate": "03-04-2026",
+          "Industry": "Scientific research and development",
+          "State": "Delhi",
+          "PaidupCapital": 0.00,
+          "CommonDirectors": 1
+        },
+        {
+          "DirectorName": "AJAY PRAKASH SAWHNEY",
+          "CompanyName": "PRECISEMED PRIVATE LIMITED",
+          "IncorporationDate": "06-11-2025",
+          "Industry": "Other manufacturing",
+          "State": "Delhi",
+          "PaidupCapital": 100000.00,
+          "CommonDirectors": 1
+        }
+      ]
+    }
+  }
+}
