@@ -4,7 +4,9 @@ brisksum_client.py
 ==================
 Client for the InstaFinancials **Business Risk Summary (BRiskSUM)** product.
 
-Docs: https://api.instafinancials.com/Docs/BRisksum
+Docs: 
+- https://api.instafinancials.com/Docs/BRisksum
+- https://api.instafinancials.com/Docs/SandBoxinputs
 
 BRiskSUM is an *asynchronous* report. The workflow is a three-step chain:
 
